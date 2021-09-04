@@ -1,11 +1,11 @@
 <template lang="html">
   <div>
-    <sui-segment floated="right">
+    <xui-segment floated="right">
       <p>This segment will appear to the right</p>
-    </sui-segment>
-    <sui-segment floated="left">
+    </xui-segment>
+    <xui-segment floated="left">
       <p>This segment will appear to the left</p>
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

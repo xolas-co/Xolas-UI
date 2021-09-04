@@ -1,10 +1,10 @@
 import { VueXolasUIMixin } from '../../lib';
-import SuiStepDescription from './StepDescription';
-import SuiStepTitle from './StepTitle';
+import XuiStepDescription from './StepDescription';
+import XuiStepTitle from './StepTitle';
 
 export default {
-  name: 'SuiStepContent',
-  components: { SuiStepDescription, SuiStepTitle },
+  name: 'XuiStepContent',
+  components: { XuiStepDescription, XuiStepTitle },
   mixins: [VueXolasUIMixin],
   props: {
     description: String,
@@ -14,15 +14,15 @@ export default {
     const ElementType = this.getElementType();
     return (
       <ElementType {...this.getChildPropsAndListeners()} class="content">
-        {this.title && <SuiStepTitle>{this.title}</SuiStepTitle>}
+        {this.title && <XuiStepTitle>{this.title}</XuiStepTitle>}
         {this.description && (
-          <SuiStepDescription>{this.description}</SuiStepDescription>
+          <XuiStepDescription>{this.description}</XuiStepDescription>
         )}
         {this.$slots.default}
       </ElementType>
     );
   },
   meta: {
-    parent: 'SuiStep',
+    parent: 'XuiStep',
   },
 };

@@ -1,18 +1,18 @@
 <template lang="html">
   <div>
-    <sui-button color="red" content="Red" />
-    <sui-button color="orange" content="Orange" />
-    <sui-button color="yellow" content="Yellow" />
-    <sui-button color="olive" content="Olive" />
-    <sui-button color="green" content="Green" />
-    <sui-button color="teal" content="Teal" />
-    <sui-button color="blue" content="Blue" />
-    <sui-button color="violet" content="Violet" />
-    <sui-button color="purple" content="Purple" />
-    <sui-button color="pink" content="Pink" />
-    <sui-button color="brown" content="Brown" />
-    <sui-button color="grey" content="Grey" />
-    <sui-button color="black" content="Black" />
+    <xui-button color="red" content="Red" />
+    <xui-button color="orange" content="Orange" />
+    <xui-button color="yellow" content="Yellow" />
+    <xui-button color="olive" content="Olive" />
+    <xui-button color="green" content="Green" />
+    <xui-button color="teal" content="Teal" />
+    <xui-button color="blue" content="Blue" />
+    <xui-button color="violet" content="Violet" />
+    <xui-button color="purple" content="Purple" />
+    <xui-button color="pink" content="Pink" />
+    <xui-button color="brown" content="Brown" />
+    <xui-button color="grey" content="Grey" />
+    <xui-button color="black" content="Black" />
   </div>
 </template>
 

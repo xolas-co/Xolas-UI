@@ -1,18 +1,18 @@
 <template>
-  <sui-list>
-    <sui-list-item>
-      <a is="sui-list-header">Header</a>
-      <sui-list-description>
+  <xui-list>
+    <xui-list-item>
+      <a is="xui-list-header">Header</a>
+      <xui-list-description>
         Click a link in our <a>description</a>.
-      </sui-list-description>
-    </sui-list-item>
-    <sui-list-item>
-      <a is="sui-list-header">Learn More</a>
-      <sui-list-description>
+      </xui-list-description>
+    </xui-list-item>
+    <xui-list-item>
+      <a is="xui-list-header">Learn More</a>
+      <xui-list-description>
         Learn more about this site on <a>our FAQ page</a>.
-      </sui-list-description>
-    </sui-list-item>
-  </sui-list>
+      </xui-list-description>
+    </xui-list-item>
+  </xui-list>
 </template>
 
 <script>

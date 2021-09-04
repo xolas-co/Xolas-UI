@@ -1,15 +1,15 @@
 <template lang="html">
   <div>
-    <sui-breadcrumb>
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider />
-      <sui-breadcrumb-section link>Store</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active>
+    <xui-breadcrumb>
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider />
+      <xui-breadcrumb-section link>Store</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active>
         Search for:
         <a href="javascript:void 0">paper towels</a>
-      </sui-breadcrumb-section>
-    </sui-breadcrumb>
+      </xui-breadcrumb-section>
+    </xui-breadcrumb>
   </div>
 </template>
 

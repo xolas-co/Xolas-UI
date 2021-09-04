@@ -176,7 +176,7 @@ export default [
         description:
           'A button can be attached to the top or bottom of other content',
         info:
-          'You should use `<div is="sui-button">...</div>` to make button attachable',
+          'You should use `<div is="xui-button">...</div>` to make button attachable',
         file: 'Attached',
       },
       {

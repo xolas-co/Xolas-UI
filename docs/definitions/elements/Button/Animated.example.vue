@@ -1,27 +1,27 @@
 <template lang="html">
   <div>
-    <sui-button animated>
-      <sui-button-content visible>Next</sui-button-content>
-      <sui-button-content hidden>
-        <sui-icon name="right arrow" />
-      </sui-button-content>
-    </sui-button>
+    <xui-button animated>
+      <xui-button-content visible>Next</xui-button-content>
+      <xui-button-content hidden>
+        <xui-icon name="right arrow" />
+      </xui-button-content>
+    </xui-button>
 
-    <sui-button animated="vertical">
-      <sui-button-content hidden>Shop</sui-button-content>
-      <sui-button-content visible>
-        <sui-icon name="shop" />
-      </sui-button-content>
-    </sui-button>
+    <xui-button animated="vertical">
+      <xui-button-content hidden>Shop</xui-button-content>
+      <xui-button-content visible>
+        <xui-icon name="shop" />
+      </xui-button-content>
+    </xui-button>
 
-    <sui-button animated="fade">
-      <sui-button-content visible>
+    <xui-button animated="fade">
+      <xui-button-content visible>
         Sign-up for a Pro account
-      </sui-button-content>
-      <sui-button-content hidden>
+      </xui-button-content>
+      <xui-button-content hidden>
         $12.99 a month
-      </sui-button-content>
-    </sui-button>
+      </xui-button-content>
+    </xui-button>
   </div>
 </template>
 

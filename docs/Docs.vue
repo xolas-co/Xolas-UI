@@ -1,27 +1,27 @@
 <template>
   <div id="docs">
-    <div class="docs-desktop" is="sui-sidebar-pushable">
+    <div class="docs-desktop" is="xui-sidebar-pushable">
       <docs-menu class="docs-sidebar" visible />
       <div class="docs-container">
         <router-view />
       </div>
     </div>
 
-    <div class="docs-mobile docs-top-bar" is="sui-menu" fixed inverted>
-      <sui-container>
+    <div class="docs-mobile docs-top-bar" is="xui-menu" fixed inverted>
+      <xui-container>
         <a
-          is="sui-menu-item"
+          is="xui-menu-item"
           href="javascript:void 0"
           icon="content"
           @click.native="open = !open"
         />
-        <sui-menu-item>Vue Xolas UI</sui-menu-item>
-      </sui-container>
+        <xui-menu-item>Vue Xolas UI</xui-menu-item>
+      </xui-container>
     </div>
     <docs-menu class="docs-mobile" :visible="open" />
-    <div class="docs-mobile" is="sui-sidebar-pushable">
+    <div class="docs-mobile" is="xui-sidebar-pushable">
       <div
-        is="sui-sidebar-pusher"
+        is="xui-sidebar-pusher"
         class="docs-mobile-container"
         :dimmed="open"
         @click.native="open = false"

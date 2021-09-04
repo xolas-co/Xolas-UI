@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
-    <sui-icon name="spinner" loading />
-    <sui-icon name="notched circle" loading />
-    <sui-icon name="asterisk" loading />
+    <xui-icon name="spinner" loading />
+    <xui-icon name="notched circle" loading />
+    <xui-icon name="asterisk" loading />
   </div>
 </template>
 

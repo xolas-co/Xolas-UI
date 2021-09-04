@@ -1,26 +1,26 @@
 <template lang="html">
-  <sui-segment inverted>
-    <sui-list divided inverted relaxed>
-      <sui-list-item>
-        <sui-list-content>
-          <sui-list-header>Snickerdoodle</sui-list-header>
+  <xui-segment inverted>
+    <xui-list divided inverted relaxed>
+      <xui-list-item>
+        <xui-list-content>
+          <xui-list-header>Snickerdoodle</xui-list-header>
           An excellent companion
-        </sui-list-content>
-      </sui-list-item>
-      <sui-list-item>
-        <sui-list-content>
-          <sui-list-header>Poodle</sui-list-header>
+        </xui-list-content>
+      </xui-list-item>
+      <xui-list-item>
+        <xui-list-content>
+          <xui-list-header>Poodle</xui-list-header>
           A poodle, its pretty basic
-        </sui-list-content>
-      </sui-list-item>
-      <sui-list-item>
-        <sui-list-content>
-          <sui-list-header>Paulo</sui-list-header>
+        </xui-list-content>
+      </xui-list-item>
+      <xui-list-item>
+        <xui-list-content>
+          <xui-list-header>Paulo</xui-list-header>
           He's also a dog
-        </sui-list-content>
-      </sui-list-item>
-    </sui-list>
-  </sui-segment>
+        </xui-list-content>
+      </xui-list-item>
+    </xui-list>
+  </xui-segment>
 </template>
 
 <script>

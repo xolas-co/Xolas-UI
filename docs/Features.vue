@@ -1,14 +1,14 @@
 <template>
-  <div is="sui-container">
+  <div is="xui-container">
     <h1>Vue Xolas UI feature status</h1>
-    <sui-table v-for="feature in features" :key="feature.name">
+    <xui-table v-for="feature in features" :key="feature.name">
       <thead>
         <tr>
           <th>
             {{ s(feature.name) }}
           </th>
           <th>
-            <sui-progress
+            <xui-progress
               indicating
               :percent="getFeaturePercent(feature)"
               progress
@@ -20,7 +20,7 @@
         <tr v-for="component in feature.components" :key="component.name">
           <td>{{ s(component.name) }}</td>
           <td width="20%">
-            <sui-progress
+            <xui-progress
               indicating
               :percent="getPercent(component)"
               size="tiny"
@@ -28,7 +28,7 @@
           </td>
         </tr>
       </tbody>
-    </sui-table>
+    </xui-table>
   </div>
 </template>
 

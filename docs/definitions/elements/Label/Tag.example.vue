@@ -1,12 +1,12 @@
 <template>
   <div>
-    <a is="sui-label" tag>
+    <a is="xui-label" tag>
       New
     </a>
-    <a is="sui-label" color="red" tag>
+    <a is="xui-label" color="red" tag>
       Upcoming
     </a>
-    <a is="sui-label" color="teal" tag>
+    <a is="xui-label" color="teal" tag>
       Featured
     </a>
   </div>

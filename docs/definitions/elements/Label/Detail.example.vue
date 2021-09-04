@@ -1,8 +1,8 @@
 <template>
-  <sui-label>
+  <xui-label>
     Dogs
-    <sui-label-detail>214</sui-label-detail>
-  </sui-label>
+    <xui-label-detail>214</xui-label-detail>
+  </xui-label>
 </template>
 
 <script>

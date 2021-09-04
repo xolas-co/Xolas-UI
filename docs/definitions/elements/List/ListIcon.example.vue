@@ -1,27 +1,27 @@
 <template lang="html">
-  <sui-list>
+  <xui-list>
     <!-- As components -->
-    <sui-list-item>
-      <sui-list-icon name="users" />
-      <sui-list-content>Semantic UI</sui-list-content>
-    </sui-list-item>
+    <xui-list-item>
+      <xui-list-icon name="users" />
+      <xui-list-content>Semantic UI</xui-list-content>
+    </xui-list-item>
 
     <!-- As Prop -->
-    <sui-list-item icon="marker" content="New York, NY" />
+    <xui-list-item icon="marker" content="New York, NY" />
 
     <!-- Both -->
-    <sui-list-item icon="mail">
-      <sui-list-content>
+    <xui-list-item icon="mail">
+      <xui-list-content>
         <a href="mailto:jack@semantic-ui.com">jack@semantic-ui.com</a>
-      </sui-list-content>
-    </sui-list-item>
+      </xui-list-content>
+    </xui-list-item>
 
-    <sui-list-item icon="linkify">
-      <sui-list-content>
+    <xui-list-item icon="linkify">
+      <xui-list-content>
         <a href="http://www.semantic-ui.com">semantic-ui.com</a>
-      </sui-list-content>
-    </sui-list-item>
-  </sui-list>
+      </xui-list-content>
+    </xui-list-item>
+  </xui-list>
 </template>
 
 <script>

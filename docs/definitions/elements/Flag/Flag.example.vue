@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
-    <sui-flag name="ae" />
-    <sui-flag name="france" />
-    <sui-flag name="myanmar" />
+    <xui-flag name="ae" />
+    <xui-flag name="france" />
+    <xui-flag name="myanmar" />
   </div>
 </template>
 

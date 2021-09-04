@@ -1,6 +1,6 @@
 <template lang="html">
-  <sui-container fluid>
-    <h2 is="sui-header">Dogs Roles with Humans</h2>
+  <xui-container fluid>
+    <h2 is="xui-header">Dogs Roles with Humans</h2>
     <p>
       Domestic dogs inherited complex behaviors, such as bite inhibition, from
       their wolf ancestors, which would have been pack hunters with complex body
@@ -20,7 +20,7 @@
       "man's best friend" in the Western world. In some cultures, however, dogs
       are also a source of meat.
     </p>
-  </sui-container>
+  </xui-container>
 </template>
 
 <script>

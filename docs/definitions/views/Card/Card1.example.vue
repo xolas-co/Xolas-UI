@@ -1,19 +1,19 @@
 <template lang="html">
   <div>
-    <sui-card>
-      <sui-image src="static/images/avatar/large/kristy.png" />
-      <sui-card-content>
-        <sui-card-header>Kristy</sui-card-header>
-        <sui-card-meta>Joined in 2013</sui-card-meta>
-        <sui-card-description
-          >Kristy is an art director living in New York.</sui-card-description
+    <xui-card>
+      <xui-image src="static/images/avatar/large/kristy.png" />
+      <xui-card-content>
+        <xui-card-header>Kristy</xui-card-header>
+        <xui-card-meta>Joined in 2013</xui-card-meta>
+        <xui-card-description
+          >Kristy is an art director living in New York.</xui-card-description
         >
-      </sui-card-content>
-      <sui-card-content extra>
-        <sui-icon name="user" />
+      </xui-card-content>
+      <xui-card-content extra>
+        <xui-icon name="user" />
         22 Friends
-      </sui-card-content>
-    </sui-card>
+      </xui-card-content>
+    </xui-card>
   </div>
 </template>
 

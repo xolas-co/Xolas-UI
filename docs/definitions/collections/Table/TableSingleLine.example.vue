@@ -1,34 +1,34 @@
 <template lang="html">
-  <sui-table single-line>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Name</sui-table-header-cell>
-        <sui-table-header-cell>Registration Date</sui-table-header-cell>
-        <sui-table-header-cell>E-mail address</sui-table-header-cell>
-        <sui-table-header-cell>Premium Plan</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>John Lilki</sui-table-cell>
-        <sui-table-cell>September 14, 2013</sui-table-cell>
-        <sui-table-cell>jhlilk22@yahoo.com</sui-table-cell>
-        <sui-table-cell>No</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jamie Harington</sui-table-cell>
-        <sui-table-cell>January 11, 2014</sui-table-cell>
-        <sui-table-cell>jamieharingonton@yahoo.com</sui-table-cell>
-        <sui-table-cell>Yes</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jill Lewis</sui-table-cell>
-        <sui-table-cell>May 11, 2014</sui-table-cell>
-        <sui-table-cell>jilsewris22@yahoo.com</sui-table-cell>
-        <sui-table-cell>Yes</sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+  <xui-table single-line>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Name</xui-table-header-cell>
+        <xui-table-header-cell>Registration Date</xui-table-header-cell>
+        <xui-table-header-cell>E-mail address</xui-table-header-cell>
+        <xui-table-header-cell>Premium Plan</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>John Lilki</xui-table-cell>
+        <xui-table-cell>September 14, 2013</xui-table-cell>
+        <xui-table-cell>jhlilk22@yahoo.com</xui-table-cell>
+        <xui-table-cell>No</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jamie Harington</xui-table-cell>
+        <xui-table-cell>January 11, 2014</xui-table-cell>
+        <xui-table-cell>jamieharingonton@yahoo.com</xui-table-cell>
+        <xui-table-cell>Yes</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jill Lewis</xui-table-cell>
+        <xui-table-cell>May 11, 2014</xui-table-cell>
+        <xui-table-cell>jilsewris22@yahoo.com</xui-table-cell>
+        <xui-table-cell>Yes</xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

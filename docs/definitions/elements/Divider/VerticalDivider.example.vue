@@ -1,29 +1,29 @@
 <template>
-  <sui-grid :columns="3" relaxed="very">
-    <sui-grid-column>
+  <xui-grid :columns="3" relaxed="very">
+    <xui-grid-column>
       <docs-wireframe
         name="short-paragraph"
         v-for="j in [1, 2, 3, 4]"
         :key="j"
       />
-    </sui-grid-column>
-    <sui-divider vertical>and</sui-divider>
-    <sui-grid-column>
+    </xui-grid-column>
+    <xui-divider vertical>and</xui-divider>
+    <xui-grid-column>
       <docs-wireframe
         name="short-paragraph"
         v-for="j in [1, 2, 3, 4]"
         :key="j"
       />
-    </sui-grid-column>
-    <sui-divider vertical>or</sui-divider>
-    <sui-grid-column>
+    </xui-grid-column>
+    <xui-divider vertical>or</xui-divider>
+    <xui-grid-column>
       <docs-wireframe
         name="short-paragraph"
         v-for="j in [1, 2, 3, 4]"
         :key="j"
       />
-    </sui-grid-column>
-  </sui-grid>
+    </xui-grid-column>
+  </xui-grid>
 </template>
 
 <script>

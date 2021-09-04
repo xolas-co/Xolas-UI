@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiBreadcrumbDivider',
+  name: 'XuiBreadcrumbDivider',
   mixins: [VueXolasUIMixin],
   props: {
     icon: String,
@@ -18,6 +18,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiBreadcrumb',
+    parent: 'XuiBreadcrumb',
   },
 };

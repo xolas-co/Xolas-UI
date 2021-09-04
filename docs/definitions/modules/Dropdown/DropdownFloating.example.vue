@@ -1,14 +1,14 @@
 <template lang="html">
   <div id="app">
-    <sui-dropdown class="teal" text="Save" button floating>
-      <sui-dropdown-menu>
-        <sui-dropdown-item><sui-icon name="edit" />Edit Post</sui-dropdown-item>
-        <sui-dropdown-item
-          ><sui-icon name="delete" />Remove Post</sui-dropdown-item
+    <xui-dropdown class="teal" text="Save" button floating>
+      <xui-dropdown-menu>
+        <xui-dropdown-item><xui-icon name="edit" />Edit Post</xui-dropdown-item>
+        <xui-dropdown-item
+          ><xui-icon name="delete" />Remove Post</xui-dropdown-item
         >
-        <sui-dropdown-item><sui-icon name="hide" />Hide Post</sui-dropdown-item>
-      </sui-dropdown-menu>
-    </sui-dropdown>
+        <xui-dropdown-item><xui-icon name="hide" />Hide Post</xui-dropdown-item>
+      </xui-dropdown-menu>
+    </xui-dropdown>
   </div>
 </template>
 

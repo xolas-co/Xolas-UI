@@ -1,9 +1,9 @@
 <template lang="html">
   <div>
-    <sui-button loading content="Loading" />
-    <sui-button loading basic content="Loading" />
-    <sui-button loading primary content="Loading" />
-    <sui-button loading secondary content="Loading" />
+    <xui-button loading content="Loading" />
+    <xui-button loading basic content="Loading" />
+    <xui-button loading primary content="Loading" />
+    <xui-button loading secondary content="Loading" />
   </div>
 </template>
 

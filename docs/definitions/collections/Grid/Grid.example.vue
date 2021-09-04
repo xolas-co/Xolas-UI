@@ -1,9 +1,9 @@
 <template lang="html">
-  <sui-grid :class="$style.grid">
+  <xui-grid :class="$style.grid">
     <template v-for="(col, index) in columns">
-      <sui-grid-column :class="$style.column" :key="index" />
+      <xui-grid-column :class="$style.column" :key="index" />
     </template>
-  </sui-grid>
+  </xui-grid>
 </template>
 
 <script>

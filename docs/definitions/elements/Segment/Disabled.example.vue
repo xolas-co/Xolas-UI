@@ -1,7 +1,7 @@
 <template lang="html">
-  <sui-segment disabled>
+  <xui-segment disabled>
     <docs-wireframe name="short-paragraph" />
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

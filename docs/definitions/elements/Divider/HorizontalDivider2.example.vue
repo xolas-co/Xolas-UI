@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div is="sui-divider" horizontal>
-      <h4 is="sui-header">
+    <div is="xui-divider" horizontal>
+      <h4 is="xui-header">
         <i class="tag icon"></i>
         Description
       </h4>
@@ -12,8 +12,8 @@
       99.9% of all dogs worldwide.
     </p>
 
-    <div is="sui-divider" horizontal>
-      <h4 is="sui-header">
+    <div is="xui-divider" horizontal>
+      <h4 is="xui-header">
         <i class="bar chart icon"></i>
         Specifications
       </h4>

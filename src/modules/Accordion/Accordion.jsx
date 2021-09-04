@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiAccordion',
+  name: 'XuiAccordion',
   mixins: [VueXolasUIMixin],
   props: {
     activeIndex: [Number, Array],
@@ -38,8 +38,8 @@ export default {
 
       const walkChildren = children => {
         children.some(child => {
-          if (child.$options.name === 'SuiAccordion') return false;
-          if (child.$options.name === 'SuiAccordionTitle') panelIndex += 1;
+          if (child.$options.name === 'XuiAccordion') return false;
+          if (child.$options.name === 'XuiAccordionTitle') panelIndex += 1;
           if (child === el) {
             this.panelElms[panelIndex] = {
               ...(this.panelElms[panelIndex] || {}),
@@ -60,8 +60,8 @@ export default {
     toggleEl(el) {
       this.panelElms.some((panel, index) => {
         if (
-          panel.SuiAccordionTitle === el ||
-          panel.SuiAccordionContent === el
+          panel.XuiAccordionTitle === el ||
+          panel.XuiAccordionContent === el
         ) {
           this.toggle(index);
           return true;
@@ -84,11 +84,11 @@ export default {
     toggleChildren() {
       this.panelElms.forEach((panel, i) => {
         const active = this.isPanelActive(i);
-        if (panel.SuiAccordionTitle) {
-          panel.SuiAccordionTitle.setActive(active);
+        if (panel.XuiAccordionTitle) {
+          panel.XuiAccordionTitle.setActive(active);
         }
-        if (panel.SuiAccordionContent) {
-          panel.SuiAccordionContent.setActive(active);
+        if (panel.XuiAccordionContent) {
+          panel.XuiAccordionContent.setActive(active);
         }
       });
     },

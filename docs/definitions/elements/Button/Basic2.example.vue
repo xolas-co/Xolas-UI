@@ -1,9 +1,9 @@
 <template lang="html">
   <div>
-    <sui-button basic primary>Primary</sui-button>
-    <sui-button basic secondary>Secondary</sui-button>
-    <sui-button basic positive>Positive</sui-button>
-    <sui-button basic negative>Negative</sui-button>
+    <xui-button basic primary>Primary</xui-button>
+    <xui-button basic secondary>Secondary</xui-button>
+    <xui-button basic positive>Positive</xui-button>
+    <xui-button basic negative>Negative</xui-button>
   </div>
 </template>
 

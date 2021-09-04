@@ -1,8 +1,8 @@
 <template lang="html">
-  <sui-statistic>
-    <sui-statistic-value>2,204</sui-statistic-value>
-    <sui-statistic-label>Views</sui-statistic-label>
-  </sui-statistic>
+  <xui-statistic>
+    <xui-statistic-value>2,204</xui-statistic-value>
+    <xui-statistic-label>Views</xui-statistic-label>
+  </xui-statistic>
 </template>
 
 <script>

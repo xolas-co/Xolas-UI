@@ -1,17 +1,17 @@
 <template lang="html">
   <div>
     <div class="single-example">
-      <sui-statistic>
-        <sui-statistic-value>5,550</sui-statistic-value>
-        <sui-statistic-label>Downloads</sui-statistic-label>
-      </sui-statistic>
+      <xui-statistic>
+        <xui-statistic-value>5,550</xui-statistic-value>
+        <xui-statistic-label>Downloads</xui-statistic-label>
+      </xui-statistic>
     </div>
 
     <div class="single-example">
-      <sui-statistic>
-        <sui-statistic-label>Downloads</sui-statistic-label>
-        <sui-statistic-value>5,550</sui-statistic-value>
-      </sui-statistic>
+      <xui-statistic>
+        <xui-statistic-label>Downloads</xui-statistic-label>
+        <xui-statistic-value>5,550</xui-statistic-value>
+      </xui-statistic>
     </div>
   </div>
 </template>

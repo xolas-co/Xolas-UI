@@ -1,7 +1,7 @@
 <template>
   <div>
-    <sui-advertisement unit="skyscraper" test="Skyscraper" />
-    <sui-advertisement unit="wide skyscraper" test="Wide Skyscraper" />
+    <xui-advertisement unit="skyscraper" test="Skyscraper" />
+    <xui-advertisement unit="wide skyscraper" test="Wide Skyscraper" />
   </div>
 </template>
 

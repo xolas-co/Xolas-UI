@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiFlag',
+  name: 'XuiFlag',
   mixins: [VueXolasUIMixin],
   props: {
     name: String,

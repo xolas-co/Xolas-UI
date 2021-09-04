@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-button circular icon="settings" />
+  <xui-button circular icon="settings" />
 </template>
 
 <script>

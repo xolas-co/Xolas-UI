@@ -1,9 +1,9 @@
 <template lang="html">
   <div>
-    <sui-icon-group size="huge">
-      <sui-icon name="dont" size="big" color="red" />
-      <sui-icon name="user" />
-    </sui-icon-group>
+    <xui-icon-group size="huge">
+      <xui-icon name="dont" size="big" color="red" />
+      <xui-icon name="user" />
+    </xui-icon-group>
   </div>
 </template>
 

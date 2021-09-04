@@ -1,16 +1,16 @@
 <template lang="html">
   <div>
     <div>
-      <sui-breadcrumb>
-        <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-        <sui-breadcrumb-divider icon="right angle" />
-        <sui-breadcrumb-section link>Store</sui-breadcrumb-section>
-        <sui-breadcrumb-divider icon="right angle" />
-        <sui-breadcrumb-section active>T-Shirt</sui-breadcrumb-section>
-      </sui-breadcrumb>
+      <xui-breadcrumb>
+        <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+        <xui-breadcrumb-divider icon="right angle" />
+        <xui-breadcrumb-section link>Store</xui-breadcrumb-section>
+        <xui-breadcrumb-divider icon="right angle" />
+        <xui-breadcrumb-section active>T-Shirt</xui-breadcrumb-section>
+      </xui-breadcrumb>
     </div>
 
-    <sui-breadcrumb icon="right angle" :sections="sections" />
+    <xui-breadcrumb icon="right angle" :sections="sections" />
   </div>
 </template>
 

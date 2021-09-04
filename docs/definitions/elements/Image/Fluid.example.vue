@@ -1,5 +1,5 @@
 <template>
-  <sui-image src="static/images/wireframes/image.png" fluid />
+  <xui-image src="static/images/wireframes/image.png" fluid />
 </template>
 
 <script>

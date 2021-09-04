@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiImageGroup',
+  name: 'XuiImageGroup',
   mixins: [VueXolasUIMixin],
   props: {
     size: Enum.Size(),
@@ -17,6 +17,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiImage',
+    parent: 'XuiImage',
   },
 };

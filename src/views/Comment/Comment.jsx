@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiComment',
+  name: 'XuiComment',
   mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType();

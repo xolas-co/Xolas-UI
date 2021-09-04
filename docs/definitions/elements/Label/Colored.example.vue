@@ -1,8 +1,8 @@
 <template>
   <div>
-    <sui-label v-for="color in colors" :color="color" :key="color">
+    <xui-label v-for="color in colors" :color="color" :key="color">
       {{ color }}
-    </sui-label>
+    </xui-label>
   </div>
 </template>
 

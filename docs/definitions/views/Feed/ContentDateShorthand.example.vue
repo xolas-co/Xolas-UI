@@ -1,11 +1,11 @@
 <template lang="html">
-  <sui-feed>
-    <sui-feed-event :image="image" :date="date" :summary="summary" />
-    <sui-feed-event>
-      <sui-feed-label :image="image" />
-      <sui-feed-content :date="date" :summary="summary" />
-    </sui-feed-event>
-  </sui-feed>
+  <xui-feed>
+    <xui-feed-event :image="image" :date="date" :summary="summary" />
+    <xui-feed-event>
+      <xui-feed-label :image="image" />
+      <xui-feed-content :date="date" :summary="summary" />
+    </xui-feed-event>
+  </xui-feed>
 </template>
 
 <script>

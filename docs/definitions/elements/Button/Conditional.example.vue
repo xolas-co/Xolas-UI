@@ -1,8 +1,8 @@
 <template lang="html">
-  <div is="sui-button-group">
-    <sui-button>Cancel</sui-button>
-    <sui-button-or />
-    <sui-button positive>Save</sui-button>
+  <div is="xui-button-group">
+    <xui-button>Cancel</xui-button>
+    <xui-button-or />
+    <xui-button positive>Save</xui-button>
   </div>
 </template>
 

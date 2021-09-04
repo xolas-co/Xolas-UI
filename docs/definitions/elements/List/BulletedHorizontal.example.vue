@@ -1,9 +1,9 @@
 <template>
-  <sui-list bulleted horizontal>
-    <a is="sui-list-item">About Us</a>
-    <a is="sui-list-item">Sitemap</a>
-    <a is="sui-list-item">Contact</a>
-  </sui-list>
+  <xui-list bulleted horizontal>
+    <a is="xui-list-item">About Us</a>
+    <a is="xui-list-item">Sitemap</a>
+    <a is="xui-list-item">Contact</a>
+  </xui-list>
 </template>
 
 <script>

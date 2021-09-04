@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiRating',
+  name: 'XuiRating',
   mixins: [VueXolasUIMixin],
   binding: {
     prop: 'rating',

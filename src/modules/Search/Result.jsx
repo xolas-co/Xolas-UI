@@ -1,5 +1,5 @@
 export default {
-  name: 'SuiSearchResult',
+  name: 'XuiSearchResult',
   functional: true,
   props: {
     title: {

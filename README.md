@@ -1,13 +1,13 @@
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/Semantic-UI-Vue/Semantic-UI-Vue/master/docs/public/static/images/logo.png"
-    alt="Xolas UI Vue"
+    alt="Vue Xolas UI"
   />
-  <h1 align=center>Xolas UI Vue</h1>
+  <h1 align=center>Vue Xolas UI</h1>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Semantic-UI-Vue/Semantic-UI-Vue/actions"><img src="https://github.com/Semantic-UI-Vue/Semantic-UI-Vue/workflows/Build%20and%20Deploy/badge.svg" alt="Pipeline status"/></a>
+  <a href="https://github.com/xolas-co/vue-xolas-ui/actions"><img src="https://github.com/xolas-co/vue-xolas-ui/workflows/Build%20and%20Deploy/badge.svg" alt="Pipeline status"/></a>
   <a href="https://www.npmjs.com/package/vue-xolas-ui"><img src="https://badge.fury.io/js/vue-xolas-ui.svg" alt="NPM version"/></a>
   <a href="https://codecov.io/gh/Semantic-UI-Vue/Semantic-UI-Vue"><img src="https://codecov.io/gh/Semantic-UI-Vue/Semantic-UI-Vue/branch/master/graph/badge.svg" alt="codecov"/></a><br />
   <a href="https://gitter.im/Semantic-UI-Vue/Lobby"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/Semantic-UI-Vue/Lobby"/></a>
@@ -51,11 +51,11 @@ Once Vue Xolas UI has been installed, you will need to import it in your main fi
 
 ```js
 import Vue from 'vue';
-import SuiVue from 'vue-xolas-ui';
+import XuiVue from 'vue-xolas-ui';
 
 /* ... */
 
-Vue.use(SuiVue);
+Vue.use(XuiVue);
 ```
 
 If you are not using Webpack, you can add the script in your html:
@@ -78,7 +78,7 @@ If you are not using Webpack, you can add the script in your html:
           message: 'Hello Vue!',
         },
         template:
-          '<span><sui-button primary>click me</sui-button>{{message}}</span>',
+          '<span><xui-button primary>click me</xui-button>{{message}}</span>',
       });
     </script>
   </body>
@@ -171,7 +171,7 @@ Do you have a question? Do you want to submit a bug, or suggest an improvement?
 
 Please contact us! Especially at this stage, we really need this.
 
-To do so, do not hesitate to [join our chat on Gitter](https://gitter.im/Semantic-UI-Vue/Lobby), or [submit an issue](https://github.com/Semantic-UI-Vue/Semantic-UI-Vue/issues/new) (it doesn't have to be a bug). Read the [CONTRIBUTING.md](https://github.com/Semantic-UI-Vue/Semantic-UI-Vue/blob/master/CONTRIBUTING.md) for more details
+To do so, do not hesitate to [join our chat on Gitter](https://gitter.im/Semantic-UI-Vue/Lobby), or [submit an issue](https://github.com/xolas-co/vue-xolas-ui/issues/new) (it doesn't have to be a bug). Read the [CONTRIBUTING.md](https://github.com/xolas-co/vue-xolas-ui/blob/master/CONTRIBUTING.md) for more details
 
 <p align="center">
   <img
@@ -182,7 +182,6 @@ To do so, do not hesitate to [join our chat on Gitter](https://gitter.im/Semanti
 
 ## 📝 License
 
-Xolas UI: Copyright © 2021-present, [Anthony Davie](https://github.com/adavie1).<br>
-Vue Xolas UI: Copyright © 2019-present, [Mario Lamacchia](https://github.com/mariolamacchia).<br>
+Vue Xolas UI: Copyright © 2021-present, [Anthony Davie](https://github.com/adavie1).<br>
+Semantic UI Vue: Copyright © 2019-present, [Mario Lamacchia](https://github.com/mariolamacchia).<br>
 This project is [MIT](https://github.com/vue-xolas-ui/vue-xolas-ui/blob/master/LICENSE.md) licensed.
-This project is [MIT](https://github.com/Semantic-UI-Vue/Semantic-UI-Vue/blob/master/LICENSE.md) licensed.

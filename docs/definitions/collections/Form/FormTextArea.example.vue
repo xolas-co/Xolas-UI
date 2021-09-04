@@ -1,14 +1,14 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-field>
+  <xui-form>
+    <xui-form-field>
       <label>Text</label>
       <textarea></textarea>
-    </sui-form-field>
-    <sui-form-field>
+    </xui-form-field>
+    <xui-form-field>
       <label>Short Text</label>
       <textarea rows="2"></textarea>
-    </sui-form-field>
-  </sui-form>
+    </xui-form-field>
+  </xui-form>
 </template>
 
 <script>

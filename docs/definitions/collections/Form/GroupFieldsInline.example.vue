@@ -1,18 +1,18 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-fields inline>
+  <xui-form>
+    <xui-form-fields inline>
       <label>Phone Number</label>
-      <sui-form-field>
+      <xui-form-field>
         <input type="text" placeholder="(xxx)" />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <input type="text" placeholder="xxx" />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <input type="text" placeholder="xxxx" />
-      </sui-form-field>
-    </sui-form-fields>
-  </sui-form>
+      </xui-form-field>
+    </xui-form-fields>
+  </xui-form>
 </template>
 
 <script>

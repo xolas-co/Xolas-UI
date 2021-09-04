@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiStatisticValue',
+  name: 'XuiStatisticValue',
   mixins: [VueXolasUIMixin],
   props: {
     text: Boolean,
@@ -18,6 +18,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiStatistic',
+    parent: 'XuiStatistic',
   },
 };

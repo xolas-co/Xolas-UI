@@ -1,12 +1,12 @@
 <template>
   <div>
-    <sui-image :src="src" size="tiny" vertical-align="top" />
+    <xui-image :src="src" size="tiny" vertical-align="top" />
     <span>Top Aligned</span>
-    <sui-divider />
-    <sui-image :src="src" size="tiny" vertical-align="middle" />
+    <xui-divider />
+    <xui-image :src="src" size="tiny" vertical-align="middle" />
     <span>Middle Aligned</span>
-    <sui-divider />
-    <sui-image :src="src" size="tiny" vertical-align="bottom" />
+    <xui-divider />
+    <xui-image :src="src" size="tiny" vertical-align="bottom" />
     <span>Bottom Aligned</span>
   </div>
 </template>

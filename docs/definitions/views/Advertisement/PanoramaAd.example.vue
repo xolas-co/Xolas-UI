@@ -1,6 +1,6 @@
 <template>
   <div>
-    <sui-advertisement unit="panorama" test="Panorama" />
+    <xui-advertisement unit="panorama" test="Panorama" />
   </div>
 </template>
 

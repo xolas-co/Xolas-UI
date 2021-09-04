@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <transition name="fade">
-      <sui-message
+      <xui-message
         v-if="visible"
         header="Welcome back!"
         content="This is a special notification which you can dismiss."

@@ -1,8 +1,8 @@
 <template lang="html">
-  <sui-step-group step-number="two">
-    <sui-step active title="Billing" icon="dollar" />
-    <sui-step disabled title="Confirm Order" icon="info circle" />
-  </sui-step-group>
+  <xui-step-group step-number="two">
+    <xui-step active title="Billing" icon="dollar" />
+    <xui-step disabled title="Confirm Order" icon="info circle" />
+  </xui-step-group>
 </template>
 
 <script>

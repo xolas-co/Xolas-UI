@@ -1,5 +1,5 @@
 <template>
-  <sui-image
+  <xui-image
     src="static/images/wireframes/white-image.png"
     size="medium"
     bordered

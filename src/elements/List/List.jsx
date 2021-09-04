@@ -1,9 +1,9 @@
 import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
-import SuiItemContent from './ListItem';
+import XuiItemContent from './ListItem';
 
 export default {
-  name: 'SuiList',
+  name: 'XuiList',
   mixins: [VueXolasUIMixin],
   props: {
     bulleted: {
@@ -32,7 +32,7 @@ export default {
 
     if (this.items) {
       children = this.items.map(item => (
-        <SuiItemContent>{item}</SuiItemContent>
+        <XuiItemContent>{item}</XuiItemContent>
       ));
     } else {
       children = this.$slots.default;

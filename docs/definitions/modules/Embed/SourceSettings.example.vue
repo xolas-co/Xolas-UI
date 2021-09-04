@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-embed
+  <xui-embed
     :autoplay="false"
     :branded-ui="false"
     color="white"

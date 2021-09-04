@@ -1,8 +1,8 @@
 <template lang="html">
-  <sui-icon-group size="huge">
-    <sui-icon name="circle" size="big" outline />
-    <sui-icon name="user" />
-  </sui-icon-group>
+  <xui-icon-group size="huge">
+    <xui-icon name="circle" size="big" outline />
+    <xui-icon name="user" />
+  </xui-icon-group>
 </template>
 
 <script>

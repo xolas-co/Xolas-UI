@@ -1,11 +1,11 @@
 <template lang="html">
-  <sui-header>
-    <sui-icon-group>
-      <sui-icon name="twitter" />
-      <sui-icon name="add" corner inverted />
-    </sui-icon-group>
+  <xui-header>
+    <xui-icon-group>
+      <xui-icon name="twitter" />
+      <xui-icon name="add" corner inverted />
+    </xui-icon-group>
     Add on Twitter
-  </sui-header>
+  </xui-header>
 </template>
 
 <script>

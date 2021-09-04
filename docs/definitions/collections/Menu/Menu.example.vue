@@ -1,9 +1,9 @@
 <template lang="html">
-  <sui-menu :widths="3">
-    <sui-menu-item>Editorials</sui-menu-item>
-    <sui-menu-item>Reviews</sui-menu-item>
-    <sui-menu-item active>Upcoming Events</sui-menu-item>
-  </sui-menu>
+  <xui-menu :widths="3">
+    <xui-menu-item>Editorials</xui-menu-item>
+    <xui-menu-item>Reviews</xui-menu-item>
+    <xui-menu-item active>Upcoming Events</xui-menu-item>
+  </xui-menu>
 </template>
 
 <script>

@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiItemGroup',
+  name: 'XuiItemGroup',
   mixins: [VueXolasUIMixin],
   description: 'A group of items',
   props: {
@@ -45,6 +45,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiItem',
+    parent: 'XuiItem',
   },
 };

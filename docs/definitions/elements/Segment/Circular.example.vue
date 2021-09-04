@@ -1,17 +1,17 @@
 <template lang="html">
   <div class="example">
-    <sui-segment circular>
-      <sui-header>
+    <xui-segment circular>
+      <xui-header>
         Buy Now
-        <sui-header sub>$10.99</sui-header>
-      </sui-header>
-    </sui-segment>
-    <sui-segment inverted circular>
-      <sui-header inverted>
+        <xui-header sub>$10.99</xui-header>
+      </xui-header>
+    </xui-segment>
+    <xui-segment inverted circular>
+      <xui-header inverted>
         Buy Now
-        <sui-header sub>$10.99</sui-header>
-      </sui-header>
-    </sui-segment>
+        <xui-header sub>$10.99</xui-header>
+      </xui-header>
+    </xui-segment>
   </div>
 </template>
 

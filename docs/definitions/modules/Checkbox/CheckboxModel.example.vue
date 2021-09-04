@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-checkbox label="checkbox" v-model="value" />
+    <xui-checkbox label="checkbox" v-model="value" />
     <div><strong>value: </strong> {{ value }}</div>
   </div>
 </template>

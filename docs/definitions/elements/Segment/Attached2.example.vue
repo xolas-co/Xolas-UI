@@ -1,26 +1,26 @@
 <template lang="html">
   <div>
-    <h5 is="sui-header" attached="top">
+    <h5 is="xui-header" attached="top">
       Dogs
     </h5>
-    <sui-segment attached>
+    <xui-segment attached>
       <p>Dogs are one type of animal</p>
-    </sui-segment>
-    <h5 is="sui-header" attached>
+    </xui-segment>
+    <h5 is="xui-header" attached>
       Cats
     </h5>
-    <sui-segment attached>
+    <xui-segment attached>
       <p>
         Cats are thought of as being related to dogs, but only humans think
         this.
       </p>
-    </sui-segment>
-    <h5 is="sui-header" attached>
+    </xui-segment>
+    <h5 is="xui-header" attached>
       Lions
     </h5>
-    <sui-segment attached>
+    <xui-segment attached>
       <p>Humans don't think of lions as being like cats, but they are.</p>
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

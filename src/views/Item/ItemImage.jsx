@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiItemImage',
+  name: 'XuiItemImage',
   mixins: [VueXolasUIMixin],
   description: 'An item can contain an image',
   props: {
@@ -36,6 +36,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiItem',
+    parent: 'XuiItem',
   },
 };

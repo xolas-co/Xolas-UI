@@ -1,7 +1,7 @@
 <template>
   <div>
-    <sui-tab>
-      <sui-tab-pane title="HTML">
+    <xui-tab>
+      <xui-tab-pane title="HTML">
         <h3>HTML</h3>
         <p>
           HTML (HyperText Markup Language) is the most basic building block of
@@ -13,8 +13,8 @@
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
           >developer.mozilla.org</a
         >
-      </sui-tab-pane>
-      <sui-tab-pane title="CSS">
+      </xui-tab-pane>
+      <xui-tab-pane title="CSS">
         <h3>CSS</h3>
         <p>
           Cascading Style Sheets (CSS) is a stylesheet language used to describe
@@ -25,8 +25,8 @@
         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
           >developer.mozilla.org</a
         >
-      </sui-tab-pane>
-      <sui-tab-pane title="JavaScript">
+      </xui-tab-pane>
+      <xui-tab-pane title="JavaScript">
         <h3>JavaScript</h3>
         <p>
           JavaScript (JS) is a lightweight interpreted or JIT-compiled
@@ -40,8 +40,8 @@
         <a href="https://developer.mozilla.org/en-US/docs/Web/javascript"
           >developer.mozilla.org</a
         >
-      </sui-tab-pane>
-    </sui-tab>
+      </xui-tab-pane>
+    </xui-tab>
   </div>
 </template>
 

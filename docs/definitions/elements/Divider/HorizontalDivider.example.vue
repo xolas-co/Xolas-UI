@@ -6,7 +6,7 @@
       <div class="ui blue submit button">Search</div>
     </div>
 
-    <sui-divider horizontal>Or</sui-divider>
+    <xui-divider horizontal>Or</xui-divider>
 
     <div class="ui teal labeled icon button">
       Create New Order

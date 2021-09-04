@@ -1,15 +1,15 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-field>
-      <sui-checkbox label="Checkbox" />
-    </sui-form-field>
-    <sui-form-field>
-      <sui-checkbox slider label="Slider" />
-    </sui-form-field>
-    <sui-form-field>
-      <sui-checkbox toggle label="Toggle" />
-    </sui-form-field>
-  </sui-form>
+  <xui-form>
+    <xui-form-field>
+      <xui-checkbox label="Checkbox" />
+    </xui-form-field>
+    <xui-form-field>
+      <xui-checkbox slider label="Slider" />
+    </xui-form-field>
+    <xui-form-field>
+      <xui-checkbox toggle label="Toggle" />
+    </xui-form-field>
+  </xui-form>
 </template>
 
 <script>

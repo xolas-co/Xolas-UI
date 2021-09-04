@@ -1,6 +1,6 @@
 <template>
-  <sui-segment>
-    <sui-image
+  <xui-segment>
+    <xui-image
       src="static/images/wireframes/image.png"
       size="medium"
       centered
@@ -18,7 +18,7 @@
       phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide
       phaedrum, vim vivendum maiestatis in.
     </p>
-    <sui-image
+    <xui-image
       src="static/images/wireframes/image-text.png"
       size="small"
       centered
@@ -30,7 +30,7 @@
       everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu
       per, quas minimum postulant per id.
     </p>
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

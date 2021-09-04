@@ -1,6 +1,6 @@
 <template>
   <div>
-    <sui-advertisement unit="banner" centered test="Centered Ad" />
+    <xui-advertisement unit="banner" centered test="Centered Ad" />
   </div>
 </template>
 

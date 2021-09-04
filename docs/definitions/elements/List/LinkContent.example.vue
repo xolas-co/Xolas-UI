@@ -1,9 +1,9 @@
 <template>
-  <sui-list>
-    <a is="sui-list-item">What is a FAQ?</a>
-    <a is="sui-list-item">Who is our user?</a>
-    <a is="sui-list-item">Where is our office located?</a>
-  </sui-list>
+  <xui-list>
+    <a is="xui-list-item">What is a FAQ?</a>
+    <a is="xui-list-item">Who is our user?</a>
+    <a is="xui-list-item">Where is our office located?</a>
+  </xui-list>
 </template>
 
 <script>

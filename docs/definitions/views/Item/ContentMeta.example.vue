@@ -1,57 +1,57 @@
 <template lang="html">
-  <sui-item-group divided>
-    <sui-item>
-      <sui-item-image size="small" src="static/images/wireframes/image.png" />
-      <sui-item-content>
-        <sui-item-header>Arrowhead Valley Camp</sui-item-header>
-        <sui-item-meta>
+  <xui-item-group divided>
+    <xui-item>
+      <xui-item-image size="small" src="static/images/wireframes/image.png" />
+      <xui-item-content>
+        <xui-item-header>Arrowhead Valley Camp</xui-item-header>
+        <xui-item-meta>
           <span class="price">$1200</span>
           <span class="stay">1 Month</span>
-        </sui-item-meta>
-        <sui-item-description>
+        </xui-item-meta>
+        <xui-item-description>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
           </p>
-        </sui-item-description>
-      </sui-item-content>
-    </sui-item>
-    <sui-item>
-      <sui-item-image size="small" src="static/images/wireframes/image.png" />
-      <sui-item-content>
-        <sui-item-header>Buck's Homebrew Stayaway</sui-item-header>
-        <sui-item-meta>
+        </xui-item-description>
+      </xui-item-content>
+    </xui-item>
+    <xui-item>
+      <xui-item-image size="small" src="static/images/wireframes/image.png" />
+      <xui-item-content>
+        <xui-item-header>Buck's Homebrew Stayaway</xui-item-header>
+        <xui-item-meta>
           <span class="price">$1000</span>
           <span class="stay">2 Weeks</span>
-        </sui-item-meta>
-        <sui-item-description>
+        </xui-item-meta>
+        <xui-item-description>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
           </p>
-        </sui-item-description>
-      </sui-item-content>
-    </sui-item>
-    <sui-item>
-      <sui-item-image size="small" src="static/images/wireframes/image.png" />
-      <sui-item-content>
-        <sui-item-header>Astrology Camp</sui-item-header>
-        <sui-item-meta>
+        </xui-item-description>
+      </xui-item-content>
+    </xui-item>
+    <xui-item>
+      <xui-item-image size="small" src="static/images/wireframes/image.png" />
+      <xui-item-content>
+        <xui-item-header>Astrology Camp</xui-item-header>
+        <xui-item-meta>
           <span class="price">$1600</span>
           <span class="stay">6 Weeks</span>
-        </sui-item-meta>
-        <sui-item-description>
+        </xui-item-meta>
+        <xui-item-description>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
           </p>
-        </sui-item-description>
-      </sui-item-content>
-    </sui-item>
-  </sui-item-group>
+        </xui-item-description>
+      </xui-item-content>
+    </xui-item>
+  </xui-item-group>
 </template>
 
 <script>

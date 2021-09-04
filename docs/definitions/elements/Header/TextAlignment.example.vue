@@ -1,18 +1,18 @@
 <template>
-  <sui-segment>
-    <h3 is="sui-header" text-align="right">
+  <xui-segment>
+    <h3 is="xui-header" text-align="right">
       Float Right
     </h3>
-    <h3 is="sui-header" text-align="left">
+    <h3 is="xui-header" text-align="left">
       Float Left
     </h3>
-    <h3 is="sui-header" text-align="justify">
+    <h3 is="xui-header" text-align="justify">
       This text takes up the full width of the container
     </h3>
-    <h3 is="sui-header" text-align="center">
+    <h3 is="xui-header" text-align="center">
       Centered
     </h3>
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

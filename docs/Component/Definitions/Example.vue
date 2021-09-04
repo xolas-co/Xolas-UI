@@ -1,33 +1,33 @@
 <template>
   <div :class="$style.example">
-    <sui-menu floated="right" text>
-      <sui-popup content="View code" position="bottom center">
-        <sui-menu-item
+    <xui-menu floated="right" text>
+      <xui-popup content="View code" position="bottom center">
+        <xui-menu-item
           slot="trigger"
           icon="code"
           :class="$style.action"
           @click="open = !open"
         />
-      </sui-popup>
-      <sui-popup content="Open on CodeSandbox" position="bottom center">
-        <sui-menu-item
+      </xui-popup>
+      <xui-popup content="Open on CodeSandbox" position="bottom center">
+        <xui-menu-item
           slot="trigger"
           icon="connectdevelop"
           :class="$style.action"
           @click="openSandbox(example.source)"
         />
-      </sui-popup>
-      <sui-popup content="Maximize" position="bottom center">
-        <sui-menu-item
+      </xui-popup>
+      <xui-popup content="Maximize" position="bottom center">
+        <xui-menu-item
           slot="trigger"
           :class="$style.action"
           target="_blank"
           icon="window maximize"
           @click="openMaximized"
         />
-      </sui-popup>
-    </sui-menu>
-    <h4 :v-if="example.name" is="sui-header" :class="$style.h4" :id="id">
+      </xui-popup>
+    </xui-menu>
+    <h4 :v-if="example.name" is="xui-header" :class="$style.h4" :id="id">
       {{ example.name }}
     </h4>
     <p :v-if="example.description" :class="$style.p">
@@ -41,15 +41,15 @@
       <div :class="$style.exampleContainer">
         <div :is="example.runtime" />
       </div>
-      <sui-label attached="top" :class="$style.label">
+      <xui-label attached="top" :class="$style.label">
         Example
         <clipboard :content="example.source" :class-prop="$style.copy" />
-      </sui-label>
+      </xui-label>
     </div>
     <div v-if="open">
-      <sui-segment attached="bottom">
+      <xui-segment attached="bottom">
         <editor :value="example.source" />
-      </sui-segment>
+      </xui-segment>
     </div>
   </div>
 </template>
@@ -75,7 +75,7 @@ export default {
   },
   computed: {
     previewContainerComponent() {
-      return this.open ? 'sui-segment' : 'div';
+      return this.open ? 'xui-segment' : 'div';
     },
     maximizeLink() {
       const componentName = kebabCase(this.example.componentName);

@@ -1,7 +1,7 @@
 <template lang="html">
-  <sui-step-group>
-    <sui-step>Shipping</sui-step>
-  </sui-step-group>
+  <xui-step-group>
+    <xui-step>Shipping</xui-step>
+  </xui-step-group>
 </template>
 
 <script>

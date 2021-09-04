@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiBreadcrumbSection',
+  name: 'XuiBreadcrumbSection',
   mixins: [VueXolasUIMixin],
   props: {
     active: Boolean,
@@ -23,6 +23,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiBreadcrumb',
+    parent: 'XuiBreadcrumb',
   },
 };

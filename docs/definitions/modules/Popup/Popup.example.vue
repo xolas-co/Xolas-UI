@@ -1,6 +1,6 @@
 <template>
   <div>
-    <sui-message warning>
+    <xui-message warning>
       Popup relies on Vue Portal to be installed and globally added to you
       application. For Popup to correctly work, install
       <a href="https://linusborg.github.io/portal-vue" target="_blank"
@@ -20,10 +20,10 @@ Vue.use(PortalVue);
       Also, make sure to add
       <code>&lt;portal-target name="vue-xolas-ui"></code> at the root level of
       your app.
-    </sui-message>
-    <sui-popup content="Add users to your feed">
-      <sui-button icon="add" slot="trigger" />
-    </sui-popup>
+    </xui-message>
+    <xui-popup content="Add users to your feed">
+      <xui-button icon="add" slot="trigger" />
+    </xui-popup>
   </div>
 </template>
 

@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiImage',
+  name: 'XuiImage',
   mixins: [VueXolasUIMixin],
   props: {
     avatar: {

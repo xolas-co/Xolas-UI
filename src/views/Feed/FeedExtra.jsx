@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Image } from '../../elements';
 
 export default {
-  name: 'SuiFeedExtra',
+  name: 'XuiFeedExtra',
   mixins: [VueXolasUIMixin],
   description: 'A feed can contain an extra content',
   props: {
@@ -43,6 +43,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiFeed',
+    parent: 'XuiFeed',
   },
 };

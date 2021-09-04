@@ -1,31 +1,31 @@
 <template lang="html">
   <div>
-    <sui-grid :columns="3">
-      <sui-grid-column>
-        <sui-card class="fluid">
-          <sui-image src="static/images/avatar/large/daniel.jpg" />
-          <sui-card-content>
-            <sui-card-header>Daniel Louise</sui-card-header>
-          </sui-card-content>
-        </sui-card>
-      </sui-grid-column>
-      <sui-grid-column>
-        <sui-card class="fluid">
-          <sui-image src="static/images/avatar/large/helen.jpg" />
-          <sui-card-content>
-            <sui-card-header>Helen Troy</sui-card-header>
-          </sui-card-content>
-        </sui-card>
-      </sui-grid-column>
-      <sui-grid-column>
-        <sui-card class="fluid">
-          <sui-image src="static/images/avatar/large/elliot.jpg" />
-          <sui-card-content>
-            <sui-card-header>Elliot Fu</sui-card-header>
-          </sui-card-content>
-        </sui-card>
-      </sui-grid-column>
-    </sui-grid>
+    <xui-grid :columns="3">
+      <xui-grid-column>
+        <xui-card class="fluid">
+          <xui-image src="static/images/avatar/large/daniel.jpg" />
+          <xui-card-content>
+            <xui-card-header>Daniel Louise</xui-card-header>
+          </xui-card-content>
+        </xui-card>
+      </xui-grid-column>
+      <xui-grid-column>
+        <xui-card class="fluid">
+          <xui-image src="static/images/avatar/large/helen.jpg" />
+          <xui-card-content>
+            <xui-card-header>Helen Troy</xui-card-header>
+          </xui-card-content>
+        </xui-card>
+      </xui-grid-column>
+      <xui-grid-column>
+        <xui-card class="fluid">
+          <xui-image src="static/images/avatar/large/elliot.jpg" />
+          <xui-card-content>
+            <xui-card-header>Elliot Fu</xui-card-header>
+          </xui-card-content>
+        </xui-card>
+      </xui-grid-column>
+    </xui-grid>
   </div>
 </template>
 

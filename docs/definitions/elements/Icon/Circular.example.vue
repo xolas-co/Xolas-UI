@@ -1,9 +1,9 @@
 <template lang="html">
   <div>
-    <sui-icon name="users" circular />
-    <sui-icon name="users" color="teal" circular />
-    <sui-icon name="users" inverted circular />
-    <sui-icon name="users" color="teal" inverted circular />
+    <xui-icon name="users" circular />
+    <xui-icon name="users" color="teal" circular />
+    <xui-icon name="users" inverted circular />
+    <xui-icon name="users" color="teal" inverted circular />
   </div>
 </template>
 

@@ -1,33 +1,33 @@
 <template lang="html">
   <div>
-    <sui-step-group>
-      <sui-step>
-        <sui-icon name="truck" />
-        <sui-step-content>
-          <sui-step-title>Shipping</sui-step-title>
-          <sui-step-description
-            >Choose your shipping options</sui-step-description
+    <xui-step-group>
+      <xui-step>
+        <xui-icon name="truck" />
+        <xui-step-content>
+          <xui-step-title>Shipping</xui-step-title>
+          <xui-step-description
+            >Choose your shipping options</xui-step-description
           >
-        </sui-step-content>
-      </sui-step>
+        </xui-step-content>
+      </xui-step>
 
-      <sui-step active>
-        <sui-icon name="payment" />
+      <xui-step active>
+        <xui-icon name="payment" />
         <!-- Shorthand -->
-        <sui-step-content
+        <xui-step-content
           title="Billing"
           description="Enter billing information"
         />
-      </sui-step>
+      </xui-step>
 
-      <sui-step disabled>
-        <sui-icon name="info" />
-        <sui-step-content disabled title="Confirm Order" />
-      </sui-step>
-    </sui-step-group>
+      <xui-step disabled>
+        <xui-icon name="info" />
+        <xui-step-content disabled title="Confirm Order" />
+      </xui-step>
+    </xui-step-group>
 
     <!-- Shorthand -->
-    <sui-step-group :steps="steps" />
+    <xui-step-group :steps="steps" />
   </div>
 </template>
 

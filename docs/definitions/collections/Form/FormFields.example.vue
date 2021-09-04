@@ -1,20 +1,20 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-fields>
-      <sui-form-field>
+  <xui-form>
+    <xui-form-fields>
+      <xui-form-field>
         <label>First name</label>
         <input type="text" placeholder="First Name" />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <label>Middle name</label>
         <input type="text" placeholder="Middle Name" />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <label>Last name</label>
         <input type="text" placeholder="Last Name" />
-      </sui-form-field>
-    </sui-form-fields>
-  </sui-form>
+      </xui-form-field>
+    </xui-form-fields>
+  </xui-form>
 </template>
 
 <script>

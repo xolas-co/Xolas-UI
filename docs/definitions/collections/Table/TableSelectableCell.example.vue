@@ -1,57 +1,57 @@
 <template lang="html">
-  <sui-table celled>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Name</sui-table-header-cell>
-        <sui-table-header-cell>Status</sui-table-header-cell>
-        <sui-table-header-cell>Edit</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>John</sui-table-cell>
-        <sui-table-cell>No Action</sui-table-cell>
-        <sui-table-cell selectable>
+  <xui-table celled>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Name</xui-table-header-cell>
+        <xui-table-header-cell>Status</xui-table-header-cell>
+        <xui-table-header-cell>Edit</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>John</xui-table-cell>
+        <xui-table-cell>No Action</xui-table-cell>
+        <xui-table-cell selectable>
           <a href="#">Edit</a>
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jamie</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell selectable>
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jamie</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell selectable>
           <a href="#">Edit</a>
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jill</sui-table-cell>
-        <sui-table-cell>Denied</sui-table-cell>
-        <sui-table-cell selectable>
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jill</xui-table-cell>
+        <xui-table-cell>Denied</xui-table-cell>
+        <xui-table-cell selectable>
           <a href="#">Edit</a>
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row warning>
-        <sui-table-cell>John</sui-table-cell>
-        <sui-table-cell>No Action</sui-table-cell>
-        <sui-table-cell selectable>
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row warning>
+        <xui-table-cell>John</xui-table-cell>
+        <xui-table-cell>No Action</xui-table-cell>
+        <xui-table-cell selectable>
           <a href="#">Requires change</a>
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jamie</sui-table-cell>
-        <sui-table-cell positive>Approved</sui-table-cell>
-        <sui-table-cell positive selectable>
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jamie</xui-table-cell>
+        <xui-table-cell positive>Approved</xui-table-cell>
+        <xui-table-cell positive selectable>
           <a href="#">Approve</a>
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jill</sui-table-cell>
-        <sui-table-cell negative>Denied</sui-table-cell>
-        <sui-table-cell selectable negative>
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jill</xui-table-cell>
+        <xui-table-cell negative>Denied</xui-table-cell>
+        <xui-table-cell selectable negative>
           <a href="#">Remove</a>
-        </sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+        </xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

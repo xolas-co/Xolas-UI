@@ -1,5 +1,5 @@
 <template>
-  <h2 is="sui-header" disabled>
+  <h2 is="xui-header" disabled>
     Disabled Header
   </h2>
 </template>

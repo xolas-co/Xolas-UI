@@ -1,6 +1,6 @@
 <template>
-  <sui-grid :columns="2" relaxed="very" stackable vertical-align="middle">
-    <sui-grid-column>
+  <xui-grid :columns="2" relaxed="very" stackable vertical-align="middle">
+    <xui-grid-column>
       <div class="ui form">
         <div class="field">
           <label>Username</label>
@@ -27,19 +27,19 @@
         </div>
         <div class="ui blue submit button">Login</div>
       </div>
-    </sui-grid-column>
+    </xui-grid-column>
 
-    <sui-divider vertical>Or</sui-divider>
+    <xui-divider vertical>Or</xui-divider>
 
-    <sui-grid-column>
+    <xui-grid-column>
       <div class="center aligned column">
         <div class="ui big green labeled icon button">
           <i class="signup icon"></i>
           Sign Up
         </div>
       </div>
-    </sui-grid-column>
-  </sui-grid>
+    </xui-grid-column>
+  </xui-grid>
 </template>
 
 <script>

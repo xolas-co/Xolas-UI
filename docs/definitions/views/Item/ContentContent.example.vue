@@ -1,18 +1,18 @@
 <template lang="html">
-  <sui-item-group divided>
-    <sui-item>
-      <sui-item-image size="tiny" src="static/images/wireframes/image.png" />
-      <sui-item-content vertical-align="middle">Content A</sui-item-content>
-    </sui-item>
-    <sui-item>
-      <sui-item-image size="tiny" src="static/images/wireframes/image.png" />
-      <sui-item-content vertical-align="middle">Content B</sui-item-content>
-    </sui-item>
-    <sui-item>
-      <sui-item-image size="tiny" src="static/images/wireframes/image.png" />
-      <sui-item-content vertical-align="middle">Content C</sui-item-content>
-    </sui-item>
-  </sui-item-group>
+  <xui-item-group divided>
+    <xui-item>
+      <xui-item-image size="tiny" src="static/images/wireframes/image.png" />
+      <xui-item-content vertical-align="middle">Content A</xui-item-content>
+    </xui-item>
+    <xui-item>
+      <xui-item-image size="tiny" src="static/images/wireframes/image.png" />
+      <xui-item-content vertical-align="middle">Content B</xui-item-content>
+    </xui-item>
+    <xui-item>
+      <xui-item-image size="tiny" src="static/images/wireframes/image.png" />
+      <xui-item-content vertical-align="middle">Content C</xui-item-content>
+    </xui-item>
+  </xui-item-group>
 </template>
 
 <script>

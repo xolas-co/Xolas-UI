@@ -1,24 +1,24 @@
 <template>
   <div>
-    <sui-menu pointing>
+    <xui-menu pointing>
       <a
-        is="sui-menu-item"
+        is="xui-menu-item"
         v-for="item in items"
         :active="isActive(item)"
         :key="item"
         :content="item"
         @click="select(item)"
       />
-      <sui-menu-menu position="right">
-        <sui-menu-item>
-          <sui-input transparent icon="search" placeholder="Search..." />
-        </sui-menu-item>
-      </sui-menu-menu>
-    </sui-menu>
+      <xui-menu-menu position="right">
+        <xui-menu-item>
+          <xui-input transparent icon="search" placeholder="Search..." />
+        </xui-menu-item>
+      </xui-menu-menu>
+    </xui-menu>
 
-    <sui-segment>
+    <xui-segment>
       <docs-wireframe name="paragraph" />
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

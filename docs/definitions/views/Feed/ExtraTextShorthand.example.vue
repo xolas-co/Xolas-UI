@@ -1,30 +1,30 @@
 <template lang="html">
-  <sui-feed>
-    <sui-feed-event
+  <xui-feed>
+    <xui-feed-event
       :image="image"
       :date="date"
       :summary="summary"
       :extra-text="extraText"
     />
 
-    <sui-feed-event>
-      <sui-feed-label :image="image" />
-      <sui-feed-content
+    <xui-feed-event>
+      <xui-feed-label :image="image" />
+      <xui-feed-content
         :date="date"
         :summary="summary"
         :extra-text="extraText"
       />
-    </sui-feed-event>
+    </xui-feed-event>
 
-    <sui-feed-event>
-      <sui-feed-label :image="image" />
-      <sui-feed-content>
-        <sui-feed-date :content="date" />
-        <sui-feed-summary :content="summary" />
-        <sui-feed-extra text :content="extraText" />
-      </sui-feed-content>
-    </sui-feed-event>
-  </sui-feed>
+    <xui-feed-event>
+      <xui-feed-label :image="image" />
+      <xui-feed-content>
+        <xui-feed-date :content="date" />
+        <xui-feed-summary :content="summary" />
+        <xui-feed-extra text :content="extraText" />
+      </xui-feed-content>
+    </xui-feed-event>
+  </xui-feed>
 </template>
 
 <script>

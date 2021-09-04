@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiItemDescription',
+  name: 'XuiItemDescription',
   mixins: [VueXolasUIMixin],
   description:
     'An item can contain a description with a single or multiple paragraphs',
@@ -14,6 +14,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiItem',
+    parent: 'XuiItem',
   },
 };

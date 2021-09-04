@@ -1,14 +1,14 @@
 <template lang="html">
-  <sui-search :source="source">
+  <xui-search :source="source">
     <template v-slot:input="{ props, handlers }">
-      <sui-input
+      <xui-input
         v-bind="props"
         v-on="handlers"
         icon="search"
         placeholder="Common passwords..."
       />
     </template>
-  </sui-search>
+  </xui-search>
 </template>
 
 <script>

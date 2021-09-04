@@ -1,46 +1,46 @@
 <template lang="html">
   <div>
-    <sui-card-group :items-per-row="4">
-      <sui-card class="red">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="orange">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="yellow">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="olive">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="green">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="teal">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="blue">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="violet">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="purple">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="pink">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="brown">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="grey">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-      <sui-card class="black">
-        <sui-image src="static/images/wireframes/image.png" />
-      </sui-card>
-    </sui-card-group>
+    <xui-card-group :items-per-row="4">
+      <xui-card class="red">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="orange">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="yellow">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="olive">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="green">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="teal">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="blue">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="violet">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="purple">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="pink">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="brown">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="grey">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+      <xui-card class="black">
+        <xui-image src="static/images/wireframes/image.png" />
+      </xui-card>
+    </xui-card-group>
   </div>
 </template>
 

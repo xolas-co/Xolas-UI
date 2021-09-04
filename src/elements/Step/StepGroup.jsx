@@ -1,10 +1,10 @@
-import SuiStep from './Step';
+import XuiStep from './Step';
 import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiStepGroup',
-  components: { SuiStep },
+  name: 'XuiStepGroup',
+  components: { XuiStep },
   mixins: [VueXolasUIMixin],
   props: {
     ordered: Boolean,
@@ -44,12 +44,12 @@ export default {
         )}
       >
         {this.steps
-          ? this.steps.map(props => <SuiStep {...{ props }} />)
+          ? this.steps.map(props => <XuiStep {...{ props }} />)
           : this.$slots.default}
       </ElementType>
     );
   },
   meta: {
-    parent: 'SuiStep',
+    parent: 'XuiStep',
   },
 };

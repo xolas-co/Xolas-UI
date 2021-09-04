@@ -1,9 +1,9 @@
 <template lang="html">
-  <sui-segment clearing>
-    <sui-button floated="right">
+  <xui-segment clearing>
+    <xui-button floated="right">
       Floated
-    </sui-button>
-  </sui-segment>
+    </xui-button>
+  </xui-segment>
 </template>
 
 <script>

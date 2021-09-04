@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-embed
+  <xui-embed
     id="O6Xo21L0ybE"
     placeholder="static/images/extras/image-16by9.png"
     source="youtube"

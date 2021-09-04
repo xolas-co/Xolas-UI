@@ -1,14 +1,14 @@
 <template lang="html">
-  <sui-search action="search category">
+  <xui-search action="search category">
     <template v-slot:input="{ props, handlers }">
-      <sui-input
+      <xui-input
         v-bind="props"
         v-on="handlers"
         icon="search"
         placeholder="Common animals..."
       />
     </template>
-  </sui-search>
+  </xui-search>
 </template>
 
 <script>

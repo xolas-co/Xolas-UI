@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiFormFields',
+  name: 'XuiFormFields',
   mixins: [VueXolasUIMixin],
   props: {
     inline: {
@@ -46,6 +46,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiForm',
+    parent: 'XuiForm',
   },
 };

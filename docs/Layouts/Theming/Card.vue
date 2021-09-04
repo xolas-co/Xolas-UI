@@ -1,53 +1,53 @@
 <template lang="html">
   <div>
-    <div is="sui-card-group" :items-per-row="4">
-      <div is="sui-card">
-        <sui-image
+    <div is="xui-card-group" :items-per-row="4">
+      <div is="xui-card">
+        <xui-image
           src="static/images/wireframes/image.png"
-          is="sui-dimmer-dimmable"
+          is="xui-dimmer-dimmable"
           @mouseover.native="isActive[0] = true"
           @mouseleave.native="isActive[0] = false"
         >
-          <sui-dimmer blurring inverted :active="isActive[0]">
-            <sui-button color="teal">Add Friend</sui-button>
-          </sui-dimmer>
-        </sui-image>
-        <div is="sui-card-content">
-          <div is="sui-card-header">Title</div>
-          <div is="sui-card-meta">
+          <xui-dimmer blurring inverted :active="isActive[0]">
+            <xui-button color="teal">Add Friend</xui-button>
+          </xui-dimmer>
+        </xui-image>
+        <div is="xui-card-content">
+          <div is="xui-card-header">Title</div>
+          <div is="xui-card-meta">
             <a>Meta</a>
           </div>
-          <div is="sui-card-description">
+          <div is="xui-card-description">
             One or two sentence description that may go to several lines
           </div>
         </div>
-        <div is="sui-card-content" extra>
+        <div is="xui-card-content" extra>
           <a>Arbitrary</a>
           <a slot="right">Arbitrary</a>
         </div>
       </div>
 
-      <div is="sui-card">
-        <sui-image
+      <div is="xui-card">
+        <xui-image
           src="static/images/wireframes/image.png"
-          is="sui-dimmer-dimmable"
+          is="xui-dimmer-dimmable"
           @mouseover.native="isActive[0] = true"
           @mouseleave.native="isActive[0] = false"
         >
-          <sui-dimmer>
-            <sui-button inverted>Call to Action</sui-button>
-          </sui-dimmer>
-        </sui-image>
-        <div is="sui-card-content">
-          <a is="sui-card-header">Name</a>
-          <div is="sui-card-meta">Date</div>
+          <xui-dimmer>
+            <xui-button inverted>Call to Action</xui-button>
+          </xui-dimmer>
+        </xui-image>
+        <div is="xui-card-content">
+          <a is="xui-card-header">Name</a>
+          <div is="xui-card-meta">Date</div>
         </div>
-        <div is="sui-card-content" extra>
-          <a><sui-icon name="users" /> Users</a>
+        <div is="xui-card-content" extra>
+          <a><xui-icon name="users" /> Users</a>
         </div>
       </div>
 
-      <div is="sui-card">
+      <div is="xui-card">
         <div class="ui slide right reveal image">
           <div class="visible content">
             <img class="ui fluid image" src="static/images/avatar/nan.jpg" />
@@ -56,14 +56,14 @@
             <img class="ui fluid image" src="static/images/avatar/tom.jpg" />
           </div>
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           <img
             src="static/images/wireframes/paragraph.png"
             class="ui wireframe image"
           />
         </div>
       </div>
-      <div is="sui-card">
+      <div is="xui-card">
         <div class="ui move reveal image">
           <div class="visible content">
             <img class="ui fluid image" src="static/images/avatar/tom.jpg" />
@@ -72,7 +72,7 @@
             <img class="ui fluid image" src="static/images/avatar/nan.jpg" />
           </div>
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           <img
             src="static/images/wireframes/paragraph.png"
             class="ui wireframe image"
@@ -81,18 +81,18 @@
       </div>
     </div>
 
-    <div is="sui-card-group" :items-per-row="4">
-      <div is="sui-card">
-        <div is="sui-card-content" extra>
-          <sui-icon name="like" /> Like
-          <span slot="right"> <sui-icon name="star" /> Favorite </span>
+    <div is="xui-card-group" :items-per-row="4">
+      <div is="xui-card">
+        <div is="xui-card-content" extra>
+          <xui-icon name="like" /> Like
+          <span slot="right"> <xui-icon name="star" /> Favorite </span>
         </div>
-        <div is="sui-card-content">
-          <sui-image src="static/images/wireframes/paragraph.png" />
+        <div is="xui-card-content">
+          <xui-image src="static/images/wireframes/paragraph.png" />
         </div>
       </div>
-      <div is="sui-card">
-        <div is="sui-card-content">
+      <div is="xui-card">
+        <div is="xui-card-content">
           <div class="header">
             <img
               src="static/images/wireframes/square-image.png"
@@ -101,20 +101,20 @@
             Abbreviated Header
           </div>
           <div class="description">
-            <sui-image src="static/images/wireframes/paragraph.png" />
+            <xui-image src="static/images/wireframes/paragraph.png" />
           </div>
         </div>
-        <div is="sui-button-group" attached="bottom" :widths="2">
-          <div is="sui-button">
+        <div is="xui-button-group" attached="bottom" :widths="2">
+          <div is="xui-button">
             Action 1
           </div>
-          <div is="sui-button">
+          <div is="xui-button">
             Action 2
           </div>
         </div>
       </div>
       <a href="#" class="ui card">
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           <div class="header">Cute Dog</div>
           <div class="meta">
             <span class="category">Animals</span>
@@ -126,7 +126,7 @@
             />
           </div>
         </div>
-        <div is="sui-card-content" extra>
+        <div is="xui-card-content" extra>
           <div class="right floated author">
             <img
               src="static/images/wireframes/square-image.png"
@@ -136,7 +136,7 @@
           </div>
         </div>
       </a>
-      <div is="sui-card">
+      <div is="xui-card">
         <div class="ui two top attached basic buttons">
           <div class="ui button">
             Action 1
@@ -145,7 +145,7 @@
             Action 2
           </div>
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           <img
             src="static/images/wireframes/paragraph.png"
             class="ui wireframe image"
@@ -162,66 +162,66 @@
       </div>
     </div>
 
-    <div is="sui-card-group" :items-per-row="4">
-      <div is="sui-card">
-        <div is="sui-card-content">
+    <div is="xui-card-group" :items-per-row="4">
+      <div is="xui-card">
+        <div is="xui-card-content">
           Content 1
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           Content 2
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           Content 3
         </div>
-        <div is="sui-card-content" extra>
+        <div is="xui-card-content" extra>
           Extra Content
         </div>
       </div>
-      <div is="sui-card">
-        <div is="sui-card-content">
+      <div is="xui-card">
+        <div is="xui-card-content">
           Content 1
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           Content 2
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           Content 3
         </div>
-        <div is="sui-card-content" extra>
+        <div is="xui-card-content" extra>
           Extra Content
         </div>
       </div>
-      <div is="sui-card">
-        <div is="sui-card-content">
+      <div is="xui-card">
+        <div is="xui-card-content">
           Content 1
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           Content 2
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           Content 3
         </div>
-        <div is="sui-card-content" extra>
+        <div is="xui-card-content" extra>
           Extra Content
         </div>
       </div>
-      <div is="sui-card">
-        <div is="sui-card-content">
+      <div is="xui-card">
+        <div is="xui-card-content">
           Content 1
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           Content 2
         </div>
-        <div is="sui-card-content">
+        <div is="xui-card-content">
           Content 3
         </div>
-        <div is="sui-card-content" extra>
+        <div is="xui-card-content" extra>
           Extra Content
         </div>
       </div>
     </div>
 
-    <div is="sui-card-group" :items-per-row="4">
+    <div is="xui-card-group" :items-per-row="4">
       <div class="card">
         <div class="image">
           <img src="static/images/wireframes/image.png" />

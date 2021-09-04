@@ -1,7 +1,7 @@
 <template>
-  <h2 is="sui-header">
-    <sui-icon name="plug" />
-    <sui-header-content>Uptime Guarantee</sui-header-content>
+  <h2 is="xui-header">
+    <xui-icon name="plug" />
+    <xui-header-content>Uptime Guarantee</xui-header-content>
   </h2>
 </template>
 

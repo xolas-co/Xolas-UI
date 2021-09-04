@@ -1,14 +1,14 @@
 <template lang="html">
   <div>
-    <sui-breadcrumb>
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right arrow" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb>
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right arrow" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
   </div>
 </template>
 

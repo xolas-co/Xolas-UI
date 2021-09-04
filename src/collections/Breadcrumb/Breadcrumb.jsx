@@ -1,11 +1,11 @@
 import { VueXolasUIMixin } from '../../lib';
-import SuiBreadcrumbSection from './BreadcrumbSection';
-import SuiBreadcrumbDivider from './BreadcrumbDivider';
+import XuiBreadcrumbSection from './BreadcrumbSection';
+import XuiBreadcrumbDivider from './BreadcrumbDivider';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiBreadcrumb',
-  components: { SuiBreadcrumbDivider, SuiBreadcrumbSection },
+  name: 'XuiBreadcrumb',
+  components: { XuiBreadcrumbDivider, XuiBreadcrumbSection },
   mixins: [VueXolasUIMixin],
   props: {
     icon: String,
@@ -22,16 +22,16 @@ export default {
         {this.$slots.default ||
           this.sections.map(({ active, content, key, link }, index) => {
             const sectionEl = (
-              <SuiBreadcrumbSection key={key} active={active} link={link}>
+              <XuiBreadcrumbSection key={key} active={active} link={link}>
                 {content}
-              </SuiBreadcrumbSection>
+              </XuiBreadcrumbSection>
             );
 
             if (index === 0) return sectionEl;
 
             return [
               ' ',
-              <SuiBreadcrumbDivider icon={this.icon} />,
+              <XuiBreadcrumbDivider icon={this.icon} />,
               ' ',
               sectionEl,
             ];

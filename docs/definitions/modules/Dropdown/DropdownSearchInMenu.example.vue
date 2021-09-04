@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-dropdown
+  <xui-dropdown
     text="Filter Posts"
     icon="filter"
     floating

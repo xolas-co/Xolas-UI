@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiTable',
+  name: 'XuiTable',
   mixins: [VueXolasUIMixin],
   description: 'A table displays a collections of data grouped into rows.',
   props: {

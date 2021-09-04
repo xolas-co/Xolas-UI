@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiTableRow',
+  name: 'XuiTableRow',
   mixins: [VueXolasUIMixin],
   props: {
     active: {
@@ -65,6 +65,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiTable',
+    parent: 'XuiTable',
   },
 };

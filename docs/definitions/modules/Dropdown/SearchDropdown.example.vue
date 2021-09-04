@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="app">
-    <sui-dropdown
+    <xui-dropdown
       button
       class="icon"
       floating

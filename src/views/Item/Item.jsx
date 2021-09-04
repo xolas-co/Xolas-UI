@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiItem',
+  name: 'XuiItem',
   mixins: [VueXolasUIMixin],
   description:
     'An item view presents large collections of site content for display',

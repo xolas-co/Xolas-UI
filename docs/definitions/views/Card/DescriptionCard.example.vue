@@ -1,10 +1,10 @@
 <template lang="html">
   <div>
-    <sui-card>
-      <sui-card-content>
-        <sui-card-header>Cute Dog</sui-card-header>
-        <sui-card-meta>2 days ago</sui-card-meta>
-        <sui-card-description>
+    <xui-card>
+      <xui-card-content>
+        <xui-card-header>Cute Dog</xui-card-header>
+        <xui-card-meta>2 days ago</xui-card-meta>
+        <xui-card-description>
           <p>
             Cute dogs come in a variety of shapes and sizes. Some cute dogs are
             cute for their adorable faces, others for their tiny stature, and
@@ -14,9 +14,9 @@
             Many people also have their own barometers for what makes a cute
             dog.
           </p>
-        </sui-card-description>
-      </sui-card-content>
-    </sui-card>
+        </xui-card-description>
+      </xui-card-content>
+    </xui-card>
   </div>
 </template>
 

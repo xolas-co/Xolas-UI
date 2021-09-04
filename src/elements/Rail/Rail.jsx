@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiRail',
+  name: 'XuiRail',
   mixins: [VueXolasUIMixin],
   props: {
     attached: Boolean,

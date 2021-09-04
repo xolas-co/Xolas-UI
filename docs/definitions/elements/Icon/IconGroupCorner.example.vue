@@ -1,8 +1,8 @@
 <template lang="html">
-  <sui-icon-group size="huge">
-    <sui-icon name="puzzle" />
-    <sui-icon name="add" corner />
-  </sui-icon-group>
+  <xui-icon-group size="huge">
+    <xui-icon name="puzzle" />
+    <xui-icon name="add" corner />
+  </xui-icon-group>
 </template>
 
 <script>

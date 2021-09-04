@@ -1,14 +1,14 @@
 <template lang="html">
   <div>
-    <a is="sui-label" image>
+    <a is="xui-label" image>
       <img src="static/images/avatar/small/joe.jpg" />
       Joe
     </a>
-    <a is="sui-label" image>
+    <a is="xui-label" image>
       <img src="static/images/avatar/small/elliot.jpg" />
       Elliot
     </a>
-    <a is="sui-label" image>
+    <a is="xui-label" image>
       <img src="static/images/avatar/small/stevie.jpg" />
       Stevie
     </a>

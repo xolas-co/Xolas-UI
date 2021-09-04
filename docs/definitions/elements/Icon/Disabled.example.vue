@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-icon name="users" disabled />
+  <xui-icon name="users" disabled />
 </template>
 
 <script>

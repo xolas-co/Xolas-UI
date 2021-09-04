@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-progress state="disabled" />
+    <xui-progress state="disabled" />
   </div>
 </template>
 

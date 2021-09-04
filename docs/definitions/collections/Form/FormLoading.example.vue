@@ -1,11 +1,11 @@
 <template lang="html">
-  <sui-form loading>
-    <sui-form-field>
+  <xui-form loading>
+    <xui-form-field>
       <label>E-mail</label>
       <input type="email" placeholder="joe@schmoe.com" />
-    </sui-form-field>
-    <sui-button type="submit">Submit</sui-button>
-  </sui-form>
+    </xui-form-field>
+    <xui-button type="submit">Submit</xui-button>
+  </xui-form>
 </template>
 
 <script>

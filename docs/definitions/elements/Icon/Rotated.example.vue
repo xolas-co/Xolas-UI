@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
-    <sui-icon name="cloud" rotated="clockwise" />
-    <sui-icon name="cloud" rotated="counterclockwise" />
+    <xui-icon name="cloud" rotated="clockwise" />
+    <xui-icon name="cloud" rotated="counterclockwise" />
   </div>
 </template>
 

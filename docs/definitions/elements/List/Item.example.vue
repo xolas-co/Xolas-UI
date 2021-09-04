@@ -1,9 +1,9 @@
 <template>
-  <sui-list>
-    <sui-list-item>1</sui-list-item>
-    <sui-list-item>2</sui-list-item>
-    <sui-list-item>3</sui-list-item>
-  </sui-list>
+  <xui-list>
+    <xui-list-item>1</xui-list-item>
+    <xui-list-item>2</xui-list-item>
+    <xui-list-item>3</xui-list-item>
+  </xui-list>
 </template>
 
 <script>

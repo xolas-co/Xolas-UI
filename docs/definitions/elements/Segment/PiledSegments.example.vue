@@ -1,15 +1,15 @@
 <template lang="html">
-  <sui-segments piled>
-    <sui-segment>
+  <xui-segments piled>
+    <xui-segment>
       Top
-    </sui-segment>
-    <sui-segment>
+    </xui-segment>
+    <xui-segment>
       Middle
-    </sui-segment>
-    <sui-segment>
+    </xui-segment>
+    <xui-segment>
       Bottom
-    </sui-segment>
-  </sui-segments>
+    </xui-segment>
+  </xui-segments>
 </template>
 
 <script>

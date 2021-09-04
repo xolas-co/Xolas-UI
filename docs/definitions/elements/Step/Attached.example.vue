@@ -1,46 +1,46 @@
 <template lang="html">
   <div>
-    <sui-step-group step-number="three" attached="top">
-      <sui-step
+    <xui-step-group step-number="three" attached="top">
+      <xui-step
         title="Shipping"
         description="Choose your shipping options"
         icon="plane"
       />
-      <sui-step
+      <xui-step
         active
         title="Billing"
         description="Enter billing information"
         icon="dollar"
       />
-      <sui-step
+      <xui-step
         disabled
         title="Confirm Order"
         description="Verify order details"
         icon="info circle"
       />
-    </sui-step-group>
-    <sui-segment attached>
+    </xui-step-group>
+    <xui-segment attached>
       <docs-wireframe name="paragraph" />
-    </sui-segment>
-    <sui-step-group step-number="three" attached="bottom">
-      <sui-step
+    </xui-segment>
+    <xui-step-group step-number="three" attached="bottom">
+      <xui-step
         title="Shipping"
         description="Choose your shipping options"
         icon="plane"
       />
-      <sui-step
+      <xui-step
         active
         title="Billing"
         description="Enter billing information"
         icon="dollar"
       />
-      <sui-step
+      <xui-step
         disabled
         title="Confirm Order"
         description="Verify order details"
         icon="info circle"
       />
-    </sui-step-group>
+    </xui-step-group>
   </div>
 </template>
 

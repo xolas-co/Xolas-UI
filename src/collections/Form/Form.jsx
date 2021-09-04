@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiForm',
+  name: 'XuiForm',
   mixins: [VueXolasUIMixin],
   props: {
     size: Enum.Size({

@@ -9,7 +9,7 @@ import PopupContent from './PopupContent';
 const HOVERABLE_BLUR_DELAY = 300;
 
 export default {
-  name: 'SuiPopup',
+  name: 'XuiPopup',
   description: 'A popup displays additional information on top of a page.',
   mixins: [VueXolasUIMixin],
   props: {

@@ -1,37 +1,37 @@
 <template lang="html">
   <div class="background">
-    <sui-grid centered vertical-align="middle">
-      <sui-grid-column>
-        <h2 is="sui-header" color="teal" image>
-          <sui-image src="static/images/logo.png" />
-          <sui-header-content>Log-in to your account</sui-header-content>
+    <xui-grid centered vertical-align="middle">
+      <xui-grid-column>
+        <h2 is="xui-header" color="teal" image>
+          <xui-image src="static/images/logo.png" />
+          <xui-header-content>Log-in to your account</xui-header-content>
         </h2>
 
-        <sui-form>
-          <sui-segment stacked>
-            <sui-form-field>
-              <sui-input
+        <xui-form>
+          <xui-segment stacked>
+            <xui-form-field>
+              <xui-input
                 type="email"
                 placeholder="E-mail address"
                 icon="user"
                 icon-position="left"
               />
-            </sui-form-field>
-            <sui-form-field>
-              <sui-input
+            </xui-form-field>
+            <xui-form-field>
+              <xui-input
                 type="password"
                 placeholder="Password"
                 icon="lock"
                 icon-position="left"
               />
-            </sui-form-field>
-            <sui-button size="large" color="teal" fluid>Login</sui-button>
-          </sui-segment>
-        </sui-form>
+            </xui-form-field>
+            <xui-button size="large" color="teal" fluid>Login</xui-button>
+          </xui-segment>
+        </xui-form>
 
-        <sui-message>New to us? <a href="#">Sign Up</a></sui-message>
-      </sui-grid-column>
-    </sui-grid>
+        <xui-message>New to us? <a href="#">Sign Up</a></xui-message>
+      </xui-grid-column>
+    </xui-grid>
   </div>
 </template>
 

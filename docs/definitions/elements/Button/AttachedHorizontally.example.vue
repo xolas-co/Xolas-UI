@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
-    <sui-button attached="left" content="Left" />
-    <sui-button attached="right" content="Right" />
+    <xui-button attached="left" content="Left" />
+    <xui-button attached="right" content="Right" />
   </div>
 </template>
 

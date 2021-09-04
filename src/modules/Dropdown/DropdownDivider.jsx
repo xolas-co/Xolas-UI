@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiDropdownDivider',
+  name: 'XuiDropdownDivider',
   mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType();
@@ -14,6 +14,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiDropdown',
+    parent: 'XuiDropdown',
   },
 };

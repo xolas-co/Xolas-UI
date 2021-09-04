@@ -1,15 +1,15 @@
 <template lang="html">
-  <sui-item-group divided>
-    <sui-item>
-      <sui-item-image src="static/images/wireframes/image.png" />
-    </sui-item>
-    <sui-item>
-      <sui-item-image src="static/images/wireframes/image.png" />
-    </sui-item>
-    <sui-item>
-      <sui-item-image src="static/images/wireframes/image.png" />
-    </sui-item>
-  </sui-item-group>
+  <xui-item-group divided>
+    <xui-item>
+      <xui-item-image src="static/images/wireframes/image.png" />
+    </xui-item>
+    <xui-item>
+      <xui-item-image src="static/images/wireframes/image.png" />
+    </xui-item>
+    <xui-item>
+      <xui-item-image src="static/images/wireframes/image.png" />
+    </xui-item>
+  </xui-item-group>
 </template>
 
 <script>

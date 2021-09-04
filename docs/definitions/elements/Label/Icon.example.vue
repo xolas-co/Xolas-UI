@@ -1,12 +1,12 @@
 <template>
   <div>
-    <a is="sui-label">
-      <sui-icon name="mail" />
+    <a is="xui-label">
+      <xui-icon name="mail" />
       Mail
     </a>
-    <a is="sui-label">
+    <a is="xui-label">
       Tag
-      <sui-icon name="delete" />
+      <xui-icon name="delete" />
     </a>
   </div>
 </template>

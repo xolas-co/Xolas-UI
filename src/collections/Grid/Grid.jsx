@@ -2,7 +2,7 @@ import { VueXolasUIMixin, textAlign } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiGrid',
+  name: 'XuiGrid',
   mixins: [VueXolasUIMixin],
   description: 'A grid is used to harmonize negative space in a layout.',
   props: {

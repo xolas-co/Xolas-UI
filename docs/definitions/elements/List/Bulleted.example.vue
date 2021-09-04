@@ -1,17 +1,17 @@
 <template>
-  <sui-list bulleted>
-    <sui-list-item>Gaining Access</sui-list-item>
-    <sui-list-item>Inviting Friends</sui-list-item>
-    <sui-list-item>
+  <xui-list bulleted>
+    <xui-list-item>Gaining Access</xui-list-item>
+    <xui-list-item>Inviting Friends</xui-list-item>
+    <xui-list-item>
       Benefits
-      <sui-list-list>
-        <sui-list-item href="#">Link to somewhere</sui-list-item>
-        <sui-list-item>Rebates</sui-list-item>
-        <sui-list-item>Discounts</sui-list-item>
-      </sui-list-list>
-    </sui-list-item>
-    <sui-list-item>Warranty</sui-list-item>
-  </sui-list>
+      <xui-list-list>
+        <xui-list-item href="#">Link to somewhere</xui-list-item>
+        <xui-list-item>Rebates</xui-list-item>
+        <xui-list-item>Discounts</xui-list-item>
+      </xui-list-list>
+    </xui-list-item>
+    <xui-list-item>Warranty</xui-list-item>
+  </xui-list>
 </template>
 
 <script>

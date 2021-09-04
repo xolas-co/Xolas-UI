@@ -9,7 +9,7 @@ config.output = {
   publicPath: '/',
   filename: options =>
     transformFileName(options)
-      .replace(/\/([^/]+)\./, name => `/sui-${kebabCase(name)}.min.`)
+      .replace(/\/([^/]+)\./, name => `/xui-${kebabCase(name)}.min.`)
       .toLowerCase(),
   library: ['VueXolasUI', '[name]'],
   libraryExport: 'default',

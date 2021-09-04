@@ -1,12 +1,12 @@
 <template lang="html">
-  <sui-segment>
-    <sui-dimmer active inverted>
-      <sui-loader>Loading</sui-loader>
-    </sui-dimmer>
+  <xui-segment>
+    <xui-dimmer active inverted>
+      <xui-loader>Loading</xui-loader>
+    </xui-dimmer>
     <br />
     <br />
     <br />
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

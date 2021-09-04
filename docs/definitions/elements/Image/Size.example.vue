@@ -1,20 +1,20 @@
 <template>
   <div>
-    <sui-image :src="src" size="mini" />
-    <sui-divider hidden />
-    <sui-image :src="src" size="tiny" />
-    <sui-divider hidden />
-    <sui-image :src="src" size="small" />
-    <sui-divider hidden />
-    <sui-image :src="src" size="medium" />
-    <sui-divider hidden />
-    <sui-image :src="src" size="large" />
-    <sui-divider hidden />
-    <sui-image :src="src" size="big" />
-    <sui-divider hidden />
-    <sui-image :src="src" size="huge" />
-    <sui-divider hidden />
-    <sui-image :src="src" size="massive" />
+    <xui-image :src="src" size="mini" />
+    <xui-divider hidden />
+    <xui-image :src="src" size="tiny" />
+    <xui-divider hidden />
+    <xui-image :src="src" size="small" />
+    <xui-divider hidden />
+    <xui-image :src="src" size="medium" />
+    <xui-divider hidden />
+    <xui-image :src="src" size="large" />
+    <xui-divider hidden />
+    <xui-image :src="src" size="big" />
+    <xui-divider hidden />
+    <xui-image :src="src" size="huge" />
+    <xui-divider hidden />
+    <xui-image :src="src" size="massive" />
   </div>
 </template>
 

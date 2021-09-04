@@ -1,23 +1,23 @@
 <template lang="html">
   <div>
-    <sui-button-group size="large">
-      <sui-button content="One" />
-      <sui-button content="Two" />
-      <sui-button content="Three" />
-    </sui-button-group>
-    <sui-divider />
-    <sui-button-group icons size="small">
-      <sui-button icon="file" />
-      <sui-button icon="save" />
-      <sui-button icon="upload" />
-      <sui-button icon="download" />
-    </sui-button-group>
-    <sui-divider />
-    <sui-button-group size="large">
-      <sui-button content="One" />
-      <sui-button-or />
-      <sui-button content="Two" />
-    </sui-button-group>
+    <xui-button-group size="large">
+      <xui-button content="One" />
+      <xui-button content="Two" />
+      <xui-button content="Three" />
+    </xui-button-group>
+    <xui-divider />
+    <xui-button-group icons size="small">
+      <xui-button icon="file" />
+      <xui-button icon="save" />
+      <xui-button icon="upload" />
+      <xui-button icon="download" />
+    </xui-button-group>
+    <xui-divider />
+    <xui-button-group size="large">
+      <xui-button content="One" />
+      <xui-button-or />
+      <xui-button content="Two" />
+    </xui-button-group>
   </div>
 </template>
 

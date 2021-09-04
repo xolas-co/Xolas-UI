@@ -6,7 +6,7 @@
   >
     <template v-slot="bindings">
       <template v-if="bindings.element.data">
-        <h4 is="sui-header" :id="bindings.id" class="api-h4">
+        <h4 is="xui-header" :id="bindings.id" class="api-h4">
           {{ bindings.element.name }}
         </h4>
         <api-table
@@ -92,7 +92,7 @@ export default {
       return upperFirst(this.componentName);
     },
     suiName() {
-      return `Sui${this.title}`;
+      return `Xui${this.title}`;
     },
     subComponents() {
       return Object.keys(VueXolasUI)

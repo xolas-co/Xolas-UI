@@ -1,7 +1,7 @@
 <template lang="html">
-  <sui-segment compact>
+  <xui-segment compact>
     <p>Vue Xolas UI</p>
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

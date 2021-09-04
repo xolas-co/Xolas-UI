@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-loader active centered inline />
+  <xui-loader active centered inline />
 </template>
 
 <script>

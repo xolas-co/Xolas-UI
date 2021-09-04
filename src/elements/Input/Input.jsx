@@ -1,11 +1,11 @@
 import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
-import SuiButton from '../../elements/Button/Button';
-import SuiIcon from '../../elements/Icon/Icon';
+import XuiButton from '../../elements/Button/Button';
+import XuiIcon from '../../elements/Icon/Icon';
 
 export default {
-  name: 'SuiInput',
-  components: { SuiButton, SuiIcon },
+  name: 'XuiInput',
+  components: { XuiButton, XuiIcon },
   mixins: [VueXolasUIMixin],
   props: {
     action: String,
@@ -46,7 +46,7 @@ export default {
     const ElementType = this.getElementType();
     let icon;
     if (this.loading || this.icon) {
-      icon = <SuiIcon name={this.loading ? 'loading' : this.icon} />;
+      icon = <XuiIcon name={this.loading ? 'loading' : this.icon} />;
     }
 
     return (
@@ -79,7 +79,7 @@ export default {
           {...{ attrs: this.$attrs }}
         />
         {icon}
-        {this.action && <SuiButton content={this.action} />}
+        {this.action && <XuiButton content={this.action} />}
       </ElementType>
     );
   },

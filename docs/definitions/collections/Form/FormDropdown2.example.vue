@@ -1,16 +1,16 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-field>
+  <xui-form>
+    <xui-form-field>
       <label>Country</label>
-      <sui-dropdown
+      <xui-dropdown
         :options="countries"
         placeholder="Select Country"
         search
         selection
         v-model="current"
       />
-    </sui-form-field>
-  </sui-form>
+    </xui-form-field>
+  </xui-form>
 </template>
 
 <script>

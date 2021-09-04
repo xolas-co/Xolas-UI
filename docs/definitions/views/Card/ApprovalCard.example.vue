@@ -1,19 +1,19 @@
 <template lang="html">
   <div>
-    <sui-card>
-      <sui-card-content>
-        <sui-card-header
+    <xui-card>
+      <xui-card-content>
+        <xui-card-header
           >Cute Dog
-          <sui-icon class="right floated" size="small" name="like" />
-          <sui-icon class="right floated" size="small" name="star" />
-        </sui-card-header>
-        <sui-image src="static/images/wireframes/paragraph.png" />
-      </sui-card-content>
-      <sui-card-content extra>
-        <span> <sui-icon name="heart" /> Like </span>
-        <span slot="right"> <sui-icon name="star" /> Favorite </span>
-      </sui-card-content>
-    </sui-card>
+          <xui-icon class="right floated" size="small" name="like" />
+          <xui-icon class="right floated" size="small" name="star" />
+        </xui-card-header>
+        <xui-image src="static/images/wireframes/paragraph.png" />
+      </xui-card-content>
+      <xui-card-content extra>
+        <span> <xui-icon name="heart" /> Like </span>
+        <span slot="right"> <xui-icon name="star" /> Favorite </span>
+      </xui-card-content>
+    </xui-card>
   </div>
 </template>
 

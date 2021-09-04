@@ -1,18 +1,18 @@
 <template lang="html">
-  <sui-step-group>
-    <a is="sui-step" active icon="truck">
-      <sui-step-content
+  <xui-step-group>
+    <a is="xui-step" active icon="truck">
+      <xui-step-content
         title="Shipping"
         description="Choose your shipping options"
       />
     </a>
-    <a is="sui-step">
-      <sui-step-content
+    <a is="xui-step">
+      <xui-step-content
         title="Billing"
         description="Enter billing information"
       />
     </a>
-  </sui-step-group>
+  </xui-step-group>
 </template>
 
 <script>

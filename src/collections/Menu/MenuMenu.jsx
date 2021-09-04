@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiMenuMenu',
+  name: 'XuiMenuMenu',
   mixins: [VueXolasUIMixin],
   props: {
     position: Enum(['left', 'right'], {
@@ -21,6 +21,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiMenu',
+    parent: 'XuiMenu',
   },
 };

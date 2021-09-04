@@ -1,20 +1,20 @@
 <template>
-  <sui-grid :columns="3" divided>
-    <sui-grid-row stretched>
-      <sui-grid-column>
-        <sui-segment>1</sui-segment>
-      </sui-grid-column>
-      <sui-grid-column>
-        <sui-segment>1</sui-segment>
-        <sui-segment>2</sui-segment>
-      </sui-grid-column>
-      <sui-grid-column>
-        <sui-segment>1</sui-segment>
-        <sui-segment>2</sui-segment>
-        <sui-segment>3</sui-segment>
-      </sui-grid-column>
-    </sui-grid-row>
-  </sui-grid>
+  <xui-grid :columns="3" divided>
+    <xui-grid-row stretched>
+      <xui-grid-column>
+        <xui-segment>1</xui-segment>
+      </xui-grid-column>
+      <xui-grid-column>
+        <xui-segment>1</xui-segment>
+        <xui-segment>2</xui-segment>
+      </xui-grid-column>
+      <xui-grid-column>
+        <xui-segment>1</xui-segment>
+        <xui-segment>2</xui-segment>
+        <xui-segment>3</xui-segment>
+      </xui-grid-column>
+    </xui-grid-row>
+  </xui-grid>
 </template>
 
 <script>

@@ -20,7 +20,7 @@ export default {
   mounted() {
     let parent = this.$parent;
     while (parent && !this.accordion) {
-      if (parent.$options.name === 'SuiAccordion') {
+      if (parent.$options.name === 'XuiAccordion') {
         this.accordion = parent;
       }
 
@@ -29,7 +29,7 @@ export default {
 
     if (!this.accordion) {
       throw new Error(
-        `${this.$options.name} must be place as a child of a SuiAccordion`,
+        `${this.$options.name} must be place as a child of a XuiAccordion`,
       );
     }
 
@@ -41,6 +41,6 @@ export default {
     },
   },
   meta: {
-    parent: 'SuiAccordion',
+    parent: 'XuiAccordion',
   },
 };

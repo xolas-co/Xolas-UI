@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiMenuHeader',
+  name: 'XuiMenuHeader',
   mixins: [VueXolasUIMixin],
   props: {
     content: {
@@ -18,6 +18,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiMenu',
+    parent: 'XuiMenu',
   },
 };

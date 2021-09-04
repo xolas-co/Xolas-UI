@@ -1,7 +1,7 @@
 import SimpleResults from './SimpleResults';
 
 export default {
-  name: 'SuiSearchCategoryResults',
+  name: 'XuiSearchCategoryResults',
   functional: true,
   props: {
     results: Object,

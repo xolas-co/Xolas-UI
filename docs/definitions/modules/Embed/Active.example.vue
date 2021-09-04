@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-embed
+    <xui-embed
       :active="active"
       icon="arrow circle down"
       id="90Omh7_I8vI"
@@ -8,9 +8,9 @@
       source="youtube"
     />
 
-    <sui-divider hidden />
+    <xui-divider hidden />
 
-    <sui-button
+    <xui-button
       content="Activate"
       icon="bomb"
       label-position="left"

@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiCheckbox',
+  name: 'XuiCheckbox',
   model: {
     prop: 'inputValue',
     event: 'change',

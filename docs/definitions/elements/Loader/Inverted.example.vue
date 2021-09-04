@@ -1,11 +1,11 @@
 <template lang="html">
-  <sui-segment inverted>
-    <sui-loader inverted active />
+  <xui-segment inverted>
+    <xui-loader inverted active />
     <br />
     <br />
     <br />
     <br />
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

@@ -1,17 +1,17 @@
 <template lang="html">
-  <sui-form>
-    <sui-message>
-      <sui-message-header>We had some issues</sui-message-header>
-      <sui-message-list>
-        <sui-message-item>
+  <xui-form>
+    <xui-message>
+      <xui-message-header>We had some issues</xui-message-header>
+      <xui-message-list>
+        <xui-message-item>
           Please enter your first name
-        </sui-message-item>
-        <sui-message-item>
+        </xui-message-item>
+        <xui-message-item>
           Please enter your last name
-        </sui-message-item>
-      </sui-message-list>
-    </sui-message>
-  </sui-form>
+        </xui-message-item>
+      </xui-message-list>
+    </xui-message>
+  </xui-form>
 </template>
 
 <script>

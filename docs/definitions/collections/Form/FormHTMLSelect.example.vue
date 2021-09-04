@@ -1,13 +1,13 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-field>
+  <xui-form>
+    <xui-form-field>
       <select v-model="current" placeholder="Gender">
         <option disabled value="">Gender</option>
         <option>Male</option>
         <option>Female</option>
       </select>
-    </sui-form-field>
-  </sui-form>
+    </xui-form-field>
+  </xui-form>
 </template>
 
 <script>

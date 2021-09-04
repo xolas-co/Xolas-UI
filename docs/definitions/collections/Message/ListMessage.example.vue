@@ -1,18 +1,18 @@
 <template lang="html">
   <div>
-    <sui-message>
-      <sui-message-header>New Site Features</sui-message-header>
-      <sui-message-list>
-        <sui-message-item>
+    <xui-message>
+      <xui-message-header>New Site Features</xui-message-header>
+      <xui-message-list>
+        <xui-message-item>
           You can now have cover images on blog pages
-        </sui-message-item>
-        <sui-message-item>
+        </xui-message-item>
+        <xui-message-item>
           Drafts will now auto-save while writing
-        </sui-message-item>
-      </sui-message-list>
-    </sui-message>
+        </xui-message-item>
+      </xui-message-list>
+    </xui-message>
 
-    <sui-message header="New Site Features" :list="list" />
+    <xui-message header="New Site Features" :list="list" />
   </div>
 </template>
 

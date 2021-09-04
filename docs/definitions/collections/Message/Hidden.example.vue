@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
-    <sui-message hidden>
+    <xui-message hidden>
       <p>You can't see me</p>
-    </sui-message>
+    </xui-message>
   </div>
 </template>
 

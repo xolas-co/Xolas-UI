@@ -1,7 +1,7 @@
 <template>
-  <sui-popup content="Copy code" position="top center">
-    <sui-icon name="copy" slot="trigger" ref="button" :class="classProp" />
-  </sui-popup>
+  <xui-popup content="Copy code" position="top center">
+    <xui-icon name="copy" slot="trigger" ref="button" :class="classProp" />
+  </xui-popup>
 </template>
 
 <script>

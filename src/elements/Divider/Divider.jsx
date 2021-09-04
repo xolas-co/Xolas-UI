@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiDivider',
+  name: 'XuiDivider',
   mixins: [VueXolasUIMixin],
   props: {
     clearing: Boolean,

@@ -1,9 +1,9 @@
 import Tab from './Tab';
 
 export default {
-  name: 'SuiTabPane',
+  name: 'XuiTabPane',
   meta: {
-    parent: 'SuiTab',
+    parent: 'XuiTab',
   },
   props: {
     title: {

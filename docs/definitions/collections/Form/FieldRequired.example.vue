@@ -1,13 +1,13 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-field required>
+  <xui-form>
+    <xui-form-field required>
       <label>Last name</label>
       <input type="text" placeholder="Last name" />
-    </sui-form-field>
-    <sui-form-field required inline>
-      <sui-checkbox label="I agree to the Terms and Conditions" />
-    </sui-form-field>
-  </sui-form>
+    </xui-form-field>
+    <xui-form-field required inline>
+      <xui-checkbox label="I agree to the Terms and Conditions" />
+    </xui-form-field>
+  </xui-form>
 </template>
 
 <script>

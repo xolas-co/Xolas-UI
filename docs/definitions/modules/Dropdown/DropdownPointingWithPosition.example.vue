@@ -1,12 +1,12 @@
 <template lang="html">
   <div id="app">
-    <sui-dropdown class="icon" icon="wrench" button pointing="bottom left">
-      <sui-dropdown-menu>
-        <sui-dropdown-item>New</sui-dropdown-item>
-        <sui-dropdown-item>Save As</sui-dropdown-item>
-        <sui-dropdown-item>Edit</sui-dropdown-item>
-      </sui-dropdown-menu>
-    </sui-dropdown>
+    <xui-dropdown class="icon" icon="wrench" button pointing="bottom left">
+      <xui-dropdown-menu>
+        <xui-dropdown-item>New</xui-dropdown-item>
+        <xui-dropdown-item>Save As</xui-dropdown-item>
+        <xui-dropdown-item>Edit</xui-dropdown-item>
+      </xui-dropdown-menu>
+    </xui-dropdown>
   </div>
 </template>
 

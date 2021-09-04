@@ -1,16 +1,16 @@
 <template>
   <div>
-    <sui-tab active-index="2">
-      <sui-tab-pane title="Circle">
+    <xui-tab active-index="2">
+      <xui-tab-pane title="Circle">
         Circle
-      </sui-tab-pane>
-      <sui-tab-pane title="Box">
+      </xui-tab-pane>
+      <xui-tab-pane title="Box">
         Box
-      </sui-tab-pane>
-      <sui-tab-pane title="Triangle">
+      </xui-tab-pane>
+      <xui-tab-pane title="Triangle">
         Triangle
-      </sui-tab-pane>
-    </sui-tab>
+      </xui-tab-pane>
+    </xui-tab>
   </div>
 </template>
 

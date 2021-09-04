@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-input placeholder="Search..." icon="search" />
+  <xui-input placeholder="Search..." icon="search" />
 </template>
 
 <script>

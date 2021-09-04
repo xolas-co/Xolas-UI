@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiCommentAvatar',
+  name: 'XuiCommentAvatar',
   mixins: [VueXolasUIMixin],
   props: {
     src: String,
@@ -18,6 +18,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiComment',
+    parent: 'XuiComment',
   },
 };

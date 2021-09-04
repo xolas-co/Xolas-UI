@@ -1,18 +1,18 @@
 <template lang="html">
-  <div is="sui-segment" inverted>
-    <sui-button color="red" inverted>Red</sui-button>
-    <sui-button color="orange" inverted>Orange</sui-button>
-    <sui-button color="yellow" inverted>Yellow</sui-button>
-    <sui-button color="olive" inverted>Olive</sui-button>
-    <sui-button color="green" inverted>Green</sui-button>
-    <sui-button color="teal" inverted>Teal</sui-button>
-    <sui-button color="blue" inverted>Blue</sui-button>
-    <sui-button color="violet" inverted>Violet</sui-button>
-    <sui-button color="purple" inverted>Purple</sui-button>
-    <sui-button color="pink" inverted>Pink</sui-button>
-    <sui-button color="brown" inverted>Brown</sui-button>
-    <sui-button color="grey" inverted>Grey</sui-button>
-    <sui-button color="black" inverted>Black</sui-button>
+  <div is="xui-segment" inverted>
+    <xui-button color="red" inverted>Red</xui-button>
+    <xui-button color="orange" inverted>Orange</xui-button>
+    <xui-button color="yellow" inverted>Yellow</xui-button>
+    <xui-button color="olive" inverted>Olive</xui-button>
+    <xui-button color="green" inverted>Green</xui-button>
+    <xui-button color="teal" inverted>Teal</xui-button>
+    <xui-button color="blue" inverted>Blue</xui-button>
+    <xui-button color="violet" inverted>Violet</xui-button>
+    <xui-button color="purple" inverted>Purple</xui-button>
+    <xui-button color="pink" inverted>Pink</xui-button>
+    <xui-button color="brown" inverted>Brown</xui-button>
+    <xui-button color="grey" inverted>Grey</xui-button>
+    <xui-button color="black" inverted>Black</xui-button>
   </div>
 </template>
 

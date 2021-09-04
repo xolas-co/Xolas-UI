@@ -1,20 +1,20 @@
 <template lang="html">
-  <sui-grid centered :columns="3">
-    <sui-grid-column>
-      <sui-segment>
+  <xui-grid centered :columns="3">
+    <xui-grid-column>
+      <xui-segment>
         <docs-wireframe name="paragraph" />
         <docs-wireframe name="paragraph" />
 
-        <sui-rail position="left">
-          <sui-segment>Left Rail Content</sui-segment>
-        </sui-rail>
+        <xui-rail position="left">
+          <xui-segment>Left Rail Content</xui-segment>
+        </xui-rail>
 
-        <sui-rail position="right">
-          <sui-segment>Right Rail Content</sui-segment>
-        </sui-rail>
-      </sui-segment>
-    </sui-grid-column>
-  </sui-grid>
+        <xui-rail position="right">
+          <xui-segment>Right Rail Content</xui-segment>
+        </xui-rail>
+      </xui-segment>
+    </xui-grid-column>
+  </xui-grid>
 </template>
 
 <script>

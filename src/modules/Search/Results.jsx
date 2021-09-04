@@ -4,7 +4,7 @@ import SimpleResults from './SimpleResults';
 import Result from './Result';
 
 export default {
-  name: 'SuiSearchResults',
+  name: 'XuiSearchResults',
   mixins: [VueXolasUIMixin],
   props: {
     category: Boolean,

@@ -1,25 +1,25 @@
 <template lang="html">
-  <sui-grid :columns="2">
-    <sui-grid-column>
-      <sui-step-group fluid vertical>
-        <sui-step
+  <xui-grid :columns="2">
+    <xui-grid-column>
+      <xui-step-group fluid vertical>
+        <xui-step
           title="Shipping"
           description="Choose your shipping options"
           icon="plane"
           completed
         />
-        <sui-step
+        <xui-step
           active
           title="Billing"
           description="Enter billing information"
           icon="dollar"
         />
-      </sui-step-group>
-    </sui-grid-column>
-    <sui-grid-column>
+      </xui-step-group>
+    </xui-grid-column>
+    <xui-grid-column>
       <p>The steps take up the entire column width</p>
-    </sui-grid-column>
-  </sui-grid>
+    </xui-grid-column>
+  </xui-grid>
 </template>
 
 <script>

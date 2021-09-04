@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiItemHeader',
+  name: 'XuiItemHeader',
   mixins: [VueXolasUIMixin],
   description: 'An item can contain a header',
   props: {
@@ -19,6 +19,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiItem',
+    parent: 'XuiItem',
   },
 };

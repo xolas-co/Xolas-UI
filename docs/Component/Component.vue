@@ -12,7 +12,7 @@ import Definitions from './Definitions/Definitions';
 import Api from './Api/Api';
 
 export default {
-  name: 'SuiComponent',
+  name: 'XuiComponent',
   components: {
     ComponentHead,
     Definitions,

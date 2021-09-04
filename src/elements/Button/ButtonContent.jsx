@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiButtonContent',
+  name: 'XuiButtonContent',
   mixins: [VueXolasUIMixin],
   props: {
     visible: {
@@ -27,6 +27,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiButton',
+    parent: 'XuiButton',
   },
 };

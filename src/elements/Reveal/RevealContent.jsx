@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiRevealContent',
+  name: 'XuiRevealContent',
   mixins: [VueXolasUIMixin],
   props: {
     visible: Boolean,
@@ -24,6 +24,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiReveal',
+    parent: 'XuiReveal',
   },
 };

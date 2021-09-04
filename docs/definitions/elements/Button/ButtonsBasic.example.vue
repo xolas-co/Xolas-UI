@@ -1,16 +1,16 @@
 <template lang="html">
   <div>
-    <sui-button-group basic>
-      <sui-button content="One" />
-      <sui-button content="Two" />
-      <sui-button content="Three" />
-    </sui-button-group>
-    <sui-divider />
-    <sui-button-group vertical basic>
-      <sui-button content="One" />
-      <sui-button content="Two" />
-      <sui-button content="Three" />
-    </sui-button-group>
+    <xui-button-group basic>
+      <xui-button content="One" />
+      <xui-button content="Two" />
+      <xui-button content="Three" />
+    </xui-button-group>
+    <xui-divider />
+    <xui-button-group vertical basic>
+      <xui-button content="One" />
+      <xui-button content="Two" />
+      <xui-button content="Three" />
+    </xui-button-group>
   </div>
 </template>
 

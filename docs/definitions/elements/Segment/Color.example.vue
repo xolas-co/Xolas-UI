@@ -1,18 +1,18 @@
 <template lang="html">
   <div>
-    <sui-segment color="red">Red</sui-segment>
-    <sui-segment color="orange">Orange</sui-segment>
-    <sui-segment color="yellow">Yellow</sui-segment>
-    <sui-segment color="olive">Olive</sui-segment>
-    <sui-segment color="green">Green</sui-segment>
-    <sui-segment color="teal">Teal</sui-segment>
-    <sui-segment color="blue">Blue</sui-segment>
-    <sui-segment color="violet">Violet</sui-segment>
-    <sui-segment color="purple">Purple</sui-segment>
-    <sui-segment color="pink">Pink</sui-segment>
-    <sui-segment color="brown">Brown</sui-segment>
-    <sui-segment color="grey">Grey</sui-segment>
-    <sui-segment color="black">Black</sui-segment>
+    <xui-segment color="red">Red</xui-segment>
+    <xui-segment color="orange">Orange</xui-segment>
+    <xui-segment color="yellow">Yellow</xui-segment>
+    <xui-segment color="olive">Olive</xui-segment>
+    <xui-segment color="green">Green</xui-segment>
+    <xui-segment color="teal">Teal</xui-segment>
+    <xui-segment color="blue">Blue</xui-segment>
+    <xui-segment color="violet">Violet</xui-segment>
+    <xui-segment color="purple">Purple</xui-segment>
+    <xui-segment color="pink">Pink</xui-segment>
+    <xui-segment color="brown">Brown</xui-segment>
+    <xui-segment color="grey">Grey</xui-segment>
+    <xui-segment color="black">Black</xui-segment>
   </div>
 </template>
 

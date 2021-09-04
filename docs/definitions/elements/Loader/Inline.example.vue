@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-loader active inline />
+  <xui-loader active inline />
 </template>
 
 <script>

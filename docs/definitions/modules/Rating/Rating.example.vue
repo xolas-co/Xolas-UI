@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-rating :rating="value" :max-rating="5" />
+    <xui-rating :rating="value" :max-rating="5" />
   </div>
 </template>
 

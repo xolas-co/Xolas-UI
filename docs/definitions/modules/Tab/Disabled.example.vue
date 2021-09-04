@@ -1,20 +1,20 @@
 <template>
   <div>
-    <sui-button @click="toggleDisabled">Toggle Disabled Tab</sui-button>
+    <xui-button @click="toggleDisabled">Toggle Disabled Tab</xui-button>
 
-    <sui-divider hidden />
+    <xui-divider hidden />
 
-    <sui-tab>
-      <sui-tab-pane title="Circle">
+    <xui-tab>
+      <xui-tab-pane title="Circle">
         Circle
-      </sui-tab-pane>
-      <sui-tab-pane title="Box">
+      </xui-tab-pane>
+      <xui-tab-pane title="Box">
         Box
-      </sui-tab-pane>
-      <sui-tab-pane title="Secret Triangle" :disabled="disabled">
+      </xui-tab-pane>
+      <xui-tab-pane title="Secret Triangle" :disabled="disabled">
         Secret Triangle
-      </sui-tab-pane>
-    </sui-tab>
+      </xui-tab-pane>
+    </xui-tab>
   </div>
 </template>
 

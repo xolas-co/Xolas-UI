@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiItemMeta',
+  name: 'XuiItemMeta',
   mixins: [VueXolasUIMixin],
   description: 'An item can contain content metadata',
   props: {},
@@ -14,6 +14,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiItem',
+    parent: 'XuiItem',
   },
 };

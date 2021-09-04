@@ -1,23 +1,23 @@
 <template>
   <div>
-    <sui-popup>
-      <sui-popup-header>User Rating</sui-popup-header>
-      <sui-popup-content>
-        <sui-rating icon="star" :default-rating="3" :max-rating="4" />
-      </sui-popup-content>
+    <xui-popup>
+      <xui-popup-header>User Rating</xui-popup-header>
+      <xui-popup-content>
+        <xui-rating icon="star" :default-rating="3" :max-rating="4" />
+      </xui-popup-content>
 
-      <sui-card slot="trigger">
-        <sui-image src="static/images/movies/totoro-horizontal.jpg" />
-        <sui-card-content>
-          <sui-card-header>My Neighbor Totoro</sui-card-header>
-          <sui-card-description>
+      <xui-card slot="trigger">
+        <xui-image src="static/images/movies/totoro-horizontal.jpg" />
+        <xui-card-content>
+          <xui-card-header>My Neighbor Totoro</xui-card-header>
+          <xui-card-description>
             Two sisters move to the country with their father in order to be
             closer to their hospitalized mother, and discover the surrounding
             trees are inhabited by magical spirits.
-          </sui-card-description>
-        </sui-card-content>
-      </sui-card>
-    </sui-popup>
+          </xui-card-description>
+        </xui-card-content>
+      </xui-card>
+    </xui-popup>
   </div>
 </template>
 

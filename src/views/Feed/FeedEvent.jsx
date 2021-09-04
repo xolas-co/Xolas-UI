@@ -2,13 +2,13 @@ import { VueXolasUIMixin } from '../../lib';
 import { FeedLabel, FeedContent } from './';
 
 export default {
-  name: 'SuiFeedEvent',
+  name: 'XuiFeedEvent',
   mixins: [VueXolasUIMixin],
   description: 'A feed contains an event',
   props: {
     content: {
       type: String,
-      description: 'Shorthand for SuiFeedContent',
+      description: 'Shorthand for XuiFeedContent',
     },
     image: {
       type: String,
@@ -20,23 +20,23 @@ export default {
     },
     date: {
       type: String,
-      description: 'Shorthand for SuiFeedDate',
+      description: 'Shorthand for XuiFeedDate',
     },
     summary: {
       type: String,
-      description: 'Shorthand for SuiFeedSummary',
+      description: 'Shorthand for XuiFeedSummary',
     },
     extraImages: {
       type: Array,
-      description: 'Shorthand for SuiFeedExtra with images',
+      description: 'Shorthand for XuiFeedExtra with images',
     },
     extraText: {
       type: String,
-      description: 'Shorthand for SuiFeedExtra with text',
+      description: 'Shorthand for XuiFeedExtra with text',
     },
     meta: {
       type: String,
-      description: 'Shorthand for SuiFeedMeta',
+      description: 'Shorthand for XuiFeedMeta',
     },
   },
   render() {
@@ -70,6 +70,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiFeed',
+    parent: 'XuiFeed',
   },
 };

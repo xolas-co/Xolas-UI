@@ -1,9 +1,9 @@
 <template lang="html">
   <div>
-    <sui-button icon="cloud" />
-    <sui-button icon>
-      <sui-icon name="cloud" />
-    </sui-button>
+    <xui-button icon="cloud" />
+    <xui-button icon>
+      <xui-icon name="cloud" />
+    </xui-button>
   </div>
 </template>
 

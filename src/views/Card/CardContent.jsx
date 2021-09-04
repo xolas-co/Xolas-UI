@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiCardContent',
+  name: 'XuiCardContent',
   mixins: [VueXolasUIMixin],
   props: {
     extra: Boolean,
@@ -21,6 +21,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiCard',
+    parent: 'XuiCard',
   },
 };

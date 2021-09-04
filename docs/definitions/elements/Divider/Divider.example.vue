@@ -1,7 +1,7 @@
 <template>
   <div>
     <docs-wireframe name="short-paragraph" />
-    <sui-divider />
+    <xui-divider />
     <docs-wireframe name="short-paragraph" />
   </div>
 </template>

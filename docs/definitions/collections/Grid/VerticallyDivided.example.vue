@@ -1,25 +1,25 @@
 <template lang="html">
-  <sui-grid divided="vertically">
-    <sui-grid-row :columns="2">
-      <sui-grid-column>
+  <xui-grid divided="vertically">
+    <xui-grid-row :columns="2">
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-      <sui-grid-column>
+      </xui-grid-column>
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-    </sui-grid-row>
-    <sui-grid-row :columns="3">
-      <sui-grid-column>
+      </xui-grid-column>
+    </xui-grid-row>
+    <xui-grid-row :columns="3">
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-      <sui-grid-column>
+      </xui-grid-column>
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-      <sui-grid-column>
+      </xui-grid-column>
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-    </sui-grid-row>
-  </sui-grid>
+      </xui-grid-column>
+    </xui-grid-row>
+  </xui-grid>
 </template>
 
 <script>

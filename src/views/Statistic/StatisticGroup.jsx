@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiStatisticsGroup',
+  name: 'XuiStatisticsGroup',
   mixins: [VueXolasUIMixin],
   props: {
     horizontal: Boolean,
@@ -26,6 +26,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiStatistic',
+    parent: 'XuiStatistic',
   },
 };

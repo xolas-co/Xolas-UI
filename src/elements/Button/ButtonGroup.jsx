@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiButtonGroup',
+  name: 'XuiButtonGroup',
   mixins: [VueXolasUIMixin],
   props: {
     attached: Enum(['top', 'bottom']),
@@ -38,6 +38,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiButton',
+    parent: 'XuiButton',
   },
 };

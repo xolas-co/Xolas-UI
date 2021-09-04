@@ -1,87 +1,87 @@
 <template lang="html">
-  <sui-table basic="very" celled collapsing>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Employee</sui-table-header-cell>
-        <sui-table-header-cell>Correct Guesses</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
+  <xui-table basic="very" celled collapsing>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Employee</xui-table-header-cell>
+        <xui-table-header-cell>Correct Guesses</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
 
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>
-          <h4 is="sui-header" image>
-            <sui-image
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>
+          <h4 is="xui-header" image>
+            <xui-image
               src="static/images/avatar/small/lena.png"
               shape="rounded"
               size="mini"
             />
-            <sui-header-content>
+            <xui-header-content>
               Lena
-              <sui-header-subheader>Human Resources</sui-header-subheader>
-            </sui-header-content>
+              <xui-header-subheader>Human Resources</xui-header-subheader>
+            </xui-header-content>
           </h4>
-        </sui-table-cell>
-        <sui-table-cell>
+        </xui-table-cell>
+        <xui-table-cell>
           22
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>
-          <h4 is="sui-header" image>
-            <sui-image
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>
+          <h4 is="xui-header" image>
+            <xui-image
               src="static/images/avatar/small/matthew.png"
               shape="rounded"
               size="mini"
             />
-            <sui-header-content>
+            <xui-header-content>
               Matthew
-              <sui-header-subheader>Fabric Design</sui-header-subheader>
-            </sui-header-content>
+              <xui-header-subheader>Fabric Design</xui-header-subheader>
+            </xui-header-content>
           </h4>
-        </sui-table-cell>
-        <sui-table-cell>
+        </xui-table-cell>
+        <xui-table-cell>
           15
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>
-          <h4 is="sui-header" image>
-            <sui-image
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>
+          <h4 is="xui-header" image>
+            <xui-image
               src="static/images/avatar/small/lindsay.png"
               shape="rounded"
               size="mini"
             />
-            <sui-header-content>
+            <xui-header-content>
               Lindsay
-              <sui-header-subheader>Entertainment</sui-header-subheader>
-            </sui-header-content>
+              <xui-header-subheader>Entertainment</xui-header-subheader>
+            </xui-header-content>
           </h4>
-        </sui-table-cell>
-        <sui-table-cell>
+        </xui-table-cell>
+        <xui-table-cell>
           12
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>
-          <h4 is="sui-header" image>
-            <sui-image
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>
+          <h4 is="xui-header" image>
+            <xui-image
               src="static/images/avatar/small/mark.png"
               shape="rounded"
               size="mini"
             />
-            <sui-header-content>
+            <xui-header-content>
               Mark
-              <sui-header-subheader>Executive</sui-header-subheader>
-            </sui-header-content>
+              <xui-header-subheader>Executive</xui-header-subheader>
+            </xui-header-content>
           </h4>
-        </sui-table-cell>
-        <sui-table-cell>
+        </xui-table-cell>
+        <xui-table-cell>
           11
-        </sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+        </xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

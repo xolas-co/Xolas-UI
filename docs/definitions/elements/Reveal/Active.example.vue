@@ -1,12 +1,12 @@
 <template>
-  <sui-reveal active animated="move">
-    <sui-reveal-content visible>
-      <sui-image src="static/images/wireframes/square-image.png" size="small" />
-    </sui-reveal-content>
-    <sui-reveal-content hidden>
-      <sui-image src="static/images/avatar/large/nan.jpg" size="small" />
-    </sui-reveal-content>
-  </sui-reveal>
+  <xui-reveal active animated="move">
+    <xui-reveal-content visible>
+      <xui-image src="static/images/wireframes/square-image.png" size="small" />
+    </xui-reveal-content>
+    <xui-reveal-content hidden>
+      <xui-image src="static/images/avatar/large/nan.jpg" size="small" />
+    </xui-reveal-content>
+  </xui-reveal>
 </template>
 
 <script>

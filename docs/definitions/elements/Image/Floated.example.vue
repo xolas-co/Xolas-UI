@@ -1,6 +1,6 @@
 <template>
-  <sui-segment>
-    <sui-image
+  <xui-segment>
+    <xui-image
       src="static/images/wireframes/image-text.png"
       size="small"
       floated="left"
@@ -12,7 +12,7 @@
       electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei
       ex natum rebum iisque.
     </p>
-    <sui-image
+    <xui-image
       src="static/images/wireframes/image-text.png"
       size="small"
       floated="right"
@@ -30,7 +30,7 @@
       everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu
       per, quas minimum postulant per id.
     </p>
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

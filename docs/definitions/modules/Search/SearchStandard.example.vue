@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-search placeholder="Common passwords..." />
+  <xui-search placeholder="Common passwords..." />
 </template>
 
 <script>

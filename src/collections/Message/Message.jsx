@@ -1,19 +1,19 @@
 import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
-import SuiIcon from '../../elements/Icon/Icon';
-import SuiMessageContent from './MessageContent';
-import SuiMessageHeader from './MessageHeader';
-import SuiMessageItem from './MessageItem';
-import SuiMessageList from './MessageList';
+import XuiIcon from '../../elements/Icon/Icon';
+import XuiMessageContent from './MessageContent';
+import XuiMessageHeader from './MessageHeader';
+import XuiMessageItem from './MessageItem';
+import XuiMessageList from './MessageList';
 
 export default {
-  name: 'SuiMessage',
+  name: 'XuiMessage',
   components: {
-    SuiIcon,
-    SuiMessageContent,
-    SuiMessageHeader,
-    SuiMessageItem,
-    SuiMessageList,
+    XuiIcon,
+    XuiMessageContent,
+    XuiMessageHeader,
+    XuiMessageItem,
+    XuiMessageList,
   },
   mixins: [VueXolasUIMixin],
   props: {
@@ -27,7 +27,7 @@ export default {
     },
     header: {
       type: String,
-      description: 'Shorthand for SuiMessageHeader.',
+      description: 'Shorthand for XuiMessageHeader.',
     },
     icon: {
       type: [Boolean, String],
@@ -35,7 +35,7 @@ export default {
     },
     list: {
       type: Array,
-      description: 'Array shorthand items for the SuiMessageList',
+      description: 'Array shorthand items for the XuiMessageList',
     },
     size: Enum(['mini', 'tiny', 'small', 'large', 'big', 'huge', 'massive'], {
       description: 'A message can have different sizes.',
@@ -106,15 +106,15 @@ export default {
   },
   render() {
     const content = [
-      this.header && <SuiMessageHeader>{this.header}</SuiMessageHeader>,
+      this.header && <XuiMessageHeader>{this.header}</XuiMessageHeader>,
       this.content,
       this.$slots.default,
       this.list && (
-        <SuiMessageList>
+        <XuiMessageList>
           {this.list.map(item => (
-            <SuiMessageItem>{item}</SuiMessageItem>
+            <XuiMessageItem>{item}</XuiMessageItem>
           ))}
-        </SuiMessageList>
+        </XuiMessageList>
       ),
     ];
 
@@ -143,9 +143,9 @@ export default {
         )}
       >
         {this.dismissable && (
-          <SuiIcon name="close" nativeOnClick={this.handleDismiss} />
+          <XuiIcon name="close" nativeOnClick={this.handleDismiss} />
         )}
-        {typeof this.icon === 'string' && <SuiIcon name={this.icon} />}
+        {typeof this.icon === 'string' && <XuiIcon name={this.icon} />}
         {!this.icon && content}
       </ElementType>
     );

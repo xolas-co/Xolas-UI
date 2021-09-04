@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { FeedDate, FeedUser } from './';
 
 export default {
-  name: 'SuiFeedSummary',
+  name: 'XuiFeedSummary',
   mixins: [VueXolasUIMixin],
   description: 'A feed can contain a summary',
   props: {
@@ -12,11 +12,11 @@ export default {
     },
     date: {
       type: String,
-      description: 'Shorthand for SuiFeedDate',
+      description: 'Shorthand for XuiFeedDate',
     },
     user: {
       type: String,
-      description: 'Shorthand for SuiFeedUser',
+      description: 'Shorthand for XuiFeedUser',
     },
   },
   render() {
@@ -35,6 +35,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiFeed',
+    parent: 'XuiFeed',
   },
 };

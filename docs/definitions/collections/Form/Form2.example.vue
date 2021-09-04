@@ -1,73 +1,73 @@
 <template lang="html">
-  <sui-form>
-    <sui-header dividing>Shipping Information</sui-header>
-    <sui-form-field>
+  <xui-form>
+    <xui-header dividing>Shipping Information</xui-header>
+    <xui-form-field>
       <label>Name</label>
-      <sui-form-fields fields="two">
-        <sui-form-field>
+      <xui-form-fields fields="two">
+        <xui-form-field>
           <input
             type="text"
             name="shipping[first-name]"
             placeholder="First Name"
           />
-        </sui-form-field>
-        <sui-form-field>
+        </xui-form-field>
+        <xui-form-field>
           <input
             type="text"
             name="shipping[last-name]"
             placeholder="Last Name"
           />
-        </sui-form-field>
-      </sui-form-fields>
-    </sui-form-field>
-    <sui-form-field>
+        </xui-form-field>
+      </xui-form-fields>
+    </xui-form-field>
+    <xui-form-field>
       <label>Billing Address</label>
-      <sui-form-fields>
-        <sui-form-field width="twelve">
+      <xui-form-fields>
+        <xui-form-field width="twelve">
           <input
             type="text"
             name="shipping[address]"
             placeholder="Street Address"
           />
-        </sui-form-field>
-        <sui-form-field width="four">
+        </xui-form-field>
+        <xui-form-field width="four">
           <input type="text" name="shipping[address-2]" placeholder="Apt #" />
-        </sui-form-field>
-      </sui-form-fields>
-    </sui-form-field>
-    <sui-form-fields fields="two">
-      <sui-form-field>
+        </xui-form-field>
+      </xui-form-fields>
+    </xui-form-field>
+    <xui-form-fields fields="two">
+      <xui-form-field>
         <label>State</label>
-        <sui-dropdown
+        <xui-dropdown
           placeholder="State"
           selection
           :options="states"
           v-model="currentState"
         />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <label>State</label>
-        <sui-dropdown
+        <xui-dropdown
           :options="countries"
           placeholder="Country"
           search
           selection
           v-model="currentCountry"
         />
-      </sui-form-field>
-    </sui-form-fields>
-    <sui-header dividing>Billing Information</sui-header>
-    <sui-form-field>
+      </xui-form-field>
+    </xui-form-fields>
+    <xui-header dividing>Billing Information</xui-header>
+    <xui-form-field>
       <label>Card Type</label>
-      <sui-dropdown
+      <xui-dropdown
         placeholder="Type"
         selection
         :options="cardTypes"
         v-model="currentCardType"
       />
-    </sui-form-field>
-    <sui-form-fields>
-      <sui-form-field width="seven">
+    </xui-form-field>
+    <xui-form-fields>
+      <xui-form-field width="seven">
         <label>Card Number</label>
         <input
           type="text"
@@ -75,51 +75,51 @@
           maxlength="16"
           placeholder="Card #"
         />
-      </sui-form-field>
-      <sui-form-field width="three">
+      </xui-form-field>
+      <xui-form-field width="three">
         <label>CVC</label>
         <input type="text" name="card[cvc]" maxlength="3" placeholder="CVC" />
-      </sui-form-field>
-      <sui-form-field width="six">
+      </xui-form-field>
+      <xui-form-field width="six">
         <label>Expiration</label>
-        <sui-form-fields>
-          <sui-form-field>
-            <sui-dropdown
+        <xui-form-fields>
+          <xui-form-field>
+            <xui-dropdown
               placeholder="Month"
               selection
               :options="months"
               v-model="currentMonth"
             />
-          </sui-form-field>
-          <sui-form-field>
+          </xui-form-field>
+          <xui-form-field>
             <input
               type="text"
               name="card[expire-year]"
               maxlength="4"
               placeholder="Year"
             />
-          </sui-form-field>
-        </sui-form-fields>
-      </sui-form-field>
-    </sui-form-fields>
-    <sui-header dividing>Receipt</sui-header>
-    <sui-form-field>
+          </xui-form-field>
+        </xui-form-fields>
+      </xui-form-field>
+    </xui-form-fields>
+    <xui-header dividing>Receipt</xui-header>
+    <xui-form-field>
       <label>Send Receipt To:</label>
-      <sui-dropdown
+      <xui-dropdown
         fluid
         placeholder="Saved Contacts"
         selection
         :options="friends"
         v-model="currentFriend"
       />
-    </sui-form-field>
-    <sui-segment>
-      <sui-form-field>
-        <sui-checkbox toggle label="Do not include a receipt in the package" />
-      </sui-form-field>
-    </sui-segment>
-    <sui-button type="submit">Submit Order</sui-button>
-  </sui-form>
+    </xui-form-field>
+    <xui-segment>
+      <xui-form-field>
+        <xui-checkbox toggle label="Do not include a receipt in the package" />
+      </xui-form-field>
+    </xui-segment>
+    <xui-button type="submit">Submit Order</xui-button>
+  </xui-form>
 </template>
 
 <script>

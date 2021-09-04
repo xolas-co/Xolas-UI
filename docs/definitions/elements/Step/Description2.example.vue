@@ -1,12 +1,12 @@
 <template lang="html">
-  <sui-step-group>
-    <sui-step>
-      <sui-step-content
+  <xui-step-group>
+    <xui-step>
+      <xui-step-content
         title="Shipping"
         description="Choose your shipping options"
       />
-    </sui-step>
-  </sui-step-group>
+    </xui-step>
+  </xui-step-group>
 </template>
 
 <script>

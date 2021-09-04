@@ -1,20 +1,20 @@
 <template lang="html">
   <div>
-    <sui-segment inverted>
-      <sui-progress inverted color="red" />
-      <sui-progress inverted color="orange" />
-      <sui-progress inverted color="yellow" />
-      <sui-progress inverted color="olive" />
-      <sui-progress inverted color="green" />
-      <sui-progress inverted color="teal" />
-      <sui-progress inverted color="blue" />
-      <sui-progress inverted color="violet" />
-      <sui-progress inverted color="purple" />
-      <sui-progress inverted color="pink" />
-      <sui-progress inverted color="brown" />
-      <sui-progress inverted color="grey" />
-      <sui-progress inverted color="black" />
-    </sui-segment>
+    <xui-segment inverted>
+      <xui-progress inverted color="red" />
+      <xui-progress inverted color="orange" />
+      <xui-progress inverted color="yellow" />
+      <xui-progress inverted color="olive" />
+      <xui-progress inverted color="green" />
+      <xui-progress inverted color="teal" />
+      <xui-progress inverted color="blue" />
+      <xui-progress inverted color="violet" />
+      <xui-progress inverted color="purple" />
+      <xui-progress inverted color="pink" />
+      <xui-progress inverted color="brown" />
+      <xui-progress inverted color="grey" />
+      <xui-progress inverted color="black" />
+    </xui-segment>
   </div>
 </template>
 

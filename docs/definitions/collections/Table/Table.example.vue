@@ -1,52 +1,52 @@
 <template lang="html">
-  <sui-table celled>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Header</sui-table-header-cell>
-        <sui-table-header-cell>Header</sui-table-header-cell>
-        <sui-table-header-cell>Header</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
+  <xui-table celled>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Header</xui-table-header-cell>
+        <xui-table-header-cell>Header</xui-table-header-cell>
+        <xui-table-header-cell>Header</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
 
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>
-          <sui-label ribbon>First</sui-label>
-        </sui-table-cell>
-        <sui-table-cell>Cell</sui-table-cell>
-        <sui-table-cell>Cell</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Cell</sui-table-cell>
-        <sui-table-cell>Cell</sui-table-cell>
-        <sui-table-cell>Cell</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Cell</sui-table-cell>
-        <sui-table-cell>Cell</sui-table-cell>
-        <sui-table-cell>Cell</sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>
+          <xui-label ribbon>First</xui-label>
+        </xui-table-cell>
+        <xui-table-cell>Cell</xui-table-cell>
+        <xui-table-cell>Cell</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Cell</xui-table-cell>
+        <xui-table-cell>Cell</xui-table-cell>
+        <xui-table-cell>Cell</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Cell</xui-table-cell>
+        <xui-table-cell>Cell</xui-table-cell>
+        <xui-table-cell>Cell</xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
 
-    <sui-table-footer>
-      <sui-table-row>
-        <sui-table-header-cell colspan="3">
-          <sui-menu v-sui-floated:right pagination>
-            <a is="sui-menu-item" icon>
-              <sui-icon name="left chevron" />
+    <xui-table-footer>
+      <xui-table-row>
+        <xui-table-header-cell colspan="3">
+          <xui-menu v-xui-floated:right pagination>
+            <a is="xui-menu-item" icon>
+              <xui-icon name="left chevron" />
             </a>
-            <a is="sui-menu-item">1</a>
-            <a is="sui-menu-item">2</a>
-            <a is="sui-menu-item">3</a>
-            <a is="sui-menu-item">4</a>
-            <a is="sui-menu-item" icon>
-              <sui-icon name="right chevron" />
+            <a is="xui-menu-item">1</a>
+            <a is="xui-menu-item">2</a>
+            <a is="xui-menu-item">3</a>
+            <a is="xui-menu-item">4</a>
+            <a is="xui-menu-item" icon>
+              <xui-icon name="right chevron" />
             </a>
-          </sui-menu>
-        </sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-footer>
-  </sui-table>
+          </xui-menu>
+        </xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-footer>
+  </xui-table>
 </template>
 
 <script>

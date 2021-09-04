@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiButtonOr',
+  name: 'XuiButtonOr',
   mixins: [VueXolasUIMixin],
   props: {
     text: String,
@@ -19,6 +19,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiButton',
+    parent: 'XuiButton',
   },
 };

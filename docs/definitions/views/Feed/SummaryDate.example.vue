@@ -1,17 +1,17 @@
 <template lang="html">
-  <sui-feed>
-    <sui-feed-event>
-      <sui-feed-label>
-        <sui-image src="static/images/avatar/small/jenny.jpg" />
-      </sui-feed-label>
-      <sui-feed-content>
-        <sui-feed-summary>
+  <xui-feed>
+    <xui-feed-event>
+      <xui-feed-label>
+        <xui-image src="static/images/avatar/small/jenny.jpg" />
+      </xui-feed-label>
+      <xui-feed-content>
+        <xui-feed-summary>
           You added <a>Jenny Hess</a> to your <a>coworker</a> group.
-          <sui-feed-date>3 days ago</sui-feed-date>
-        </sui-feed-summary>
-      </sui-feed-content>
-    </sui-feed-event>
-  </sui-feed>
+          <xui-feed-date>3 days ago</xui-feed-date>
+        </xui-feed-summary>
+      </xui-feed-content>
+    </xui-feed-event>
+  </xui-feed>
 </template>
 
 <script>

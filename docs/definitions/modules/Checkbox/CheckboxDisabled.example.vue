@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-checkbox label="checkbox" disabled v-model="value" />
+    <xui-checkbox label="checkbox" disabled v-model="value" />
   </div>
 </template>
 

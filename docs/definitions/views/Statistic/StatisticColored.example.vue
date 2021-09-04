@@ -1,102 +1,102 @@
 <template lang="html">
-  <sui-statistics-group>
-    <sui-statistic in-group color="red">
-      <sui-statistic-value>
+  <xui-statistics-group>
+    <xui-statistic in-group color="red">
+      <xui-statistic-value>
         27
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Red
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="orange">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="orange">
+      <xui-statistic-value>
         8
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Orange
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="yellow">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="yellow">
+      <xui-statistic-value>
         28
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Yellow
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="olive">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="olive">
+      <xui-statistic-value>
         7
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Olive
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="green">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="green">
+      <xui-statistic-value>
         14
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Green
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="teal">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="teal">
+      <xui-statistic-value>
         82
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Teal
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="blue">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="blue">
+      <xui-statistic-value>
         1
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Blue
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="violet">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="violet">
+      <xui-statistic-value>
         22
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Violet
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="purple">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="purple">
+      <xui-statistic-value>
         23
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Purple
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="pink">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="pink">
+      <xui-statistic-value>
         15
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Pink
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="brown">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="brown">
+      <xui-statistic-value>
         36
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Brown
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic in-group color="grey">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic in-group color="grey">
+      <xui-statistic-value>
         49
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Grey
-      </sui-statistic-label>
-    </sui-statistic>
-  </sui-statistics-group>
+      </xui-statistic-label>
+    </xui-statistic>
+  </xui-statistics-group>
 </template>
 
 <script>

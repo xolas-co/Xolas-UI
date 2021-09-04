@@ -1,12 +1,12 @@
 <template>
-  <sui-segment clearing>
-    <h2 is="sui-header" floated="right">
+  <xui-segment clearing>
+    <h2 is="xui-header" floated="right">
       Float Right
     </h2>
-    <h2 is="sui-header" floated="left">
+    <h2 is="xui-header" floated="left">
       Float Left
     </h2>
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

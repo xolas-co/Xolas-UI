@@ -1,14 +1,14 @@
 <template lang="html">
   <div>
-    <sui-segment vertical>
+    <xui-segment vertical>
       <docs-wireframe name="short-paragraph" />
-    </sui-segment>
-    <sui-segment vertical>
+    </xui-segment>
+    <xui-segment vertical>
       <docs-wireframe name="short-paragraph" />
-    </sui-segment>
-    <sui-segment vertical>
+    </xui-segment>
+    <xui-segment vertical>
       <docs-wireframe name="short-paragraph" />
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

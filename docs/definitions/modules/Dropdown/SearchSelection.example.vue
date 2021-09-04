@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-dropdown
+  <xui-dropdown
     fluid
     :options="countries"
     placeholder="Select Country"

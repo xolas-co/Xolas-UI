@@ -1,17 +1,17 @@
 <template lang="html">
   <div>
-    <sui-message info>
+    <xui-message info>
       Loaders are hidden unless has prop<code>active</code> or inside an
       <code>Dimmer active</code>.
-    </sui-message>
+    </xui-message>
 
-    <sui-segment>
-      <sui-dimmer active>
-        <sui-loader />
-      </sui-dimmer>
+    <xui-segment>
+      <xui-dimmer active>
+        <xui-loader />
+      </xui-dimmer>
 
       <docs-wireframe name="short-paragraph" />
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

@@ -2,7 +2,7 @@ import { Enum } from '../../lib/PropTypes';
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiProgress',
+  name: 'XuiProgress',
   mixins: [VueXolasUIMixin],
   props: {
     label: String,

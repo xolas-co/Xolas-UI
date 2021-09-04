@@ -1,7 +1,7 @@
 <template>
   <div>
-    <sui-advertisement unit="mobile leaderboard" test="Mobile Leaderboard" />
-    <sui-advertisement unit="mobile banner" test="Mobile Banner" />
+    <xui-advertisement unit="mobile leaderboard" test="Mobile Leaderboard" />
+    <xui-advertisement unit="mobile banner" test="Mobile Banner" />
   </div>
 </template>
 

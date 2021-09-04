@@ -1,8 +1,8 @@
 <template lang="html">
-  <sui-step-group size="huge">
-    <sui-step title="Shipping" icon="plane" />
-    <sui-step active title="Billing" icon="dollar" />
-  </sui-step-group>
+  <xui-step-group size="huge">
+    <xui-step title="Shipping" icon="plane" />
+    <xui-step active title="Billing" icon="dollar" />
+  </xui-step-group>
 </template>
 
 <script>

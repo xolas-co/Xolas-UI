@@ -1,84 +1,84 @@
 <template lang="html">
   <div>
-    <sui-breadcrumb size="mini">
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb size="mini">
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
 
-    <sui-breadcrumb size="tiny">
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb size="tiny">
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
 
-    <sui-breadcrumb size="small">
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb size="small">
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
 
-    <sui-breadcrumb size="medium">
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb size="medium">
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
 
-    <sui-breadcrumb size="large">
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb size="large">
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
 
-    <sui-breadcrumb size="big">
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb size="big">
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
 
-    <sui-breadcrumb size="huge">
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb size="huge">
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
 
-    <sui-breadcrumb size="massive">
-      <sui-breadcrumb-section link>Home</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section link>Registration</sui-breadcrumb-section>
-      <sui-breadcrumb-divider icon="right chevron" />
-      <sui-breadcrumb-section active
-        >Personal Information</sui-breadcrumb-section
+    <xui-breadcrumb size="massive">
+      <xui-breadcrumb-section link>Home</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section link>Registration</xui-breadcrumb-section>
+      <xui-breadcrumb-divider icon="right chevron" />
+      <xui-breadcrumb-section active
+        >Personal Information</xui-breadcrumb-section
       >
-    </sui-breadcrumb>
+    </xui-breadcrumb>
   </div>
 </template>
 

@@ -1,49 +1,49 @@
 <template lang="html">
   <div>
-    <sui-card-group :items-per-row="3">
-      <sui-card>
-        <sui-card-content>
-          <sui-image
+    <xui-card-group :items-per-row="3">
+      <xui-card>
+        <xui-card-content>
+          <xui-image
             src="static/images/avatar/small/elliot.jpg"
             class="right floated"
           />
-          <sui-card-header>Elliot Fu</sui-card-header>
-          <sui-card-meta>Friends of Veronika</sui-card-meta>
-          <sui-card-description>
+          <xui-card-header>Elliot Fu</xui-card-header>
+          <xui-card-meta>Friends of Veronika</xui-card-meta>
+          <xui-card-description>
             Elliot requested permission to view your contact details
-          </sui-card-description>
-        </sui-card-content>
-        <sui-card-content extra>
-          <sui-container text-align="center">
-            <sui-button-group>
-              <sui-button basic positive>Approve</sui-button>
-              <sui-button basic negative>Decline</sui-button>
-            </sui-button-group>
-          </sui-container>
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-card-content>
-          <sui-image
+          </xui-card-description>
+        </xui-card-content>
+        <xui-card-content extra>
+          <xui-container text-align="center">
+            <xui-button-group>
+              <xui-button basic positive>Approve</xui-button>
+              <xui-button basic negative>Decline</xui-button>
+            </xui-button-group>
+          </xui-container>
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-card-content>
+          <xui-image
             src="static/images/avatar/small/jenny.jpg"
             class="right floated"
           />
-          <sui-card-header>Jenny Hess</sui-card-header>
-          <sui-card-meta>New Member</sui-card-meta>
-          <sui-card-description>
+          <xui-card-header>Jenny Hess</xui-card-header>
+          <xui-card-meta>New Member</xui-card-meta>
+          <xui-card-description>
             Jenny wants to add you to the group <b>best friends</b>
-          </sui-card-description>
-        </sui-card-content>
-        <sui-card-content extra>
-          <sui-container text-align="center">
-            <sui-button-group>
-              <sui-button basic positive>Approve</sui-button>
-              <sui-button basic negative>Decline</sui-button>
-            </sui-button-group>
-          </sui-container>
-        </sui-card-content>
-      </sui-card>
-    </sui-card-group>
+          </xui-card-description>
+        </xui-card-content>
+        <xui-card-content extra>
+          <xui-container text-align="center">
+            <xui-button-group>
+              <xui-button basic positive>Approve</xui-button>
+              <xui-button basic negative>Decline</xui-button>
+            </xui-button-group>
+          </xui-container>
+        </xui-card-content>
+      </xui-card>
+    </xui-card-group>
   </div>
 </template>
 

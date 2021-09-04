@@ -1,10 +1,10 @@
 import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
-import SuiMenuItem from './MenuItem';
+import XuiMenuItem from './MenuItem';
 
 export default {
-  name: 'SuiMenu',
-  components: { SuiMenuItem },
+  name: 'XuiMenu',
+  components: { XuiMenuItem },
   mixins: [VueXolasUIMixin],
   props: {
     activeIndex: {
@@ -117,7 +117,7 @@ export default {
         {this.$slots.default ||
           (this.items &&
             this.items.map((item, index) => (
-              <SuiMenuItem
+              <XuiMenuItem
                 {...{ props: item }}
                 active={item.active || this.activeIndex === index}
               />

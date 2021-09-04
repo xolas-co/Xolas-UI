@@ -1,29 +1,29 @@
 <template lang="html">
   <div>
-    <sui-step-group vertical>
-      <sui-step completed>
-        <sui-icon name="truck" />
-        <sui-step-content>
-          <sui-step-title>Shipping</sui-step-title>
-          <sui-step-description
-            >Choose your shipping options</sui-step-description
+    <xui-step-group vertical>
+      <xui-step completed>
+        <xui-icon name="truck" />
+        <xui-step-content>
+          <xui-step-title>Shipping</xui-step-title>
+          <xui-step-description
+            >Choose your shipping options</xui-step-description
           >
-        </sui-step-content>
-      </sui-step>
+        </xui-step-content>
+      </xui-step>
 
-      <sui-step
+      <xui-step
         completed
         icon="credit card"
         title="Billing"
         description="Enter billing information"
       />
-      <sui-step
+      <xui-step
         active
         icon="info"
         title="Confirm Order"
         description="Verify order details"
       />
-    </sui-step-group>
+    </xui-step-group>
   </div>
 </template>
 

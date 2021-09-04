@@ -8,7 +8,7 @@ const visualStates = {
 };
 
 export default {
-  name: 'SuiDropdownMenu',
+  name: 'XuiDropdownMenu',
   mixins: [VueXolasUIMixin],
   data() {
     return {
@@ -37,7 +37,7 @@ export default {
   mounted() {
     let parent = this.$parent;
     while (parent && !this.accordion) {
-      if (/^SuiDropdown(WithRequired)?$/.test(parent.$options.name)) {
+      if (/^XuiDropdown(WithRequired)?$/.test(parent.$options.name)) {
         this.dropdown = parent;
       }
 
@@ -46,7 +46,7 @@ export default {
 
     if (!this.dropdown) {
       throw new Error(
-        'SuiDropdownMenu must be place as a child of a SuiDropdown',
+        'XuiDropdownMenu must be place as a child of a XuiDropdown',
       );
     }
     this.dropdown.register(this);
@@ -82,6 +82,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiDropdown',
+    parent: 'XuiDropdown',
   },
 };

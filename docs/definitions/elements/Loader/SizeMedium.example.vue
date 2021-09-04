@@ -1,10 +1,10 @@
 <template lang="html">
-  <sui-segment>
-    <sui-dimmer active>
-      <sui-loader size="medium">Loading</sui-loader>
-    </sui-dimmer>
+  <xui-segment>
+    <xui-dimmer active>
+      <xui-loader size="medium">Loading</xui-loader>
+    </xui-dimmer>
     <docs-wireframe name="short-paragraph" />
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

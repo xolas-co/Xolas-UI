@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-checkbox label="toggle" toggle v-model="value" />
+    <xui-checkbox label="toggle" toggle v-model="value" />
   </div>
 </template>
 

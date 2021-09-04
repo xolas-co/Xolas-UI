@@ -1,7 +1,7 @@
 <template lang="html">
-  <sui-segment inverted>
+  <xui-segment inverted>
     <p>Vue + VueXolasUI = :)</p>
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

@@ -1,17 +1,17 @@
 <template lang="html">
-  <sui-form error>
-    <sui-form-field>
+  <xui-form error>
+    <xui-form-field>
       <label>E-mail</label>
       <input type="email" placeholder="joe@schmoe.com" />
-    </sui-form-field>
-    <sui-message error>
-      <sui-message-header>Action Forbidden</sui-message-header>
+    </xui-form-field>
+    <xui-message error>
+      <xui-message-header>Action Forbidden</xui-message-header>
       <p>
         You can only sign up for an account once with a given e-mail address.
       </p>
-    </sui-message>
-    <sui-button type="submit">Submit</sui-button>
-  </sui-form>
+    </xui-message>
+    <xui-button type="submit">Submit</xui-button>
+  </xui-form>
 </template>
 
 <script>

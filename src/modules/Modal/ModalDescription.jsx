@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiModalDescription',
+  name: 'XuiModalDescription',
   mixins: [VueXolasUIMixin],
   props: {},
   render() {
@@ -16,6 +16,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiModal',
+    parent: 'XuiModal',
   },
 };

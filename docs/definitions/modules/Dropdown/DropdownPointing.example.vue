@@ -1,12 +1,12 @@
 <template lang="html">
   <div id="app">
-    <sui-dropdown text="Options" button pointing>
-      <sui-dropdown-menu>
-        <sui-dropdown-item>Settings</sui-dropdown-item>
-        <sui-dropdown-item>Manage apps</sui-dropdown-item>
-        <sui-dropdown-item>Help</sui-dropdown-item>
-      </sui-dropdown-menu>
-    </sui-dropdown>
+    <xui-dropdown text="Options" button pointing>
+      <xui-dropdown-menu>
+        <xui-dropdown-item>Settings</xui-dropdown-item>
+        <xui-dropdown-item>Manage apps</xui-dropdown-item>
+        <xui-dropdown-item>Help</xui-dropdown-item>
+      </xui-dropdown-menu>
+    </xui-dropdown>
   </div>
 </template>
 

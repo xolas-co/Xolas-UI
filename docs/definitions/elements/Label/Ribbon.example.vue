@@ -1,37 +1,37 @@
 <template>
-  <sui-grid :columns="2">
-    <sui-grid-column>
-      <sui-segment raised>
-        <a is="sui-label" color="red" ribbon>
+  <xui-grid :columns="2">
+    <xui-grid-column>
+      <xui-segment raised>
+        <a is="xui-label" color="red" ribbon>
           Overview
         </a>
         <span>Account Details</span>
 
         <docs-wireframe name="paragraph" />
 
-        <a is="sui-label" color="blue" ribbon>
+        <a is="xui-label" color="blue" ribbon>
           Community
         </a>
         <span>User Reviews</span>
 
         <docs-wireframe name="paragraph" />
-      </sui-segment>
-    </sui-grid-column>
+      </xui-segment>
+    </xui-grid-column>
 
-    <sui-grid-column>
-      <sui-segment>
-        <a is="sui-label" color="orange" ribbon="right">
+    <xui-grid-column>
+      <xui-segment>
+        <a is="xui-label" color="orange" ribbon="right">
           Specs
         </a>
         <docs-wireframe name="paragraph" />
 
-        <a is="sui-label" color="teal" ribbon="right">
+        <a is="xui-label" color="teal" ribbon="right">
           Reviews
         </a>
         <docs-wireframe name="paragraph" />
-      </sui-segment>
-    </sui-grid-column>
-  </sui-grid>
+      </xui-segment>
+    </xui-grid-column>
+  </xui-grid>
 </template>
 
 <script>

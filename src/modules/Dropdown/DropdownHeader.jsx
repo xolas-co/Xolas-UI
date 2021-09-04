@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import Icon from '../../elements/Icon/Icon';
 
 export default {
-  name: 'SuiDropdownHeader',
+  name: 'XuiDropdownHeader',
   mixins: [VueXolasUIMixin],
   props: {
     content: {
@@ -11,7 +11,7 @@ export default {
     },
     icon: {
       type: String,
-      description: 'Shorthand for `sui-icon`.',
+      description: 'Shorthand for `xui-icon`.',
     },
   },
   render() {
@@ -27,6 +27,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiDropdown',
+    parent: 'XuiDropdown',
   },
 };

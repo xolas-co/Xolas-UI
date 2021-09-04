@@ -1,25 +1,25 @@
 <template lang="html">
-  <sui-grid>
-    <sui-grid-column stretched :width="12">
-      <sui-segment>
+  <xui-grid>
+    <xui-grid-column stretched :width="12">
+      <xui-segment>
         This is an stretched grid column. This segment will always match the tab
         height
-      </sui-segment>
-    </sui-grid-column>
+      </xui-segment>
+    </xui-grid-column>
 
-    <sui-grid-column :width="4">
-      <sui-menu fluid vertical tabular="right">
+    <xui-grid-column :width="4">
+      <xui-menu fluid vertical tabular="right">
         <a
           v-for="item in items"
           :key="item"
-          is="sui-menu-item"
+          is="xui-menu-item"
           :content="item"
           :active="isActive(item)"
           @click="select(item)"
         />
-      </sui-menu>
-    </sui-grid-column>
-  </sui-grid>
+      </xui-menu>
+    </xui-grid-column>
+  </xui-grid>
 </template>
 
 <script>

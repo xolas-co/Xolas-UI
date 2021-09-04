@@ -1,10 +1,10 @@
 <template lang="html">
   <div>
-    <div is="sui-button" attached="top" content="Top" />
-    <sui-segment attached>
+    <div is="xui-button" attached="top" content="Top" />
+    <xui-segment attached>
       <docs-wireframe name="paragraph" />
-    </sui-segment>
-    <div is="sui-button" attached="bottom" content="Bottom" />
+    </xui-segment>
+    <div is="xui-button" attached="bottom" content="Bottom" />
   </div>
 </template>
 

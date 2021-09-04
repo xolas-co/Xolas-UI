@@ -1,41 +1,41 @@
 <template lang="html">
-  <sui-table celled>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Name</sui-table-header-cell>
-        <sui-table-header-cell>Status</sui-table-header-cell>
-        <sui-table-header-cell>Notes</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>No Name Specified</sui-table-cell>
-        <sui-table-cell>Unknown</sui-table-cell>
-        <sui-table-cell negative>None</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row positive>
-        <sui-table-cell>Jimmy</sui-table-cell>
-        <sui-table-cell>
-          <sui-icon name="check" />
+  <xui-table celled>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Name</xui-table-header-cell>
+        <xui-table-header-cell>Status</xui-table-header-cell>
+        <xui-table-header-cell>Notes</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>No Name Specified</xui-table-cell>
+        <xui-table-cell>Unknown</xui-table-cell>
+        <xui-table-cell negative>None</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row positive>
+        <xui-table-cell>Jimmy</xui-table-cell>
+        <xui-table-cell>
+          <xui-icon name="check" />
           Approved
-        </sui-table-cell>
-        <sui-table-cell>None</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jamie</sui-table-cell>
-        <sui-table-cell>Unknown</sui-table-cell>
-        <sui-table-cell positive>
-          <sui-icon name="close" />
+        </xui-table-cell>
+        <xui-table-cell>None</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jamie</xui-table-cell>
+        <xui-table-cell>Unknown</xui-table-cell>
+        <xui-table-cell positive>
+          <xui-icon name="close" />
           Requires call
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row negative>
-        <sui-table-cell>Jill</sui-table-cell>
-        <sui-table-cell>Unknown</sui-table-cell>
-        <sui-table-cell>None</sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row negative>
+        <xui-table-cell>Jill</xui-table-cell>
+        <xui-table-cell>Unknown</xui-table-cell>
+        <xui-table-cell>None</xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

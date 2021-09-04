@@ -2,38 +2,38 @@
   <div>
     <div class="ui stackable equal width grid">
       <div class="column">
-        <button is="sui-button">Default</button>
-        <button is="sui-button" primary>Primary</button>
-        <button is="sui-button" secondary>Secondary</button>
-        <button is="sui-button" basic>Basic</button>
-        <button is="sui-button" compact>
+        <button is="xui-button">Default</button>
+        <button is="xui-button" primary>Primary</button>
+        <button is="xui-button" secondary>Secondary</button>
+        <button is="xui-button" basic>Basic</button>
+        <button is="xui-button" compact>
           Compact
         </button>
 
-        <div is="sui-divider" />
-        <button is="sui-button" icon="heart" />
+        <div is="xui-divider" />
+        <button is="xui-button" icon="heart" />
         <button
-          is="sui-button"
+          is="xui-button"
           icon="heart"
           content="Labeled"
           label-position="left"
         />
         <button
-          is="sui-button"
+          is="xui-button"
           icon="heart"
           content="Labeled"
           label-position="right"
         />
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
-        <div is="sui-button-group">
-          <button is="sui-button">Combo</button>
-          <div is="sui-dropdown" button floating icon="dropdown">
-            <div is="sui-dropdown-menu">
-              <div is="sui-dropdown-item">Choice 1</div>
-              <div is="sui-dropdown-item">Choice 2</div>
-              <div is="sui-dropdown-item">Choice 3</div>
+        <div is="xui-button-group">
+          <button is="xui-button">Combo</button>
+          <div is="xui-dropdown" button floating icon="dropdown">
+            <div is="xui-dropdown-menu">
+              <div is="xui-dropdown-item">Choice 1</div>
+              <div is="xui-dropdown-item">Choice 2</div>
+              <div is="xui-dropdown-item">Choice 3</div>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
           </div>
         </div>
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
         <!-- <div class="ui animated button" tabindex="0">
           <div class="visible content">Horizontal</div>
@@ -87,74 +87,74 @@
           </div>
         </div> -->
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
-        <button is="sui-button" disabled>Disabled</button>
-        <button is="sui-button" loading>Loading</button>
+        <button is="xui-button" disabled>Disabled</button>
+        <button is="xui-button" loading>Loading</button>
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
         <div class="ui buttons">
-          <button is="sui-button">1</button>
-          <button is="sui-button">2</button>
-          <button is="sui-button">3</button>
+          <button is="xui-button">1</button>
+          <button is="xui-button">2</button>
+          <button is="xui-button">3</button>
         </div>
 
         <div class="ui icon buttons">
-          <button is="sui-button" icon="align left" />
-          <button is="sui-button" icon="align center" />
-          <button is="sui-button" icon="align right" />
-          <button is="sui-button" icon="align justify" />
+          <button is="xui-button" icon="align left" />
+          <button is="xui-button" icon="align center" />
+          <button is="xui-button" icon="align right" />
+          <button is="xui-button" icon="align justify" />
         </div>
 
-        <div is="sui-button-group">
-          <button is="sui-button">1</button>
-          <div is="sui-button-or" />
-          <button is="sui-button">2</button>
+        <div is="xui-button-group">
+          <button is="xui-button">1</button>
+          <div is="xui-button-or" />
+          <button is="xui-button">2</button>
         </div>
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
-        <div is="sui-button-group" attached="top" :widths="2">
-          <div is="sui-button">One</div>
-          <div is="sui-button">Two</div>
+        <div is="xui-button-group" attached="top" :widths="2">
+          <div is="xui-button">One</div>
+          <div is="xui-button">Two</div>
         </div>
-        <div is="sui-segment" attached>
-          <img src="static/images/wireframes/paragraph.png" is="sui-image" />
+        <div is="xui-segment" attached>
+          <img src="static/images/wireframes/paragraph.png" is="xui-image" />
         </div>
-        <div is="sui-button-group" attached="bottom" :widths="2">
-          <div is="sui-button">One</div>
-          <div is="sui-button">Two</div>
+        <div is="xui-button-group" attached="bottom" :widths="2">
+          <div is="xui-button">One</div>
+          <div is="xui-button">Two</div>
         </div>
       </div>
       <div class="column">
-        <button is="sui-button" size="mini">Mini</button>
-        <button is="sui-button" size="tiny">Tiny</button>
-        <button is="sui-button" size="small">Small</button>
-        <button is="sui-button" size="large">Large</button>
-        <button is="sui-button" size="big">Big</button>
-        <button is="sui-button" size="huge">Huge</button>
-        <button is="sui-button" size="massive">Massive</button>
-        <div is="sui-divider" />
+        <button is="xui-button" size="mini">Mini</button>
+        <button is="xui-button" size="tiny">Tiny</button>
+        <button is="xui-button" size="small">Small</button>
+        <button is="xui-button" size="large">Large</button>
+        <button is="xui-button" size="big">Big</button>
+        <button is="xui-button" size="huge">Huge</button>
+        <button is="xui-button" size="massive">Massive</button>
+        <div is="xui-divider" />
         <div class="spaced">
-          <button is="sui-button" color="yellow">Yellow</button>
-          <button is="sui-button" color="orange">Orange</button>
-          <button is="sui-button" color="green">Green</button>
-          <button is="sui-button" color="teal">Teal</button>
-          <button is="sui-button" color="blue">Blue</button>
-          <button is="sui-button" color="purple">Purple</button>
-          <button is="sui-button" color="pink">Pink</button>
-          <button is="sui-button" color="red">Red</button>
-          <button is="sui-button" color="black">Black</button>
+          <button is="xui-button" color="yellow">Yellow</button>
+          <button is="xui-button" color="orange">Orange</button>
+          <button is="xui-button" color="green">Green</button>
+          <button is="xui-button" color="teal">Teal</button>
+          <button is="xui-button" color="blue">Blue</button>
+          <button is="xui-button" color="purple">Purple</button>
+          <button is="xui-button" color="pink">Pink</button>
+          <button is="xui-button" color="red">Red</button>
+          <button is="xui-button" color="black">Black</button>
         </div>
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
-        <div is="sui-segment" inverted>
-          <button is="sui-button" inverted>Inverted</button>
-          <button is="sui-button" inverted color="basic">Basic</button>
-          <button is="sui-button" inverted color="blue">Colored</button>
-          <button is="sui-button" inverted color="blue" basic>
+        <div is="xui-segment" inverted>
+          <button is="xui-button" inverted>Inverted</button>
+          <button is="xui-button" inverted color="basic">Basic</button>
+          <button is="xui-button" inverted color="blue">Colored</button>
+          <button is="xui-button" inverted color="blue" basic>
             Basic Colored
           </button>
         </div>

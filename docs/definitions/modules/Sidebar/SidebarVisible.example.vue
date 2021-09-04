@@ -1,7 +1,7 @@
 <template lang="html">
-  <sui-sidebar-pushable>
-    <sui-menu
-      is="sui-sidebar"
+  <xui-sidebar-pushable>
+    <xui-menu
+      is="xui-sidebar"
       :visible="true"
       animation="overlay"
       width="thin"
@@ -9,19 +9,19 @@
       inverted
       vertical
     >
-      <sui-menu-item to="/"> <sui-icon name="home" /> Home </sui-menu-item>
-      <sui-menu-item to="/"> <sui-icon name="gamepad" /> Games </sui-menu-item>
-      <sui-menu-item to="/">
-        <sui-icon name="camera" /> Channels
-      </sui-menu-item>
-    </sui-menu>
-    <sui-sidebar-pusher>
-      <sui-segment>
-        <h3 is="sui-header">Application Content</h3>
+      <xui-menu-item to="/"> <xui-icon name="home" /> Home </xui-menu-item>
+      <xui-menu-item to="/"> <xui-icon name="gamepad" /> Games </xui-menu-item>
+      <xui-menu-item to="/">
+        <xui-icon name="camera" /> Channels
+      </xui-menu-item>
+    </xui-menu>
+    <xui-sidebar-pusher>
+      <xui-segment>
+        <h3 is="xui-header">Application Content</h3>
         <docs-wireframe name="paragraph" />
-      </sui-segment>
-    </sui-sidebar-pusher>
-  </sui-sidebar-pushable>
+      </xui-segment>
+    </xui-sidebar-pusher>
+  </xui-sidebar-pushable>
 </template>
 
 <script>

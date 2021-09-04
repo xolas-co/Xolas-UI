@@ -1,11 +1,11 @@
 <template lang="html">
-  <sui-step-group>
-    <sui-step
+  <xui-step-group>
+    <xui-step
       title="Shipping"
       description="Choose your shipping options"
       icon="truck"
     />
-  </sui-step-group>
+  </xui-step-group>
 </template>
 
 <script>

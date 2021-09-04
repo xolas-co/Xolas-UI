@@ -1,9 +1,9 @@
 <template lang="html">
-  <sui-step-group step-number="three">
-    <sui-step title="Shipping" icon="plane" />
-    <sui-step active title="Billing" icon="dollar" />
-    <sui-step disabled title="Confirm Order" icon="info circle" />
-  </sui-step-group>
+  <xui-step-group step-number="three">
+    <xui-step title="Shipping" icon="plane" />
+    <xui-step active title="Billing" icon="dollar" />
+    <xui-step disabled title="Confirm Order" icon="info circle" />
+  </xui-step-group>
 </template>
 
 <script>

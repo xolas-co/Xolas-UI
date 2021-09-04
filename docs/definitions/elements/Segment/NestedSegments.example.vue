@@ -1,28 +1,28 @@
 <template lang="html">
-  <sui-segments>
-    <sui-segment>
+  <xui-segments>
+    <xui-segment>
       <p>Top</p>
-    </sui-segment>
-    <sui-segments>
-      <sui-segment>
+    </xui-segment>
+    <xui-segments>
+      <xui-segment>
         <p>Nested Top 1</p>
-      </sui-segment>
-      <sui-segment>
+      </xui-segment>
+      <xui-segment>
         <p>Nested Top 2</p>
-      </sui-segment>
-    </sui-segments>
-    <sui-segment>
+      </xui-segment>
+    </xui-segments>
+    <xui-segment>
       <p>Middle</p>
-    </sui-segment>
-    <sui-segments horizontal>
-      <sui-segment>Top</sui-segment>
-      <sui-segment>Middle</sui-segment>
-      <sui-segment>Bottom</sui-segment>
-    </sui-segments>
-    <sui-segment>
+    </xui-segment>
+    <xui-segments horizontal>
+      <xui-segment>Top</xui-segment>
+      <xui-segment>Middle</xui-segment>
+      <xui-segment>Bottom</xui-segment>
+    </xui-segments>
+    <xui-segment>
       <p>Bottom</p>
-    </sui-segment>
-  </sui-segments>
+    </xui-segment>
+  </xui-segments>
 </template>
 
 <script>

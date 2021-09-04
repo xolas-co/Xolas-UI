@@ -1,18 +1,18 @@
 <template>
   <div>
-    <sui-image-group size="tiny">
-      <sui-image :src="src" />
-      <sui-image :src="src" />
-      <sui-image :src="src" />
-      <sui-image :src="src" />
-    </sui-image-group>
-    <sui-divider hidden />
-    <sui-image-group size="small">
-      <sui-image :src="src" />
-      <sui-image :src="src" />
-      <sui-image :src="src" />
-      <sui-image :src="src" />
-    </sui-image-group>
+    <xui-image-group size="tiny">
+      <xui-image :src="src" />
+      <xui-image :src="src" />
+      <xui-image :src="src" />
+      <xui-image :src="src" />
+    </xui-image-group>
+    <xui-divider hidden />
+    <xui-image-group size="small">
+      <xui-image :src="src" />
+      <xui-image :src="src" />
+      <xui-image :src="src" />
+      <xui-image :src="src" />
+    </xui-image-group>
   </div>
 </template>
 

@@ -1,14 +1,14 @@
 <template lang="html">
   <div>
-    <sui-segment attached="top">
+    <xui-segment attached="top">
       <p>This segment is on top</p>
-    </sui-segment>
-    <sui-segment attached>
+    </xui-segment>
+    <xui-segment attached>
       <p>This segment is attached on both sides</p>
-    </sui-segment>
-    <sui-segment attached="bottom">
+    </xui-segment>
+    <xui-segment attached="bottom">
       <p>This segment is on bottom</p>
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

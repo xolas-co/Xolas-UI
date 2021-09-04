@@ -1,8 +1,8 @@
 <template>
-  <a is="sui-label">
-    <sui-icon name="mail" />
+  <a is="xui-label">
+    <xui-icon name="mail" />
     23
-    <sui-label-detail>View Mail</sui-label-detail>
+    <xui-label-detail>View Mail</xui-label-detail>
   </a>
 </template>
 

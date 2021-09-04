@@ -1,9 +1,9 @@
 <template lang="html">
-  <h2 is="sui-header" icon="settings">
+  <h2 is="xui-header" icon="settings">
     Account Settings
-    <sui-header-subheader>
+    <xui-header-subheader>
       Manage your account settings and set e-mail preferences.
-    </sui-header-subheader>
+    </xui-header-subheader>
   </h2>
 </template>
 

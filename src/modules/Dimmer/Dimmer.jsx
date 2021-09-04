@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiDimmer',
+  name: 'XuiDimmer',
   mixins: [VueXolasUIMixin],
   props: {
     active: Boolean,

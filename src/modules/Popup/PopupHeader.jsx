@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiPopupHeader',
+  name: 'XuiPopupHeader',
   mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType();
@@ -13,6 +13,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiPopup',
+    parent: 'XuiPopup',
   },
 };

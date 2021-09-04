@@ -1,10 +1,10 @@
 <template>
-  <h2 is="sui-header">
-    <sui-icon name="settings" />
-    <sui-header-content>
+  <h2 is="xui-header">
+    <xui-icon name="settings" />
+    <xui-header-content>
       Account Settings
-      <sui-header-subheader>Manage your preferences</sui-header-subheader>
-    </sui-header-content>
+      <xui-header-subheader>Manage your preferences</xui-header-subheader>
+    </xui-header-content>
   </h2>
 </template>
 

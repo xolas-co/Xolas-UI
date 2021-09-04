@@ -1,30 +1,30 @@
 <template lang="html">
-  <sui-table basic>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Name</sui-table-header-cell>
-        <sui-table-header-cell>Status</sui-table-header-cell>
-        <sui-table-header-cell>Notes</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>John</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell>None</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jamie</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell>Requires call</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jill</sui-table-cell>
-        <sui-table-cell>Denied</sui-table-cell>
-        <sui-table-cell>None</sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+  <xui-table basic>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Name</xui-table-header-cell>
+        <xui-table-header-cell>Status</xui-table-header-cell>
+        <xui-table-header-cell>Notes</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>John</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell>None</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jamie</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell>Requires call</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jill</xui-table-cell>
+        <xui-table-cell>Denied</xui-table-cell>
+        <xui-table-cell>None</xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

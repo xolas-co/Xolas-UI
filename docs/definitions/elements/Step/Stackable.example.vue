@@ -1,24 +1,24 @@
 <template lang="html">
   <div>
-    <sui-step-group stackable>
-      <sui-step
+    <xui-step-group stackable>
+      <xui-step
         title="Shipping"
         description="Choose your shipping options"
         icon="plane"
       />
-      <sui-step
+      <xui-step
         active
         title="Billing"
         description="Enter billing information"
         icon="dollar"
       />
-      <sui-step
+      <xui-step
         disabled
         title="Confirm Order"
         description="Verify order details"
         icon="info circle"
       />
-    </sui-step-group>
+    </xui-step-group>
   </div>
 </template>
 

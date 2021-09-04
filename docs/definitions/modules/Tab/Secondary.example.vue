@@ -1,16 +1,16 @@
 <template>
   <div>
-    <sui-tab :menu="{ secondary: true }">
-      <sui-tab-pane title="Circle" :attached="false">
+    <xui-tab :menu="{ secondary: true }">
+      <xui-tab-pane title="Circle" :attached="false">
         Circle
-      </sui-tab-pane>
-      <sui-tab-pane title="Box" :attached="false">
+      </xui-tab-pane>
+      <xui-tab-pane title="Box" :attached="false">
         Box
-      </sui-tab-pane>
-      <sui-tab-pane title="Triangle" :attached="false">
+      </xui-tab-pane>
+      <xui-tab-pane title="Triangle" :attached="false">
         Triangle
-      </sui-tab-pane>
-    </sui-tab>
+      </xui-tab-pane>
+    </xui-tab>
   </div>
 </template>
 

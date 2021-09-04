@@ -1,10 +1,10 @@
 <template>
-  <sui-list link>
-    <sui-list-item active>Home</sui-list-item>
-    <a is="sui-list-item">About</a>
-    <a is="sui-list-item">Jobs</a>
-    <a is="sui-list-item">Team</a>
-  </sui-list>
+  <xui-list link>
+    <xui-list-item active>Home</xui-list-item>
+    <a is="xui-list-item">About</a>
+    <a is="xui-list-item">Jobs</a>
+    <a is="xui-list-item">Team</a>
+  </xui-list>
 </template>
 
 <script>

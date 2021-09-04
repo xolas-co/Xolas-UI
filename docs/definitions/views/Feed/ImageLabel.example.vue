@@ -1,14 +1,14 @@
 <template lang="html">
-  <sui-feed>
-    <sui-feed-event>
-      <sui-feed-label>
-        <sui-image src="static/images/avatar/small/elliot.jpg" />
-      </sui-feed-label>
-      <sui-feed-content>
+  <xui-feed>
+    <xui-feed-event>
+      <xui-feed-label>
+        <xui-image src="static/images/avatar/small/elliot.jpg" />
+      </xui-feed-label>
+      <xui-feed-content>
         You added Elliot Fu to the group <a>Coworkers</a>
-      </sui-feed-content>
-    </sui-feed-event>
-  </sui-feed>
+      </xui-feed-content>
+    </xui-feed-event>
+  </xui-feed>
 </template>
 
 <script>

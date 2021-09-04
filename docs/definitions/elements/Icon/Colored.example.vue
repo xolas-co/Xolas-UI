@@ -1,18 +1,18 @@
 <template lang="html">
   <div>
-    <sui-icon name="users" color="red" />
-    <sui-icon name="users" color="orange" />
-    <sui-icon name="users" color="yellow" />
-    <sui-icon name="users" color="olive" />
-    <sui-icon name="users" color="green" />
-    <sui-icon name="users" color="teal" />
-    <sui-icon name="users" color="blue" />
-    <sui-icon name="users" color="violet" />
-    <sui-icon name="users" color="purple" />
-    <sui-icon name="users" color="pink" />
-    <sui-icon name="users" color="brown" />
-    <sui-icon name="users" color="grey" />
-    <sui-icon name="users" color="black" />
+    <xui-icon name="users" color="red" />
+    <xui-icon name="users" color="orange" />
+    <xui-icon name="users" color="yellow" />
+    <xui-icon name="users" color="olive" />
+    <xui-icon name="users" color="green" />
+    <xui-icon name="users" color="teal" />
+    <xui-icon name="users" color="blue" />
+    <xui-icon name="users" color="violet" />
+    <xui-icon name="users" color="purple" />
+    <xui-icon name="users" color="pink" />
+    <xui-icon name="users" color="brown" />
+    <xui-icon name="users" color="grey" />
+    <xui-icon name="users" color="black" />
   </div>
 </template>
 

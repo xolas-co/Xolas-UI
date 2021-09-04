@@ -1,124 +1,124 @@
 <template>
-  <sui-grid :columns="3" style="width: 600px">
-    <sui-grid-row>
-      <sui-grid-column>
-        <sui-popup
+  <xui-grid :columns="3" style="width: 600px">
+    <xui-grid-row>
+      <xui-grid-column>
+        <xui-popup
           content="I am positioned to the top left"
           position="top left"
         >
-          <sui-icon
+          <xui-icon
             slot="trigger"
             name="heart"
             color="red"
             size="large"
             circular
           />
-        </sui-popup>
-      </sui-grid-column>
-      <sui-grid-column text-align="center">
-        <sui-popup
+        </xui-popup>
+      </xui-grid-column>
+      <xui-grid-column text-align="center">
+        <xui-popup
           content="I am positioned to the top center"
           position="top center"
         >
-          <sui-icon
+          <xui-icon
             slot="trigger"
             name="heart"
             color="red"
             size="large"
             circular
           />
-        </sui-popup>
-      </sui-grid-column>
-      <sui-grid-column text-align="right">
-        <sui-popup
+        </xui-popup>
+      </xui-grid-column>
+      <xui-grid-column text-align="right">
+        <xui-popup
           content="I am positioned to the top right"
           position="top right"
         >
-          <sui-icon
+          <xui-icon
             slot="trigger"
             name="heart"
             color="red"
             size="large"
             circular
           />
-        </sui-popup>
-      </sui-grid-column>
-    </sui-grid-row>
-    <sui-grid-row>
-      <sui-grid-column floated="left">
-        <sui-popup
+        </xui-popup>
+      </xui-grid-column>
+    </xui-grid-row>
+    <xui-grid-row>
+      <xui-grid-column floated="left">
+        <xui-popup
           content="I am positioned to the left center"
           position="left center"
         >
-          <sui-icon
+          <xui-icon
             slot="trigger"
             name="heart"
             color="red"
             size="large"
             circular
           />
-        </sui-popup>
-      </sui-grid-column>
-      <sui-grid-column floated="right" text-align="right">
-        <sui-popup
+        </xui-popup>
+      </xui-grid-column>
+      <xui-grid-column floated="right" text-align="right">
+        <xui-popup
           content="I am positioned to the right center"
           position="right center"
         >
-          <sui-icon
+          <xui-icon
             slot="trigger"
             name="heart"
             color="red"
             size="large"
             circular
           />
-        </sui-popup>
-      </sui-grid-column>
-    </sui-grid-row>
-    <sui-grid-row>
-      <sui-grid-column>
-        <sui-popup
+        </xui-popup>
+      </xui-grid-column>
+    </xui-grid-row>
+    <xui-grid-row>
+      <xui-grid-column>
+        <xui-popup
           content="I am positioned to the bottom left"
           position="bottom left"
         >
-          <sui-icon
+          <xui-icon
             slot="trigger"
             name="heart"
             color="red"
             size="large"
             circular
           />
-        </sui-popup>
-      </sui-grid-column>
-      <sui-grid-column text-align="center">
-        <sui-popup
+        </xui-popup>
+      </xui-grid-column>
+      <xui-grid-column text-align="center">
+        <xui-popup
           content="I am positioned to the bottom center"
           position="bottom center"
         >
-          <sui-icon
+          <xui-icon
             slot="trigger"
             name="heart"
             color="red"
             size="large"
             circular
           />
-        </sui-popup>
-      </sui-grid-column>
-      <sui-grid-column text-align="right">
-        <sui-popup
+        </xui-popup>
+      </xui-grid-column>
+      <xui-grid-column text-align="right">
+        <xui-popup
           content="I am positioned to the bottom right"
           position="bottom right"
         >
-          <sui-icon
+          <xui-icon
             slot="trigger"
             name="heart"
             color="red"
             size="large"
             circular
           />
-        </sui-popup>
-      </sui-grid-column>
-    </sui-grid-row>
-  </sui-grid>
+        </xui-popup>
+      </xui-grid-column>
+    </xui-grid-row>
+  </xui-grid>
 </template>
 
 <script>

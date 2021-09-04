@@ -1,55 +1,55 @@
 <template lang="html">
-  <sui-table celled padded>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell single-line
-          >Evidence Rating</sui-table-header-cell
+  <xui-table celled padded>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell single-line
+          >Evidence Rating</xui-table-header-cell
         >
-        <sui-table-header-cell>Effect</sui-table-header-cell>
-        <sui-table-header-cell>Efficacy</sui-table-header-cell>
-        <sui-table-header-cell>Consensus</sui-table-header-cell>
-        <sui-table-header-cell>Comments</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
+        <xui-table-header-cell>Effect</xui-table-header-cell>
+        <xui-table-header-cell>Efficacy</xui-table-header-cell>
+        <xui-table-header-cell>Consensus</xui-table-header-cell>
+        <xui-table-header-cell>Comments</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
 
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>
-          <h2 is="sui-header" text-align="center">A</h2>
-        </sui-table-cell>
-        <sui-table-cell single-line>Power Output</sui-table-cell>
-        <sui-table-cell>
-          <sui-rating icon="star" :rating="3" :max-rating="3" />
-        </sui-table-cell>
-        <sui-table-cell text-align="right">
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>
+          <h2 is="xui-header" text-align="center">A</h2>
+        </xui-table-cell>
+        <xui-table-cell single-line>Power Output</xui-table-cell>
+        <xui-table-cell>
+          <xui-rating icon="star" :rating="3" :max-rating="3" />
+        </xui-table-cell>
+        <xui-table-cell text-align="right">
           80% <br />
           <a href="#">18 studies</a>
-        </sui-table-cell>
-        <sui-table-cell>
+        </xui-table-cell>
+        <xui-table-cell>
           Creatine supplementation is the reference compound for increasing
           muscular creatine levels; there is variability in this increase,
           however, with some nonresponders.
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>
-          <h2 is="sui-header" text-align="center">A</h2>
-        </sui-table-cell>
-        <sui-table-cell single-line>Weight</sui-table-cell>
-        <sui-table-cell>
-          <sui-rating icon="star" :rating="3" :max-rating="3" />
-        </sui-table-cell>
-        <sui-table-cell text-align="right">
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>
+          <h2 is="xui-header" text-align="center">A</h2>
+        </xui-table-cell>
+        <xui-table-cell single-line>Weight</xui-table-cell>
+        <xui-table-cell>
+          <xui-rating icon="star" :rating="3" :max-rating="3" />
+        </xui-table-cell>
+        <xui-table-cell text-align="right">
           100% <br />
           <a href="#">65 studies</a>
-        </sui-table-cell>
-        <sui-table-cell>
+        </xui-table-cell>
+        <xui-table-cell>
           Creatine is the reference compound for power improvement, with numbers
           from one meta-analysis to assess potency
-        </sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+        </xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

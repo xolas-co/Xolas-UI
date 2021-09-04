@@ -1,16 +1,16 @@
 <template lang="html">
   <div>
-    <sui-button-group attached="top">
-      <div is="sui-button" content="One" />
-      <div is="sui-button" content="Two" />
-    </sui-button-group>
-    <sui-segment attached>
+    <xui-button-group attached="top">
+      <div is="xui-button" content="One" />
+      <div is="xui-button" content="Two" />
+    </xui-button-group>
+    <xui-segment attached>
       <docs-wireframe name="paragraph" />
-    </sui-segment>
-    <sui-button-group attached="bottom">
-      <div is="sui-button" content="One" active />
-      <div is="sui-button" content="Two" />
-    </sui-button-group>
+    </xui-segment>
+    <xui-button-group attached="bottom">
+      <div is="xui-button" content="One" active />
+      <div is="xui-button" content="Two" />
+    </xui-button-group>
   </div>
 </template>
 

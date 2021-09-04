@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
-    <sui-button compact content="Hold" />
-    <sui-button compact icon="pause" />
-    <sui-button compact icon="pause" label-position="left" content="Pause" />
+    <xui-button compact content="Hold" />
+    <xui-button compact icon="pause" />
+    <xui-button compact icon="pause" label-position="left" content="Pause" />
   </div>
 </template>
 

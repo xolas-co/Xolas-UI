@@ -1,9 +1,9 @@
 <template lang="html">
-  <sui-list>
-    <sui-list-item>Apples</sui-list-item>
-    <sui-list-item>Pears</sui-list-item>
-    <sui-list-item>Oranges</sui-list-item>
-  </sui-list>
+  <xui-list>
+    <xui-list-item>Apples</xui-list-item>
+    <xui-list-item>Pears</xui-list-item>
+    <xui-list-item>Oranges</xui-list-item>
+  </xui-list>
 </template>
 
 <script>

@@ -1,9 +1,9 @@
 <template lang="html">
-  <sui-button-group>
-    <sui-button icon="left chevron" label-position="left" content="Back" />
-    <sui-button icon="stop" content="Stop" />
-    <sui-button icon="right chevron" label-position="right" content="Foward" />
-  </sui-button-group>
+  <xui-button-group>
+    <xui-button icon="left chevron" label-position="left" content="Back" />
+    <xui-button icon="stop" content="Stop" />
+    <xui-button icon="right chevron" label-position="right" content="Foward" />
+  </xui-button-group>
 </template>
 
 <script>

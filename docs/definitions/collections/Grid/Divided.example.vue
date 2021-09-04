@@ -1,11 +1,11 @@
 <template lang="html">
-  <sui-grid :columns="3" divided>
-    <sui-grid-row v-for="(row, i) in [, ,]" :key="i">
-      <sui-grid-column v-for="(col, j) in [, , ,]" :key="j">
+  <xui-grid :columns="3" divided>
+    <xui-grid-row v-for="(row, i) in [, ,]" :key="i">
+      <xui-grid-column v-for="(col, j) in [, , ,]" :key="j">
         <docs-wireframe name="media-paragraph" />
-      </sui-grid-column>
-    </sui-grid-row>
-  </sui-grid>
+      </xui-grid-column>
+    </xui-grid-row>
+  </xui-grid>
 </template>
 
 <script>

@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiFormField',
+  name: 'XuiFormField',
   mixins: [VueXolasUIMixin],
   props: {
     width: Enum.Number({
@@ -44,6 +44,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiForm',
+    parent: 'XuiForm',
   },
 };

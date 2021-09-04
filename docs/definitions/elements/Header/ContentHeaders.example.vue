@@ -1,35 +1,35 @@
 <template lang="html">
-  <sui-segment vertical>
-    <sui-message info>
+  <xui-segment vertical>
+    <xui-message info>
       Content headings are sized using
       <a href="https://j.eremy.net/confused-about-rem-and-em/"
         ><code>em</code></a
       >
       and are based on the font-size of their container.
-    </sui-message>
+    </xui-message>
 
-    <sui-button-group>
-      <sui-button icon="plus" @click.native="fontSize += 1" />
-      <sui-button icon="minus" @click.native="fontSize -= 1" />
-    </sui-button-group>
+    <xui-button-group>
+      <xui-button icon="plus" @click.native="fontSize += 1" />
+      <xui-button icon="minus" @click.native="fontSize -= 1" />
+    </xui-button-group>
 
     <div :style="style">
-      <sui-header size="huge">Huge header</sui-header>
+      <xui-header size="huge">Huge header</xui-header>
       <docs-wireframe name="short-paragraph" />
 
-      <sui-header size="large">Large header</sui-header>
+      <xui-header size="large">Large header</xui-header>
       <docs-wireframe name="short-paragraph" />
 
-      <sui-header size="medium">Medium header</sui-header>
+      <xui-header size="medium">Medium header</xui-header>
       <docs-wireframe name="short-paragraph" />
 
-      <sui-header size="small">Small header</sui-header>
+      <xui-header size="small">Small header</xui-header>
       <docs-wireframe name="short-paragraph" />
 
-      <sui-header size="tiny">Tiny header</sui-header>
+      <xui-header size="tiny">Tiny header</xui-header>
       <docs-wireframe name="short-paragraph" />
     </div>
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

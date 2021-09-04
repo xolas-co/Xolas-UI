@@ -1,6 +1,6 @@
 <template>
   <div>
-    <sui-advertisement unit="netboard" test="Netboard" />
+    <xui-advertisement unit="netboard" test="Netboard" />
   </div>
 </template>
 

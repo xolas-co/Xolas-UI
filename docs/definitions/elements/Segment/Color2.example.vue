@@ -1,18 +1,18 @@
 <template lang="html">
   <div>
-    <sui-segment color="red" inverted>Red</sui-segment>
-    <sui-segment color="orange" inverted>Orange</sui-segment>
-    <sui-segment color="yellow" inverted>Yellow</sui-segment>
-    <sui-segment color="olive" inverted>Olive</sui-segment>
-    <sui-segment color="green" inverted>Green</sui-segment>
-    <sui-segment color="teal" inverted>Teal</sui-segment>
-    <sui-segment color="blue" inverted>Blue</sui-segment>
-    <sui-segment color="violet" inverted>Violet</sui-segment>
-    <sui-segment color="purple" inverted>Purple</sui-segment>
-    <sui-segment color="pink" inverted>Pink</sui-segment>
-    <sui-segment color="brown" inverted>Brown</sui-segment>
-    <sui-segment color="grey" inverted>Grey</sui-segment>
-    <sui-segment color="black" inverted>Black</sui-segment>
+    <xui-segment color="red" inverted>Red</xui-segment>
+    <xui-segment color="orange" inverted>Orange</xui-segment>
+    <xui-segment color="yellow" inverted>Yellow</xui-segment>
+    <xui-segment color="olive" inverted>Olive</xui-segment>
+    <xui-segment color="green" inverted>Green</xui-segment>
+    <xui-segment color="teal" inverted>Teal</xui-segment>
+    <xui-segment color="blue" inverted>Blue</xui-segment>
+    <xui-segment color="violet" inverted>Violet</xui-segment>
+    <xui-segment color="purple" inverted>Purple</xui-segment>
+    <xui-segment color="pink" inverted>Pink</xui-segment>
+    <xui-segment color="brown" inverted>Brown</xui-segment>
+    <xui-segment color="grey" inverted>Grey</xui-segment>
+    <xui-segment color="black" inverted>Black</xui-segment>
   </div>
 </template>
 

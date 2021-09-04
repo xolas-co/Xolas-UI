@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiItemContent',
+  name: 'XuiItemContent',
   mixins: [VueXolasUIMixin],
   description: 'An item can contain content',
   props: {
@@ -24,6 +24,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiItem',
+    parent: 'XuiItem',
   },
 };

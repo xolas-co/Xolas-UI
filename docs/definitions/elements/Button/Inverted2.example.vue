@@ -1,18 +1,18 @@
 <template lang="html">
-  <div is="sui-segment" inverted>
-    <sui-button basic color="red" inverted>Basic Red</sui-button>
-    <sui-button basic color="orange" inverted>Basic Orange</sui-button>
-    <sui-button basic color="yellow" inverted>Basic Yellow</sui-button>
-    <sui-button basic color="olive" inverted>Basic Olive</sui-button>
-    <sui-button basic color="green" inverted>Basic Green</sui-button>
-    <sui-button basic color="teal" inverted>Basic Teal</sui-button>
-    <sui-button basic color="blue" inverted>Basic Blue</sui-button>
-    <sui-button basic color="violet" inverted>Basic Violet</sui-button>
-    <sui-button basic color="purple" inverted>Basic Purple</sui-button>
-    <sui-button basic color="pink" inverted>Basic Pink</sui-button>
-    <sui-button basic color="brown" inverted>Basic Brown</sui-button>
-    <sui-button basic color="grey" inverted>Basic Grey</sui-button>
-    <sui-button basic color="black" inverted>Basic Black</sui-button>
+  <div is="xui-segment" inverted>
+    <xui-button basic color="red" inverted>Basic Red</xui-button>
+    <xui-button basic color="orange" inverted>Basic Orange</xui-button>
+    <xui-button basic color="yellow" inverted>Basic Yellow</xui-button>
+    <xui-button basic color="olive" inverted>Basic Olive</xui-button>
+    <xui-button basic color="green" inverted>Basic Green</xui-button>
+    <xui-button basic color="teal" inverted>Basic Teal</xui-button>
+    <xui-button basic color="blue" inverted>Basic Blue</xui-button>
+    <xui-button basic color="violet" inverted>Basic Violet</xui-button>
+    <xui-button basic color="purple" inverted>Basic Purple</xui-button>
+    <xui-button basic color="pink" inverted>Basic Pink</xui-button>
+    <xui-button basic color="brown" inverted>Basic Brown</xui-button>
+    <xui-button basic color="grey" inverted>Basic Grey</xui-button>
+    <xui-button basic color="black" inverted>Basic Black</xui-button>
   </div>
 </template>
 

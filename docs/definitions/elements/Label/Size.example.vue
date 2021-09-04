@@ -1,8 +1,8 @@
 <template>
   <div>
-    <sui-label v-for="size in sizes" :size="size" :key="size">
+    <xui-label v-for="size in sizes" :size="size" :key="size">
       {{ size }}
-    </sui-label>
+    </xui-label>
   </div>
 </template>
 

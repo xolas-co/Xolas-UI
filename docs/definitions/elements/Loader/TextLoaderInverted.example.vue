@@ -1,11 +1,11 @@
 <template lang="html">
-  <sui-segment>
-    <sui-dimmer active inverted>
-      <sui-loader content="Loading..." />
-    </sui-dimmer>
+  <xui-segment>
+    <xui-dimmer active inverted>
+      <xui-loader content="Loading..." />
+    </xui-dimmer>
 
     <docs-wireframe name="short-paragraph" />
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

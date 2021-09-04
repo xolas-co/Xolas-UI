@@ -42,7 +42,7 @@ describe('CommentGroup', () => {
     wrapper = shallowMount(CommentGroup, {
       parentComponent: Comment,
     });
-    expect(wrapper.vm.$parent.$options.name).toEqual('SuiComment');
+    expect(wrapper.vm.$parent.$options.name).toEqual('XuiComment');
     expect(wrapper.classes()).not.toContain('ui');
   });
 });

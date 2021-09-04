@@ -1,18 +1,18 @@
 <template lang="html">
   <div>
-    <sui-progress color="red" />
-    <sui-progress color="orange" />
-    <sui-progress color="yellow" />
-    <sui-progress color="olive" />
-    <sui-progress color="green" />
-    <sui-progress color="teal" />
-    <sui-progress color="blue" />
-    <sui-progress color="violet" />
-    <sui-progress color="purple" />
-    <sui-progress color="pink" />
-    <sui-progress color="brown" />
-    <sui-progress color="grey" />
-    <sui-progress color="black" />
+    <xui-progress color="red" />
+    <xui-progress color="orange" />
+    <xui-progress color="yellow" />
+    <xui-progress color="olive" />
+    <xui-progress color="green" />
+    <xui-progress color="teal" />
+    <xui-progress color="blue" />
+    <xui-progress color="violet" />
+    <xui-progress color="purple" />
+    <xui-progress color="pink" />
+    <xui-progress color="brown" />
+    <xui-progress color="grey" />
+    <xui-progress color="black" />
   </div>
 </template>
 

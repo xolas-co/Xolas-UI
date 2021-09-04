@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiTableBody',
+  name: 'XuiTableBody',
   mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType('tbody');
@@ -12,6 +12,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiTable',
+    parent: 'XuiTable',
   },
 };

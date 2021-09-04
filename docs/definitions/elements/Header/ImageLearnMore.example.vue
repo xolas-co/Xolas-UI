@@ -1,6 +1,6 @@
 <template>
   <h2
-    is="sui-header"
+    is="xui-header"
     image="static/images/icons/school.png"
     content="Learn More"
   />

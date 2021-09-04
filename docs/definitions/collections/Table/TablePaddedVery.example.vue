@@ -1,30 +1,30 @@
 <template lang="html">
-  <sui-table padded="very">
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Name</sui-table-header-cell>
-        <sui-table-header-cell>Status</sui-table-header-cell>
-        <sui-table-header-cell>Notes</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>John</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell>
+  <xui-table padded="very">
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Name</xui-table-header-cell>
+        <xui-table-header-cell>Status</xui-table-header-cell>
+        <xui-table-header-cell>Notes</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>John</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell>
           He is a very nice guy and I enjoyed talking to him on the telephone. I
           hope we get to talk again.
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>John</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell>
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>John</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell>
           Jamie was not interested in purchasing our product.
-        </sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+        </xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

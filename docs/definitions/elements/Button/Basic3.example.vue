@@ -1,18 +1,18 @@
 <template lang="html">
   <div>
-    <sui-button basic color="red">Red</sui-button>
-    <sui-button basic color="orange">Orange</sui-button>
-    <sui-button basic color="yellow">Yellow</sui-button>
-    <sui-button basic color="olive">Olive</sui-button>
-    <sui-button basic color="green">Green</sui-button>
-    <sui-button basic color="teal">Teal</sui-button>
-    <sui-button basic color="blue">Blue</sui-button>
-    <sui-button basic color="violet">Violet</sui-button>
-    <sui-button basic color="purple">Purple</sui-button>
-    <sui-button basic color="pink">Pink</sui-button>
-    <sui-button basic color="brown">Brown</sui-button>
-    <sui-button basic color="grey">Grey</sui-button>
-    <sui-button basic color="black">Black</sui-button>
+    <xui-button basic color="red">Red</xui-button>
+    <xui-button basic color="orange">Orange</xui-button>
+    <xui-button basic color="yellow">Yellow</xui-button>
+    <xui-button basic color="olive">Olive</xui-button>
+    <xui-button basic color="green">Green</xui-button>
+    <xui-button basic color="teal">Teal</xui-button>
+    <xui-button basic color="blue">Blue</xui-button>
+    <xui-button basic color="violet">Violet</xui-button>
+    <xui-button basic color="purple">Purple</xui-button>
+    <xui-button basic color="pink">Pink</xui-button>
+    <xui-button basic color="brown">Brown</xui-button>
+    <xui-button basic color="grey">Grey</xui-button>
+    <xui-button basic color="black">Black</xui-button>
   </div>
 </template>
 

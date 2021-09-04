@@ -6,19 +6,19 @@
       </option>
     </select>
 
-    <sui-divider hidden />
+    <xui-divider hidden />
 
-    <sui-tab :menu="{ color: selectedColor, attached: false, tabular: false }">
-      <sui-tab-pane title="Circle" :attached="false">
+    <xui-tab :menu="{ color: selectedColor, attached: false, tabular: false }">
+      <xui-tab-pane title="Circle" :attached="false">
         Circle
-      </sui-tab-pane>
-      <sui-tab-pane title="Box" :attached="false">
+      </xui-tab-pane>
+      <xui-tab-pane title="Box" :attached="false">
         Box
-      </sui-tab-pane>
-      <sui-tab-pane title="Triangle" :attached="false">
+      </xui-tab-pane>
+      <xui-tab-pane title="Triangle" :attached="false">
         Triangle
-      </sui-tab-pane>
-    </sui-tab>
+      </xui-tab-pane>
+    </xui-tab>
   </div>
 </template>
 

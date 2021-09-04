@@ -1,15 +1,15 @@
 <template lang="html">
   <div>
-    <sui-card>
-      <sui-card-content>
-        <sui-card-header>Cute Dog</sui-card-header>
-        <sui-card-meta>
+    <xui-card>
+      <xui-card-content>
+        <xui-card-header>Cute Dog</xui-card-header>
+        <xui-card-meta>
           <span>2 days ago</span>
           <a>Animals</a>
-        </sui-card-meta>
-        <sui-image src="static/images/wireframes/paragraph.png" />
-      </sui-card-content>
-    </sui-card>
+        </xui-card-meta>
+        <xui-image src="static/images/wireframes/paragraph.png" />
+      </xui-card-content>
+    </xui-card>
   </div>
 </template>
 

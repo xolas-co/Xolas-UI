@@ -1,5 +1,5 @@
 <template>
-  <h3 is="sui-header" block>
+  <h3 is="xui-header" block>
     Block Header
   </h3>
 </template>

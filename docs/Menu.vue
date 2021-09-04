@@ -1,51 +1,51 @@
 <template>
-  <sui-menu
-    is="sui-sidebar"
+  <xui-menu
+    is="xui-sidebar"
     id="docs-menu"
     inverted="true"
     vertical="true"
     animation="overlay"
     :visible="visible"
   >
-    <sui-menu-item>
-      <sui-image :src="`/static/images/logo.png`" spaced="right" size="mini" />
+    <xui-menu-item>
+      <xui-image :src="`/static/images/logo.png`" spaced="right" size="mini" />
       <strong>
         Vue Xolas UI
         <small>
           <em>{{ version }}</em>
         </small>
       </strong>
-    </sui-menu-item>
-    <sui-menu-item>
-      <sui-menu-header>Getting Started</sui-menu-header>
-      <sui-menu-menu>
-        <router-link is="sui-menu-item" to="/">Quick Start</router-link>
-        <router-link is="sui-menu-item" to="/layouts">
+    </xui-menu-item>
+    <xui-menu-item>
+      <xui-menu-header>Getting Started</xui-menu-header>
+      <xui-menu-menu>
+        <router-link is="xui-menu-item" to="/">Quick Start</router-link>
+        <router-link is="xui-menu-item" to="/layouts">
           Layouts
         </router-link>
-        <router-link is="sui-menu-item" to="/contributing">
+        <router-link is="xui-menu-item" to="/contributing">
           Contributing
         </router-link>
-        <router-link is="sui-menu-item" to="/features">
+        <router-link is="xui-menu-item" to="/features">
           Feature Status
         </router-link>
         <a
-          is="sui-menu-item"
+          is="xui-menu-item"
           href="https://github.com/Semantic-UI-Vue/Semantic-UI-Vue"
         >
           Github
-          <sui-icon name="github" />
+          <xui-icon name="github" />
         </a>
-        <a is="sui-menu-item" href="https://semantic-ui.com/">
+        <a is="xui-menu-item" href="https://semantic-ui.com/">
           Semantic UI
           <i class="icon semantic-ui">
             <img src="https://semantic-ui.com/favicon.ico" />
           </i>
         </a>
-      </sui-menu-menu>
-    </sui-menu-item>
-    <sui-menu-item>
-      <sui-input
+      </xui-menu-menu>
+    </xui-menu-item>
+    <xui-menu-item>
+      <xui-input
         icon="search"
         inverted
         placeholder="Start typing..."
@@ -53,10 +53,10 @@
         v-model="search"
         @keypress.native="openFirst"
       />
-    </sui-menu-item>
-    <sui-menu-menu v-if="search">
+    </xui-menu-item>
+    <xui-menu-menu v-if="search">
       <router-link
-        is="sui-menu-item"
+        is="xui-menu-item"
         :key="entry.component"
         :active="!index"
         :to="entry.href"
@@ -65,13 +65,13 @@
         {{ entry.content }}
         <span class="press-enter" v-if="!index">Press Enter</span>
       </router-link>
-    </sui-menu-menu>
+    </xui-menu-menu>
     <template v-if="!search">
-      <sui-menu-item :key="mod.name" v-for="mod in modules">
-        <sui-menu-header>{{ mod.name }}</sui-menu-header>
-        <sui-menu-menu>
+      <xui-menu-item :key="mod.name" v-for="mod in modules">
+        <xui-menu-header>{{ mod.name }}</xui-menu-header>
+        <xui-menu-menu>
           <router-link
-            is="sui-menu-item"
+            is="xui-menu-item"
             active-class="active"
             :key="comp"
             :to="getUrl(mod.name, comp)"
@@ -79,10 +79,10 @@
           >
             {{ comp }}
           </router-link>
-        </sui-menu-menu>
-      </sui-menu-item>
+        </xui-menu-menu>
+      </xui-menu-item>
     </template>
-  </sui-menu>
+  </xui-menu>
 </template>
 
 <script>

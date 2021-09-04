@@ -2,7 +2,7 @@ import { VueXolasUIMixin, textAlign } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiContainer',
+  name: 'XuiContainer',
   mixins: [VueXolasUIMixin],
   props: {
     fluid: {

@@ -1,17 +1,17 @@
 <template lang="html">
   <div>
-    <sui-container text-align="left">
+    <xui-container text-align="left">
       Left Aligned
-    </sui-container>
-    <sui-container text-align="center">
+    </xui-container>
+    <xui-container text-align="center">
       Center Aligned
-    </sui-container>
-    <sui-container text-align="right">
+    </xui-container>
+    <xui-container text-align="right">
       Right Aligned
-    </sui-container>
+    </xui-container>
     <b>Justified</b>
-    <sui-divider />
-    <sui-container text-align="justified">
+    <xui-divider />
+    <xui-container text-align="justified">
       <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa <b>strong</b>. Cum sociis natoque
@@ -44,7 +44,7 @@
         imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
         ultricies nisi.
       </p>
-    </sui-container>
+    </xui-container>
   </div>
 </template>
 

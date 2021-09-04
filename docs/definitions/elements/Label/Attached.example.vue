@@ -1,47 +1,47 @@
 <template>
-  <sui-grid :columns="3">
-    <sui-grid-row>
-      <sui-grid-column>
-        <sui-segment padded>
-          <sui-label attached="top">HTML</sui-label>
+  <xui-grid :columns="3">
+    <xui-grid-row>
+      <xui-grid-column>
+        <xui-segment padded>
+          <xui-label attached="top">HTML</xui-label>
           <docs-wireframe name="paragraph" />
-        </sui-segment>
-      </sui-grid-column>
-      <sui-grid-column>
-        <sui-segment padded>
-          <sui-label attached="bottom">CSS</sui-label>
+        </xui-segment>
+      </xui-grid-column>
+      <xui-grid-column>
+        <xui-segment padded>
+          <xui-label attached="bottom">CSS</xui-label>
           <docs-wireframe name="paragraph" />
-        </sui-segment>
-      </sui-grid-column>
-      <sui-grid-column>
-        <sui-segment padded>
-          <sui-label attached="top right">Code</sui-label>
+        </xui-segment>
+      </xui-grid-column>
+      <xui-grid-column>
+        <xui-segment padded>
+          <xui-label attached="top right">Code</xui-label>
           <docs-wireframe name="paragraph" />
-        </sui-segment>
-      </sui-grid-column>
-    </sui-grid-row>
+        </xui-segment>
+      </xui-grid-column>
+    </xui-grid-row>
 
-    <sui-grid-row>
-      <sui-grid-column>
-        <sui-segment padded>
-          <sui-label attached="top left">View</sui-label>
+    <xui-grid-row>
+      <xui-grid-column>
+        <xui-segment padded>
+          <xui-label attached="top left">View</xui-label>
           <docs-wireframe name="paragraph" />
-        </sui-segment>
-      </sui-grid-column>
-      <sui-grid-column>
-        <sui-segment padded>
-          <sui-label attached="bottom left">User View</sui-label>
+        </xui-segment>
+      </xui-grid-column>
+      <xui-grid-column>
+        <xui-segment padded>
+          <xui-label attached="bottom left">User View</xui-label>
           <docs-wireframe name="paragraph" />
-        </sui-segment>
-      </sui-grid-column>
-      <sui-grid-column>
-        <sui-segment padded>
-          <sui-label attached="bottom right">Admin View</sui-label>
+        </xui-segment>
+      </xui-grid-column>
+      <xui-grid-column>
+        <xui-segment padded>
+          <xui-label attached="bottom right">Admin View</xui-label>
           <docs-wireframe name="paragraph" />
-        </sui-segment>
-      </sui-grid-column>
-    </sui-grid-row>
-  </sui-grid>
+        </xui-segment>
+      </xui-grid-column>
+    </xui-grid-row>
+  </xui-grid>
 </template>
 
 <script>

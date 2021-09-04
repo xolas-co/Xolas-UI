@@ -1,9 +1,9 @@
 <template>
   <div class="ui inverted segment">
     <p></p>
-    <sui-divider inverted />
+    <xui-divider inverted />
     <p></p>
-    <h4 is="sui-divider" horizontal inverted>
+    <h4 is="xui-divider" horizontal inverted>
       Horizontal
     </h4>
   </div>

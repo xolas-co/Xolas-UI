@@ -1,39 +1,39 @@
 <template>
   <div>
-    <h4 is="sui-header" color="red">
+    <h4 is="xui-header" color="red">
       Red
     </h4>
-    <h4 is="sui-header" color="orange">
+    <h4 is="xui-header" color="orange">
       Orange
     </h4>
-    <h4 is="sui-header" color="yellow">
+    <h4 is="xui-header" color="yellow">
       Yellow
     </h4>
-    <h4 is="sui-header" color="olive">
+    <h4 is="xui-header" color="olive">
       Olive
     </h4>
-    <h4 is="sui-header" color="green">
+    <h4 is="xui-header" color="green">
       Green
     </h4>
-    <h4 is="sui-header" color="teal">
+    <h4 is="xui-header" color="teal">
       Teal
     </h4>
-    <h4 is="sui-header" color="blue">
+    <h4 is="xui-header" color="blue">
       Blue
     </h4>
-    <h4 is="sui-header" color="purple">
+    <h4 is="xui-header" color="purple">
       Purple
     </h4>
-    <h4 is="sui-header" color="violet">
+    <h4 is="xui-header" color="violet">
       Violet
     </h4>
-    <h4 is="sui-header" color="pink">
+    <h4 is="xui-header" color="pink">
       Pink
     </h4>
-    <h4 is="sui-header" color="brown">
+    <h4 is="xui-header" color="brown">
       Brown
     </h4>
-    <h4 is="sui-header" color="grey">
+    <h4 is="xui-header" color="grey">
       Grey
     </h4>
   </div>

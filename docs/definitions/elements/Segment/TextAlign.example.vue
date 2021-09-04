@@ -1,14 +1,14 @@
 <template lang="html">
   <div>
-    <sui-segment aligned="right">
+    <xui-segment aligned="right">
       <p>Right</p>
-    </sui-segment>
-    <sui-segment aligned="left">
+    </xui-segment>
+    <xui-segment aligned="left">
       <p>Left</p>
-    </sui-segment>
-    <sui-segment aligned="center">
+    </xui-segment>
+    <xui-segment aligned="center">
       <p>Center</p>
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

@@ -1,9 +1,9 @@
 import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
-import SuiIcon from '../../elements/Icon/Icon';
+import XuiIcon from '../../elements/Icon/Icon';
 
 export default {
-  name: 'SuiMenuItem',
+  name: 'XuiMenuItem',
   mixins: [VueXolasUIMixin],
   props: {
     active: {
@@ -60,12 +60,12 @@ export default {
           'item',
         )}
       >
-        {typeof this.icon === 'string' && <SuiIcon name={this.icon} />}
+        {typeof this.icon === 'string' && <XuiIcon name={this.icon} />}
         {this.$slots.default || this.content}
       </ElementType>
     );
   },
   meta: {
-    parent: 'SuiMenu',
+    parent: 'XuiMenu',
   },
 };

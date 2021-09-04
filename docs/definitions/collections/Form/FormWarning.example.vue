@@ -1,20 +1,20 @@
 <template lang="html">
-  <sui-form warning>
-    <sui-form-field>
+  <xui-form warning>
+    <xui-form-field>
       <label>E-mail</label>
       <input type="email" placeholder="joe@schmoe.com" />
-    </sui-form-field>
-    <sui-message warning>
-      <sui-message-header>Could you check something!</sui-message-header>
-      <sui-message-list>
-        <sui-message-item>
+    </xui-form-field>
+    <xui-message warning>
+      <xui-message-header>Could you check something!</xui-message-header>
+      <xui-message-list>
+        <xui-message-item>
           That e-mail has been subscribed, but you have not yet clicked the
           verification link in your e-mail.
-        </sui-message-item>
-      </sui-message-list>
-    </sui-message>
-    <sui-button type="submit">Submit</sui-button>
-  </sui-form>
+        </xui-message-item>
+      </xui-message-list>
+    </xui-message>
+    <xui-button type="submit">Submit</xui-button>
+  </xui-form>
 </template>
 
 <script>

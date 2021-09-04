@@ -1,8 +1,8 @@
 <template lang="html">
-  <sui-segment>
-    <sui-loader active />
+  <xui-segment>
+    <xui-loader active />
     <docs-wireframe name="short-paragraph" />
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

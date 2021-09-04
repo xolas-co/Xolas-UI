@@ -4,19 +4,19 @@
 
     <input type="range" max="2" v-model="activeIndex" />
 
-    <sui-divider hidden />
+    <xui-divider hidden />
 
-    <sui-tab :active-index.sync="activeIndex">
-      <sui-tab-pane title="Circle">
+    <xui-tab :active-index.sync="activeIndex">
+      <xui-tab-pane title="Circle">
         Circle
-      </sui-tab-pane>
-      <sui-tab-pane title="Box">
+      </xui-tab-pane>
+      <xui-tab-pane title="Box">
         Box
-      </sui-tab-pane>
-      <sui-tab-pane title="Triangle">
+      </xui-tab-pane>
+      <xui-tab-pane title="Triangle">
         Triangle
-      </sui-tab-pane>
-    </sui-tab>
+      </xui-tab-pane>
+    </xui-tab>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiCommentAction',
+  name: 'XuiCommentAction',
   mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType('a');
@@ -12,6 +12,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiComment',
+    parent: 'XuiComment',
   },
 };

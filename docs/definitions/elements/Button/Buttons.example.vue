@@ -1,9 +1,9 @@
 <template lang="html">
-  <sui-button-group>
-    <sui-button>One</sui-button>
-    <sui-button>Two</sui-button>
-    <sui-button>Three</sui-button>
-  </sui-button-group>
+  <xui-button-group>
+    <xui-button>One</xui-button>
+    <xui-button>Two</xui-button>
+    <xui-button>Three</xui-button>
+  </xui-button-group>
 </template>
 
 <script>

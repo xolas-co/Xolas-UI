@@ -1,18 +1,18 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-fields inline>
-      <sui-form-field width="eight">
+  <xui-form>
+    <xui-form-fields inline>
+      <xui-form-field width="eight">
         <label>Name</label>
         <input type="text" placeholder="First Name" />
-      </sui-form-field>
-      <sui-form-field width="three">
+      </xui-form-field>
+      <xui-form-field width="three">
         <input type="text" placeholder="Middle Name" />
-      </sui-form-field>
-      <sui-form-field width="five">
+      </xui-form-field>
+      <xui-form-field width="five">
         <input type="text" placeholder="Last Name" />
-      </sui-form-field>
-    </sui-form-fields>
-  </sui-form>
+      </xui-form-field>
+    </xui-form-fields>
+  </xui-form>
 </template>
 
 <script>

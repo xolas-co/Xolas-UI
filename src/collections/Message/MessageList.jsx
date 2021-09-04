@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiMessageList',
+  name: 'XuiMessageList',
   mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType('ul');
@@ -15,6 +15,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiMessage',
+    parent: 'XuiMessage',
   },
 };

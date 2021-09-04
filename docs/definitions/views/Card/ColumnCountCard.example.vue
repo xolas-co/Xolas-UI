@@ -1,55 +1,55 @@
 <template lang="html">
   <div>
-    <sui-card-group :items-per-row="4">
-      <sui-card>
-        <sui-image src="static/images/wireframes/image.png" />
-        <sui-card-content extra>
-          Rating: <sui-rating icon="star" :max-rating="4" :rating="4" />
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/wireframes/image.png" />
-        <sui-card-content extra>
-          Rating: <sui-rating icon="star" :max-rating="4" :rating="2" />
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/wireframes/image.png" />
-        <sui-card-content extra>
-          Rating: <sui-rating icon="star" :max-rating="4" :rating="3" />
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/wireframes/image.png" />
-        <sui-card-content extra>
-          Rating: <sui-rating icon="star" :max-rating="4" :rating="4" />
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/wireframes/image.png" />
-        <sui-card-content extra>
-          Rating: <sui-rating icon="star" :max-rating="4" :rating="3" />
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/wireframes/image.png" />
-        <sui-card-content extra>
-          Rating: <sui-rating icon="star" :max-rating="4" :rating="3" />
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/wireframes/image.png" />
-        <sui-card-content extra>
-          Rating: <sui-rating icon="star" :max-rating="4" :rating="4" />
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/wireframes/image.png" />
-        <sui-card-content extra>
-          Rating: <sui-rating icon="star" :max-rating="4" :rating="4" />
-        </sui-card-content>
-      </sui-card>
-    </sui-card-group>
+    <xui-card-group :items-per-row="4">
+      <xui-card>
+        <xui-image src="static/images/wireframes/image.png" />
+        <xui-card-content extra>
+          Rating: <xui-rating icon="star" :max-rating="4" :rating="4" />
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/wireframes/image.png" />
+        <xui-card-content extra>
+          Rating: <xui-rating icon="star" :max-rating="4" :rating="2" />
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/wireframes/image.png" />
+        <xui-card-content extra>
+          Rating: <xui-rating icon="star" :max-rating="4" :rating="3" />
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/wireframes/image.png" />
+        <xui-card-content extra>
+          Rating: <xui-rating icon="star" :max-rating="4" :rating="4" />
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/wireframes/image.png" />
+        <xui-card-content extra>
+          Rating: <xui-rating icon="star" :max-rating="4" :rating="3" />
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/wireframes/image.png" />
+        <xui-card-content extra>
+          Rating: <xui-rating icon="star" :max-rating="4" :rating="3" />
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/wireframes/image.png" />
+        <xui-card-content extra>
+          Rating: <xui-rating icon="star" :max-rating="4" :rating="4" />
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/wireframes/image.png" />
+        <xui-card-content extra>
+          Rating: <xui-rating icon="star" :max-rating="4" :rating="4" />
+        </xui-card-content>
+      </xui-card>
+    </xui-card-group>
   </div>
 </template>
 

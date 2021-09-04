@@ -1,7 +1,7 @@
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiTab',
+  name: 'XuiTab',
   props: {
     menu: {
       type: Object,
@@ -25,18 +25,18 @@ export default {
   computed: {
     tabMenu() {
       return (
-        <sui-menu {...{ props: this.menu }}>
+        <xui-menu {...{ props: this.menu }}>
           {this.tabs.map(tab => (
             <a
               class={['item', { active: tab.active, disabled: tab.disabled }]}
               onClick={e => this.openTab(e, tab)}
             >
-              {tab.icon && <sui-icon name={tab.icon} />}
+              {tab.icon && <xui-icon name={tab.icon} />}
               <span>{tab.title}</span>
-              {tab.label && <sui-label>{tab.label}</sui-label>}
+              {tab.label && <xui-label>{tab.label}</xui-label>}
             </a>
           ))}
-        </sui-menu>
+        </xui-menu>
       );
     },
   },
@@ -86,10 +86,10 @@ export default {
 
     if (this.menu.vertical) {
       renderable = [
-        <sui-grid-column width={4}>{this.tabMenu}</sui-grid-column>,
-        <sui-grid-column width={12} class="stretched">
+        <xui-grid-column width={4}>{this.tabMenu}</xui-grid-column>,
+        <xui-grid-column width={12} class="stretched">
           {slot}
-        </sui-grid-column>,
+        </xui-grid-column>,
       ];
 
       if (this.menu.tabular === 'right' || this.menuPosition === 'right') {
@@ -97,9 +97,9 @@ export default {
       }
 
       renderable = (
-        <sui-grid>
-          <sui-grid-row>{renderable}</sui-grid-row>
-        </sui-grid>
+        <xui-grid>
+          <xui-grid-row>{renderable}</xui-grid-row>
+        </xui-grid>
       );
     }
 

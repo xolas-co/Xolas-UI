@@ -1,5 +1,5 @@
 import { mount, createLocalVue } from '@vue/test-utils';
-import SuiVue from 'vue-xolas-ui';
+import XuiVue from 'vue-xolas-ui';
 import DocsWireframe from '../components/DocsWireframe.vue';
 const exampleContext = require.context(
   '../definitions',
@@ -8,7 +8,7 @@ const exampleContext = require.context(
 );
 
 const localVue = createLocalVue();
-localVue.use(SuiVue);
+localVue.use(XuiVue);
 localVue.component('docs-wireframe', DocsWireframe);
 
 describe.only('Examples', () => {

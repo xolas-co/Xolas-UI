@@ -1,39 +1,39 @@
 <template lang="html">
   <div>
-    <sui-menu fixed inverted>
-      <sui-container>
-        <a href="#" is="sui-menu-item" class="header">
+    <xui-menu fixed inverted>
+      <xui-container>
+        <a href="#" is="xui-menu-item" class="header">
           <img src="/static/images/logo.png" class="logo" />
           Project Name
         </a>
 
-        <a is="sui-menu-item" href="#">Home</a>
+        <a is="xui-menu-item" href="#">Home</a>
 
-        <sui-dropdown text="Dropdown" item class="simple">
-          <sui-dropdown-menu>
-            <a is="sui-dropdown-item" href="#">Link Item</a>
-            <a is="sui-dropdown-item" href="#">Link Item</a>
+        <xui-dropdown text="Dropdown" item class="simple">
+          <xui-dropdown-menu>
+            <a is="xui-dropdown-item" href="#">Link Item</a>
+            <a is="xui-dropdown-item" href="#">Link Item</a>
 
-            <sui-dropdown-divider />
-            <sui-dropdown-header>Header Item</sui-dropdown-header>
+            <xui-dropdown-divider />
+            <xui-dropdown-header>Header Item</xui-dropdown-header>
 
-            <sui-dropdown-item>
-              <sui-icon name="dropdown" /> Submenu
+            <xui-dropdown-item>
+              <xui-icon name="dropdown" /> Submenu
 
-              <sui-dropdown-menu class="simple">
-                <a is="sui-dropdown-item" href="#">Link Item</a>
-                <a is="sui-dropdown-item" href="#">Link Item</a>
-              </sui-dropdown-menu>
-            </sui-dropdown-item>
+              <xui-dropdown-menu class="simple">
+                <a is="xui-dropdown-item" href="#">Link Item</a>
+                <a is="xui-dropdown-item" href="#">Link Item</a>
+              </xui-dropdown-menu>
+            </xui-dropdown-item>
 
-            <a is="sui-dropdown-item" href="#">Link Item</a>
-          </sui-dropdown-menu>
-        </sui-dropdown>
-      </sui-container>
-    </sui-menu>
+            <a is="xui-dropdown-item" href="#">Link Item</a>
+          </xui-dropdown-menu>
+        </xui-dropdown>
+      </xui-container>
+    </xui-menu>
 
-    <sui-container class="main" text>
-      <sui-header size="huge">Vue Xolas UI Fixed Template</sui-header>
+    <xui-container class="main" text>
+      <xui-header size="huge">Vue Xolas UI Fixed Template</xui-header>
       <p>This is a basic fixed menu template using fixed size containers.</p>
       <p>
         A text container is used for the main container, which is useful for
@@ -47,42 +47,42 @@
         class="wireframe"
         name="paragraph"
       />
-    </sui-container>
+    </xui-container>
 
-    <sui-segment inverted vertical class="footer">
-      <sui-container text-align="center">
-        <sui-grid class="inverted" stackable divided>
-          <sui-grid-row>
-            <sui-grid-column :width="3" v-for="n in 3" :key="n">
-              <sui-list class="inverted" link>
-                <h4 is="sui-header" :content="`Group ${n}`" class="inverted" />
-                <a is="sui-list-item" href="#">Link One</a>
-                <a is="sui-list-item" href="#">Link Two</a>
-                <a is="sui-list-item" href="#">Link Three</a>
-                <a is="sui-list-item" href="#">Link Four</a>
-              </sui-list>
-            </sui-grid-column>
-            <sui-grid-column :width="3">
-              <h4 is="sui-header" content="Footer Header" class="inverted" />
+    <xui-segment inverted vertical class="footer">
+      <xui-container text-align="center">
+        <xui-grid class="inverted" stackable divided>
+          <xui-grid-row>
+            <xui-grid-column :width="3" v-for="n in 3" :key="n">
+              <xui-list class="inverted" link>
+                <h4 is="xui-header" :content="`Group ${n}`" class="inverted" />
+                <a is="xui-list-item" href="#">Link One</a>
+                <a is="xui-list-item" href="#">Link Two</a>
+                <a is="xui-list-item" href="#">Link Three</a>
+                <a is="xui-list-item" href="#">Link Four</a>
+              </xui-list>
+            </xui-grid-column>
+            <xui-grid-column :width="3">
+              <h4 is="xui-header" content="Footer Header" class="inverted" />
               <p>
                 Extra space for a call to action inside the footer that could
                 help re-engage users.
               </p>
-            </sui-grid-column>
-          </sui-grid-row>
-        </sui-grid>
+            </xui-grid-column>
+          </xui-grid-row>
+        </xui-grid>
 
-        <sui-divider inverted section />
+        <xui-divider inverted section />
 
-        <sui-image src="/static/images/logo.png" size="mini" centered />
-        <sui-list horizontal divided link class="inverted">
-          <a is="sui-list-item" href="#">Site Map</a>
-          <a is="sui-list-item" href="#">Contact Us</a>
-          <a is="sui-list-item" href="#">Terms and Conditions</a>
-          <a is="sui-list-item" href="#">Privacy Policy</a>
-        </sui-list>
-      </sui-container>
-    </sui-segment>
+        <xui-image src="/static/images/logo.png" size="mini" centered />
+        <xui-list horizontal divided link class="inverted">
+          <a is="xui-list-item" href="#">Site Map</a>
+          <a is="xui-list-item" href="#">Contact Us</a>
+          <a is="xui-list-item" href="#">Terms and Conditions</a>
+          <a is="xui-list-item" href="#">Privacy Policy</a>
+        </xui-list>
+      </xui-container>
+    </xui-segment>
   </div>
 </template>
 

@@ -1,18 +1,18 @@
 <template lang="html">
   <div>
-    <sui-message
+    <xui-message
       icon="inbox"
       header="Have you heard about our mailing list?"
       content="Get the best news in your e-mail every day."
     />
 
-    <sui-message icon>
-      <sui-icon name="circle notched" loading />
-      <sui-message-content>
-        <sui-message-header>Just one second</sui-message-header>
+    <xui-message icon>
+      <xui-icon name="circle notched" loading />
+      <xui-message-content>
+        <xui-message-header>Just one second</xui-message-header>
         We are fetching that content for you.
-      </sui-message-content>
-    </sui-message>
+      </xui-message-content>
+    </xui-message>
   </div>
 </template>
 

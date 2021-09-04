@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiSegment',
+  name: 'XuiSegment',
   mixins: [VueXolasUIMixin],
   props: {
     attached: Enum.Attached({

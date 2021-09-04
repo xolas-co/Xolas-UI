@@ -1,28 +1,28 @@
 <template>
-  <sui-list divided selection>
-    <sui-list-item>
-      <sui-label color="red" horizontal>
+  <xui-list divided selection>
+    <xui-list-item>
+      <xui-label color="red" horizontal>
         Fruit
-      </sui-label>
+      </xui-label>
       Kumquats
-    </sui-list-item>
-    <sui-list-item>
-      <sui-label color="purple" horizontal>
+    </xui-list-item>
+    <xui-list-item>
+      <xui-label color="purple" horizontal>
         Candy
-      </sui-label>
+      </xui-label>
       Ice Cream
-    </sui-list-item>
-    <sui-list-item>
-      <sui-label color="red" horizontal>
+    </xui-list-item>
+    <xui-list-item>
+      <xui-label color="red" horizontal>
         Fruit
-      </sui-label>
+      </xui-label>
       Orange
-    </sui-list-item>
-    <sui-list-item>
-      <sui-label horizontal>Dog</sui-label>
+    </xui-list-item>
+    <xui-list-item>
+      <xui-label horizontal>Dog</xui-label>
       Poodle
-    </sui-list-item>
-  </sui-list>
+    </xui-list-item>
+  </xui-list>
 </template>
 
 <script>

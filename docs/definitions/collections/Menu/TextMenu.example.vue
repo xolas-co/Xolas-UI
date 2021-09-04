@@ -1,15 +1,15 @@
 <template lang="html">
-  <sui-menu text>
-    <sui-menu-item header>Sort By</sui-menu-item>
+  <xui-menu text>
+    <xui-menu-item header>Sort By</xui-menu-item>
     <a
-      is="sui-menu-item"
+      is="xui-menu-item"
       v-for="item in items"
       :key="item"
       :content="item"
       :active="isActive(item)"
       @click="select(item)"
     />
-  </sui-menu>
+  </xui-menu>
 </template>
 
 <script>

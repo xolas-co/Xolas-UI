@@ -2,7 +2,7 @@ import { VueXolasUIMixin, textAlign } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiGridColumn',
+  name: 'XuiGridColumn',
   mixins: [VueXolasUIMixin],
   description: 'A column sub-component for Grid.',
   props: {
@@ -76,6 +76,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiGrid',
+    parent: 'XuiGrid',
   },
 };

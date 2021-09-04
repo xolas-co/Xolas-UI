@@ -1,10 +1,10 @@
 <template lang="html">
   <div>
-    <div is="sui-grid" :columns="2" stackable>
-      <div is="sui-grid-column">
+    <div is="xui-grid" :columns="2" stackable>
+      <div is="xui-grid-column">
         <div
           type="text"
-          is="sui-input"
+          is="xui-input"
           icon-position="left"
           icon="search"
           placeholder="Search..."
@@ -15,11 +15,11 @@
           <div class="ui teal button">Search</div>
         </div>
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
-        <sui-input placeholder="Search..." type="text" error />
+        <xui-input placeholder="Search..." type="text" error />
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
         <div class="ui right labeled input">
           <input placeholder="Placeholder" type="text" />
@@ -34,15 +34,15 @@
           </div>
         </div>
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
-        <sui-input
+        <xui-input
           type="text"
           placeholder="Search..."
           icon="search"
           transparent
         />
-        <sui-input
+        <xui-input
           type="text"
           placeholder="Search..."
           icon="search"
@@ -50,18 +50,18 @@
           transparent
         />
 
-        <div is="sui-divider" />
+        <div is="xui-divider" />
 
-        <sui-input
+        <xui-input
           type="text"
           placeholder="Loading..."
           icon="search"
           icon-position="left"
           loading
         />
-        <sui-input type="text" placeholder="Loading..." icon="search" loading />
+        <xui-input type="text" placeholder="Loading..." icon="search" loading />
       </div>
-      <div is="sui-grid-column">
+      <div is="xui-grid-column">
         <div class="ui right labeled left icon input">
           <i class="tags icon"></i>
           <input placeholder="Enter tags" type="text" />
@@ -69,21 +69,21 @@
             Add Tag
           </a>
         </div>
-        <div is="sui-divider" />
+        <div is="xui-divider" />
         <div class="ui labeled input">
           <a class="ui label">
             Label
           </a>
           <input type="text" placeholder="Placeholder..." />
         </div>
-        <div is="sui-divider" />
+        <div is="xui-divider" />
         <div class="ui right labeled input">
           <input type="text" placeholder="Placeholder..." />
           <a class="ui label">
             Label
           </a>
         </div>
-        <div is="sui-divider" />
+        <div is="xui-divider" />
         <div class="ui labeled icon input">
           <div class="ui label">
             http://
@@ -98,7 +98,7 @@
             Add
           </div>
         </div>
-        <div is="sui-divider" />
+        <div is="xui-divider" />
         <div class="ui corner labeled input">
           <input type="text" placeholder="Required Field" />
           <div class="ui corner label">

@@ -3,7 +3,7 @@ import { Enum } from '../../lib/PropTypes';
 import Icon from '../Icon/Icon';
 
 export default {
-  name: 'SuiLabel',
+  name: 'XuiLabel',
   mixins: [VueXolasUIMixin],
   description: 'A label displays content classification.',
   props: {

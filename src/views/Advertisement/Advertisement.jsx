@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiAdvertisement',
+  name: 'XuiAdvertisement',
   description: 'An advertisement view presents thrif-party promotional content',
   mixins: [VueXolasUIMixin],
   props: {

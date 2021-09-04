@@ -1,25 +1,25 @@
 <template lang="html">
   <div>
-    <sui-card-group :items-per-row="3" stackable>
-      <sui-card>
-        <sui-image src="static/images/avatar/large/elliot.jpg" />
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/avatar/large/helen.jpg" />
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/avatar/large/jenny.jpg" />
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/avatar/large/veronika.jpg" />
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/avatar/large/stevie.jpg" />
-      </sui-card>
-      <sui-card>
-        <sui-image src="static/images/avatar/large/steve.jpg" />
-      </sui-card>
-    </sui-card-group>
+    <xui-card-group :items-per-row="3" stackable>
+      <xui-card>
+        <xui-image src="static/images/avatar/large/elliot.jpg" />
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/avatar/large/helen.jpg" />
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/avatar/large/jenny.jpg" />
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/avatar/large/veronika.jpg" />
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/avatar/large/stevie.jpg" />
+      </xui-card>
+      <xui-card>
+        <xui-image src="static/images/avatar/large/steve.jpg" />
+      </xui-card>
+    </xui-card-group>
   </div>
 </template>
 

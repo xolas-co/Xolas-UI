@@ -55,7 +55,7 @@ function buildClass(visualState, animation) {
 }
 
 export default {
-  name: 'SuiModal',
+  name: 'XuiModal',
   model: {
     prop: 'open',
     event: changedEvent,

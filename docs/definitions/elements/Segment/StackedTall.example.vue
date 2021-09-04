@@ -1,7 +1,7 @@
 <template lang="html">
-  <sui-segment stacked="tall">
+  <xui-segment stacked="tall">
     <docs-wireframe name="paragraph" />
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

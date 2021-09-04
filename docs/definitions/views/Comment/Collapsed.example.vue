@@ -1,56 +1,56 @@
 <template lang="html">
-  <sui-comment-group>
-    <sui-comment>
-      <sui-comment-avatar src="static/images/avatar/small/christian.jpg" />
-      <sui-comment-content>
-        <a is="sui-comment-author">Christian Rocha</a>
-        <sui-comment-metadata>
+  <xui-comment-group>
+    <xui-comment>
+      <xui-comment-avatar src="static/images/avatar/small/christian.jpg" />
+      <xui-comment-content>
+        <a is="xui-comment-author">Christian Rocha</a>
+        <xui-comment-metadata>
           <div>2 days ago</div>
-        </sui-comment-metadata>
-        <sui-comment-text
+        </xui-comment-metadata>
+        <xui-comment-text
           >I'm very interested in this motherboard. Do you know if it'd work in
-          an Intel LGA775 CPU socket?</sui-comment-text
+          an Intel LGA775 CPU socket?</xui-comment-text
         >
-        <sui-comment-actions>
-          <sui-comment-action>Reply</sui-comment-action>
-        </sui-comment-actions>
-      </sui-comment-content>
-      <sui-comment-group collapsed>
-        <sui-comment>
-          <sui-comment-avatar src="static/images/avatar/small/elliot.jpg" />
-          <sui-comment-content>
-            <a is="sui-comment-author">Elliot Fu</a>
-            <sui-comment-metadata>
+        <xui-comment-actions>
+          <xui-comment-action>Reply</xui-comment-action>
+        </xui-comment-actions>
+      </xui-comment-content>
+      <xui-comment-group collapsed>
+        <xui-comment>
+          <xui-comment-avatar src="static/images/avatar/small/elliot.jpg" />
+          <xui-comment-content>
+            <a is="xui-comment-author">Elliot Fu</a>
+            <xui-comment-metadata>
               <div>1 day ago</div>
-            </sui-comment-metadata>
-            <sui-comment-text>
+            </xui-comment-metadata>
+            <xui-comment-text>
               No it won't.
-            </sui-comment-text>
-            <sui-comment-actions>
-              <sui-comment-action>Reply</sui-comment-action>
-            </sui-comment-actions>
-          </sui-comment-content>
-          <sui-comment-group>
-            <sui-comment>
-              <sui-comment-avatar src="static/images/avatar/small/jenny.jpg" />
-              <sui-comment-content>
-                <a is="sui-comment-author">Jenny Hess</a>
-                <sui-comment-metadata>
+            </xui-comment-text>
+            <xui-comment-actions>
+              <xui-comment-action>Reply</xui-comment-action>
+            </xui-comment-actions>
+          </xui-comment-content>
+          <xui-comment-group>
+            <xui-comment>
+              <xui-comment-avatar src="static/images/avatar/small/jenny.jpg" />
+              <xui-comment-content>
+                <a is="xui-comment-author">Jenny Hess</a>
+                <xui-comment-metadata>
                   <div>20 minutes ago</div>
-                </sui-comment-metadata>
-                <sui-comment-text>
+                </xui-comment-metadata>
+                <xui-comment-text>
                   Maybe it would.
-                </sui-comment-text>
-                <sui-comment-actions>
-                  <sui-comment-action>Reply</sui-comment-action>
-                </sui-comment-actions>
-              </sui-comment-content>
-            </sui-comment>
-          </sui-comment-group>
-        </sui-comment>
-      </sui-comment-group>
-    </sui-comment>
-  </sui-comment-group>
+                </xui-comment-text>
+                <xui-comment-actions>
+                  <xui-comment-action>Reply</xui-comment-action>
+                </xui-comment-actions>
+              </xui-comment-content>
+            </xui-comment>
+          </xui-comment-group>
+        </xui-comment>
+      </xui-comment-group>
+    </xui-comment>
+  </xui-comment-group>
 </template>
 
 <script>

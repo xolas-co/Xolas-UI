@@ -3,7 +3,7 @@ import { Enum } from '../../lib/PropTypes';
 import FeedEvent from './FeedEvent';
 
 export default {
-  name: 'SuiFeed',
+  name: 'XuiFeed',
   mixins: [VueXolasUIMixin],
   description: 'A feed presents user activity chronologically',
   props: {

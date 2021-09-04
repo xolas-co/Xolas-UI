@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiSidebarPusher',
+  name: 'XuiSidebarPusher',
   mixins: [VueXolasUIMixin],
   props: {
     dimmed: Boolean,
@@ -18,6 +18,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiSidebar',
+    parent: 'XuiSidebar',
   },
 };

@@ -1,34 +1,34 @@
 <template>
   <div class="component-body">
-    <sui-rail dividing position="right" id="docs-rail">
-      <h4 is="sui-header">
+    <xui-rail dividing position="right" id="docs-rail">
+      <h4 is="xui-header">
         {{ title }}
       </h4>
 
-      <sui-accordion vertical fluid text is="sui-menu">
-        <sui-menu-item v-for="(element, i) in elements" :key="i">
-          <sui-accordion-title is="sui-menu-header" active>
+      <xui-accordion vertical fluid text is="xui-menu">
+        <xui-menu-item v-for="(element, i) in elements" :key="i">
+          <xui-accordion-title is="xui-menu-header" active>
             {{ element.name }}
-            <sui-icon name="dropdown" />
-          </sui-accordion-title>
-          <sui-accordion-content is="sui-menu" text class="sub-menu">
+            <xui-icon name="dropdown" />
+          </xui-accordion-title>
+          <xui-accordion-content is="xui-menu" text class="sub-menu">
             <template v-for="(subElement, j) in element[subElementsKey]">
               <router-link
                 v-if="subElement.name"
-                is="sui-menu-item"
+                is="xui-menu-item"
                 :to="`#${getId(element, subElement)}`"
                 :key="j"
               >
                 {{ subElement.name }}
               </router-link>
             </template>
-          </sui-accordion-content>
-        </sui-menu-item>
-      </sui-accordion>
-    </sui-rail>
+          </xui-accordion-content>
+        </xui-menu-item>
+      </xui-accordion>
+    </xui-rail>
     <template v-for="element in elements">
       <div :key="element.name">
-        <h2 is="sui-header" dividing>{{ element.name }}</h2>
+        <h2 is="xui-header" dividing>{{ element.name }}</h2>
         <template v-for="subElement in element[subElementsKey]">
           <slot
             v-bind:id="getId(element, subElement)"

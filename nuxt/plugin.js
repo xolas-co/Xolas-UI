@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import SuiVue from 'vue-xolas-ui';
+import XuiVue from 'vue-xolas-ui';
 
-Vue.use(SuiVue);
+Vue.use(XuiVue);

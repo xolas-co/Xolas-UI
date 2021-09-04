@@ -1,44 +1,44 @@
 <template>
-  <sui-segment class="masthead">
-    <sui-container>
-      <sui-menu floated="right">
-        <sui-popup position="bottom center" content="View on GitHub">
+  <xui-segment class="masthead">
+    <xui-container>
+      <xui-menu floated="right">
+        <xui-popup position="bottom center" content="View on GitHub">
           <a
             slot="trigger"
-            is="sui-menu-item"
+            is="xui-menu-item"
             icon="github"
             :href="githubLink"
           />
-        </sui-popup>
-        <sui-popup position="bottom center" content="View on Semantic UI">
-          <a slot="trigger" is="sui-menu-item" icon="book" :href="suiLink" />
-        </sui-popup>
-      </sui-menu>
-      <h1 is="sui-header">
+        </xui-popup>
+        <xui-popup position="bottom center" content="View on Semantic UI">
+          <a slot="trigger" is="xui-menu-item" icon="book" :href="suiLink" />
+        </xui-popup>
+      </xui-menu>
+      <h1 is="xui-header">
         {{ title }}
-        <sui-header-subheader sub>{{
+        <xui-header-subheader sub>{{
           currentComponent.description
-        }}</sui-header-subheader>
+        }}</xui-header-subheader>
       </h1>
 
-      <sui-menu :widths="2" class="component-head-menu">
+      <xui-menu :widths="2" class="component-head-menu">
         <router-link
-          is="sui-menu-item"
+          is="xui-menu-item"
           :active="!tab"
           :to="`/${type}/${componentName}`"
         >
           Definitions
         </router-link>
         <router-link
-          is="sui-menu-item"
+          is="xui-menu-item"
           :active="tab === 'api'"
           :to="`/${type}/${componentName}/api`"
         >
           API
         </router-link>
-      </sui-menu>
-    </sui-container>
-  </sui-segment>
+      </xui-menu>
+    </xui-container>
+  </xui-segment>
 </template>
 
 <script>
@@ -48,7 +48,7 @@ import * as components from 'vue-xolas-ui';
 const getComponentFromName = name => components[capitalize(name)];
 
 export default {
-  name: 'SuiComponent',
+  name: 'XuiComponent',
   props: {
     type: String,
     componentName: String,

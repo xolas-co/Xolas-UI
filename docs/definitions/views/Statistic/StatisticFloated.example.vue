@@ -1,13 +1,13 @@
 <template lang="html">
-  <sui-segment>
-    <sui-statistic floated="right">
-      <sui-statistic-value>
+  <xui-segment>
+    <xui-statistic floated="right">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
+      </xui-statistic-label>
+    </xui-statistic>
     <p>
       Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia
       facete scriptorem, est autem aliquip detraxit at. Usu ocurreret
@@ -21,14 +21,14 @@
       phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide
       phaedrum, vim vivendum maiestatis in.
     </p>
-    <sui-statistic floated="left">
-      <sui-statistic-value>
+    <xui-statistic floated="left">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label class="label">
+      </xui-statistic-value>
+      <xui-statistic-label class="label">
         Views
-      </sui-statistic-label>
-    </sui-statistic>
+      </xui-statistic-label>
+    </xui-statistic>
     <p>
       Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut
       facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te
@@ -42,7 +42,7 @@
       phaedrum referrentur consectetuer. Id vix fabulas oporteat, ei quo vide
       phaedrum, vim vivendum maiestatis in.
     </p>
-  </sui-segment>
+  </xui-segment>
 </template>
 
 <script>

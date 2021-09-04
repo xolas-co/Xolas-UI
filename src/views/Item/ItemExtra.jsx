@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiItemExtra',
+  name: 'XuiItemExtra',
   mixins: [VueXolasUIMixin],
   description:
     'An item can contain extra content meant to be formatted separately from the main content',
@@ -15,6 +15,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiItem',
+    parent: 'XuiItem',
   },
 };

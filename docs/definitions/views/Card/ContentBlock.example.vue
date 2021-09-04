@@ -1,15 +1,15 @@
 <template lang="html">
   <div>
-    <sui-card>
-      <sui-card-content>
-        <sui-card-header>
+    <xui-card>
+      <xui-card-content>
+        <xui-card-header>
           Project Timeline
-        </sui-card-header>
-      </sui-card-content>
-      <sui-card-content>
-        <sui-header size="tiny">ACTIVITY</sui-header>
+        </xui-card-header>
+      </xui-card-content>
+      <xui-card-content>
+        <xui-header size="tiny">ACTIVITY</xui-header>
         <!--
-          sui-feed is not available yet, therefore base semantic ui has been substituted for now
+          xui-feed is not available yet, therefore base semantic ui has been substituted for now
         -->
         <div class="ui small feed">
           <div class="event">
@@ -32,12 +32,12 @@
             </div>
           </div>
         </div>
-        <!-- end of base semantic ui, to be updated in the future with sui-feed -->
-      </sui-card-content>
-      <sui-card-content extra>
-        <sui-button>Join Project</sui-button>
-      </sui-card-content>
-    </sui-card>
+        <!-- end of base semantic ui, to be updated in the future with xui-feed -->
+      </xui-card-content>
+      <xui-card-content extra>
+        <xui-button>Join Project</xui-button>
+      </xui-card-content>
+    </xui-card>
   </div>
 </template>
 

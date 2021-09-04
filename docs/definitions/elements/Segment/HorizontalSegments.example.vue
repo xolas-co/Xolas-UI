@@ -1,15 +1,15 @@
 <template lang="html">
-  <sui-segments horizontal>
-    <sui-segment>
+  <xui-segments horizontal>
+    <xui-segment>
       <docs-wireframe name="short-paragraph" />
-    </sui-segment>
-    <sui-segment>
+    </xui-segment>
+    <xui-segment>
       <docs-wireframe name="short-paragraph" />
-    </sui-segment>
-    <sui-segment>
+    </xui-segment>
+    <xui-segment>
       <docs-wireframe name="short-paragraph" />
-    </sui-segment>
-  </sui-segments>
+    </xui-segment>
+  </xui-segments>
 </template>
 
 <script>

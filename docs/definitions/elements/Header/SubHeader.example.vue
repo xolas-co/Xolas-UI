@@ -1,6 +1,6 @@
 <template>
   <div>
-    <sui-header sub>Price</sui-header>
+    <xui-header sub>Price</xui-header>
     <span>$10.99</span>
   </div>
 </template>

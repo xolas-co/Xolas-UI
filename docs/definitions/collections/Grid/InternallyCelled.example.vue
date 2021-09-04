@@ -1,29 +1,29 @@
 <template>
-  <sui-grid celled="internally">
-    <sui-grid-row>
-      <sui-grid-column :width="3">
+  <xui-grid celled="internally">
+    <xui-grid-row>
+      <xui-grid-column :width="3">
         <docs-wireframe name="image" />
-      </sui-grid-column>
-      <sui-grid-column :width="10">
+      </xui-grid-column>
+      <xui-grid-column :width="10">
         <docs-wireframe name="centered-paragraph" />
-      </sui-grid-column>
-      <sui-grid-column :width="3">
+      </xui-grid-column>
+      <xui-grid-column :width="3">
         <docs-wireframe name="image" />
-      </sui-grid-column>
-    </sui-grid-row>
+      </xui-grid-column>
+    </xui-grid-row>
 
-    <sui-grid-row>
-      <sui-grid-column :width="3">
+    <xui-grid-row>
+      <xui-grid-column :width="3">
         <docs-wireframe name="image" />
-      </sui-grid-column>
-      <sui-grid-column :width="10">
+      </xui-grid-column>
+      <xui-grid-column :width="10">
         <docs-wireframe name="media-paragraph" />
-      </sui-grid-column>
-      <sui-grid-column :width="3">
+      </xui-grid-column>
+      <xui-grid-column :width="3">
         <docs-wireframe name="image" />
-      </sui-grid-column>
-    </sui-grid-row>
-  </sui-grid>
+      </xui-grid-column>
+    </xui-grid-row>
+  </xui-grid>
 </template>
 
 <script>

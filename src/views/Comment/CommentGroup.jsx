@@ -2,7 +2,7 @@ import { ClassMixin, VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiCommentGroup',
+  name: 'XuiCommentGroup',
   mixins: [VueXolasUIMixin, ClassMixin],
   props: {
     threaded: {
@@ -34,7 +34,7 @@ export default {
       this.size,
     ];
     const parentName = this.getParentName();
-    if (parentName !== 'SuiComment') classList.push('ui');
+    if (parentName !== 'XuiComment') classList.push('ui');
     return (
       <ElementType
         {...this.getChildPropsAndListeners()}
@@ -45,6 +45,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiComment',
+    parent: 'XuiComment',
   },
 };

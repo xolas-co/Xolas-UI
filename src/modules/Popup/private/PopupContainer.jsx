@@ -3,7 +3,7 @@ import { mapValues, without } from '../../../lib/underscore';
 import { POSITIONS } from './popupConstants';
 
 export default {
-  name: 'SuiPrivatePopupContainer',
+  name: 'XuiPrivatePopupContainer',
   mixins: [VueXolasUIMixin],
   props: {
     popupClass: String,

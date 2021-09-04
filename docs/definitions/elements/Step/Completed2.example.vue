@@ -1,11 +1,11 @@
 <template lang="html">
-  <sui-step-group ordered>
-    <sui-step
+  <xui-step-group ordered>
+    <xui-step
       completed
       title="Billing"
       description="Enter billing information"
     />
-  </sui-step-group>
+  </xui-step-group>
 </template>
 
 <script>

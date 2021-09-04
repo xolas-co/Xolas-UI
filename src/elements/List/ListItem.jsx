@@ -1,10 +1,10 @@
 import { VueXolasUIMixin } from '../../lib';
-import SuiListIcon from './ListIcon';
-import SuiListContent from './ListContent';
+import XuiListIcon from './ListIcon';
+import XuiListContent from './ListContent';
 
 export default {
-  name: 'SuiListItem',
-  components: { SuiListContent, SuiListIcon },
+  name: 'XuiListItem',
+  components: { XuiListContent, XuiListIcon },
   mixins: [VueXolasUIMixin],
   props: {
     active: {
@@ -22,9 +22,9 @@ export default {
         class={this.classes('item', this.active && 'active')}
         role="listitem"
       >
-        {this.icon && <SuiListIcon name={this.icon} />}
+        {this.icon && <XuiListIcon name={this.icon} />}
         {this.content ? (
-          <SuiListContent>{this.content}</SuiListContent>
+          <XuiListContent>{this.content}</XuiListContent>
         ) : (
           this.$slots.default
         )}
@@ -32,6 +32,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiList',
+    parent: 'XuiList',
   },
 };

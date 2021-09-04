@@ -1,16 +1,16 @@
 <template>
   <div>
-    <sui-tab>
-      <sui-tab-pane title="Circle" loading>
+    <xui-tab>
+      <xui-tab-pane title="Circle" loading>
         Circle
-      </sui-tab-pane>
-      <sui-tab-pane title="Box">
+      </xui-tab-pane>
+      <xui-tab-pane title="Box">
         Box
-      </sui-tab-pane>
-      <sui-tab-pane title="Triangle">
+      </xui-tab-pane>
+      <xui-tab-pane title="Triangle">
         Triangle
-      </sui-tab-pane>
-    </sui-tab>
+      </xui-tab-pane>
+    </xui-tab>
   </div>
 </template>
 

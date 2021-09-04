@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiCardGroup',
+  name: 'XuiCardGroup',
   mixins: [VueXolasUIMixin],
   props: {
     itemsPerRow: Enum.Number(),
@@ -25,6 +25,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiCard',
+    parent: 'XuiCard',
   },
 };

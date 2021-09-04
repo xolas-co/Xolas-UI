@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-dropdown
+  <xui-dropdown
     fluid
     placeholder="Select Friend"
     selection

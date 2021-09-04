@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-list :items="items" />
+  <xui-list :items="items" />
 </template>
 
 <script>

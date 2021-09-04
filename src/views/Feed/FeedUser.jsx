@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiFeedUser',
+  name: 'XuiFeedUser',
   mixins: [VueXolasUIMixin],
   description: 'A feed can contain a user element',
   props: {
@@ -22,6 +22,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiFeed',
+    parent: 'XuiFeed',
   },
 };

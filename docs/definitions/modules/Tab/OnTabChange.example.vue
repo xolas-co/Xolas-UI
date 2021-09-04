@@ -22,40 +22,40 @@
       >,
     </p>
 
-    <sui-divider hidden />
+    <xui-divider hidden />
 
-    <sui-table fixed compact="very">
-      <sui-table-body>
-        <sui-table-row>
-          <sui-table-cell>Index</sui-table-cell>
-          <sui-table-cell>{{ table.index }}</sui-table-cell>
-        </sui-table-row>
-        <sui-table-row>
-          <sui-table-cell>Label</sui-table-cell>
-          <sui-table-cell>{{ table.title }}</sui-table-cell>
-        </sui-table-row>
-        <sui-table-row>
-          <sui-table-cell>Clicked on the Tab Pane</sui-table-cell>
-          <sui-table-cell
-            ><code>{{ table.inside }}</code></sui-table-cell
+    <xui-table fixed compact="very">
+      <xui-table-body>
+        <xui-table-row>
+          <xui-table-cell>Index</xui-table-cell>
+          <xui-table-cell>{{ table.index }}</xui-table-cell>
+        </xui-table-row>
+        <xui-table-row>
+          <xui-table-cell>Label</xui-table-cell>
+          <xui-table-cell>{{ table.title }}</xui-table-cell>
+        </xui-table-row>
+        <xui-table-row>
+          <xui-table-cell>Clicked on the Tab Pane</xui-table-cell>
+          <xui-table-cell
+            ><code>{{ table.inside }}</code></xui-table-cell
           >
-        </sui-table-row>
-      </sui-table-body>
-    </sui-table>
+        </xui-table-row>
+      </xui-table-body>
+    </xui-table>
 
-    <sui-divider hidden />
+    <xui-divider hidden />
 
-    <sui-tab @change="handleChange" :active-index="activeIndex">
-      <sui-tab-pane title="Circle">
+    <xui-tab @change="handleChange" :active-index="activeIndex">
+      <xui-tab-pane title="Circle">
         Circle
-      </sui-tab-pane>
-      <sui-tab-pane title="Box">
+      </xui-tab-pane>
+      <xui-tab-pane title="Box">
         Box
-      </sui-tab-pane>
-      <sui-tab-pane title="Triangle">
+      </xui-tab-pane>
+      <xui-tab-pane title="Triangle">
         Triangle
-      </sui-tab-pane>
-    </sui-tab>
+      </xui-tab-pane>
+    </xui-tab>
   </div>
 </template>
 

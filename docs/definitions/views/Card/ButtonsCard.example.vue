@@ -1,44 +1,44 @@
 <template lang="html">
   <div>
-    <sui-card-group :items-per-row="3">
-      <sui-card>
-        <sui-card-content>
-          <sui-card-header>Elliot Fu</sui-card-header>
-          <sui-card-meta>Friend</sui-card-meta>
-          <sui-card-description>
+    <xui-card-group :items-per-row="3">
+      <xui-card>
+        <xui-card-content>
+          <xui-card-header>Elliot Fu</xui-card-header>
+          <xui-card-meta>Friend</xui-card-meta>
+          <xui-card-description>
             Elliot Fu is a film-maker from New York.
-          </sui-card-description>
-        </sui-card-content>
-        <sui-button attached="bottom">
-          <sui-icon name="add" /> Add Friend
-        </sui-button>
-      </sui-card>
-      <sui-card>
-        <sui-card-content>
-          <sui-card-header>Veronika Ossi</sui-card-header>
-          <sui-card-meta>Friend</sui-card-meta>
-          <sui-card-description>
+          </xui-card-description>
+        </xui-card-content>
+        <xui-button attached="bottom">
+          <xui-icon name="add" /> Add Friend
+        </xui-button>
+      </xui-card>
+      <xui-card>
+        <xui-card-content>
+          <xui-card-header>Veronika Ossi</xui-card-header>
+          <xui-card-meta>Friend</xui-card-meta>
+          <xui-card-description>
             Veronika Ossi is a set designer living in New York who enjoys
             kittens, music, and partying.
-          </sui-card-description>
-        </sui-card-content>
-        <sui-button attached="bottom">
-          <sui-icon name="add" /> Add Friend
-        </sui-button>
-      </sui-card>
-      <sui-card>
-        <sui-card-content>
-          <sui-card-header>Jenny Hess</sui-card-header>
-          <sui-card-meta>Friend</sui-card-meta>
-          <sui-card-description>
+          </xui-card-description>
+        </xui-card-content>
+        <xui-button attached="bottom">
+          <xui-icon name="add" /> Add Friend
+        </xui-button>
+      </xui-card>
+      <xui-card>
+        <xui-card-content>
+          <xui-card-header>Jenny Hess</xui-card-header>
+          <xui-card-meta>Friend</xui-card-meta>
+          <xui-card-description>
             Jenny is a student studying Media Management at the New School
-          </sui-card-description>
-        </sui-card-content>
-        <sui-button attached="bottom">
-          <sui-icon name="add" /> Add Friend
-        </sui-button>
-      </sui-card>
-    </sui-card-group>
+          </xui-card-description>
+        </xui-card-content>
+        <xui-button attached="bottom">
+          <xui-icon name="add" /> Add Friend
+        </xui-button>
+      </xui-card>
+    </xui-card-group>
   </div>
 </template>
 

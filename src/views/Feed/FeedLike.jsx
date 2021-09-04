@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Icon } from '../../elements';
 
 export default {
-  name: 'SuiFeedLike',
+  name: 'XuiFeedLike',
   mixins: [VueXolasUIMixin],
   description: 'A feed can contain a like element',
   props: {
@@ -30,6 +30,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiFeed',
+    parent: 'XuiFeed',
   },
 };

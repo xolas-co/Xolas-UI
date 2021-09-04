@@ -3,7 +3,7 @@ import { Enum } from '../../lib/PropTypes';
 import { Icon } from '../../elements';
 
 export default {
-  name: 'SuiEmbed',
+  name: 'XuiEmbed',
   mixins: [VueXolasUIMixin],
   props: {
     active: {

@@ -1,43 +1,43 @@
 <template lang="html">
   <div>
-    <sui-card-group :items-per-row="3">
-      <sui-card>
-        <sui-dimmer-dimmable
+    <xui-card-group :items-per-row="3">
+      <xui-card>
+        <xui-dimmer-dimmable
           @mouseenter.native="cardOneActive = true"
           @mouseleave.native="cardOneActive = false"
         >
-          <sui-image src="static/images/avatar/large/elliot.jpg" />
-          <sui-dimmer blurring :active="cardOneActive">
-            <sui-button inverted>Add Friend</sui-button>
-          </sui-dimmer>
-        </sui-dimmer-dimmable>
-        <sui-card-content>
-          <sui-card-header>Team Fu</sui-card-header>
-          <sui-card-meta>Create in Sep 2014</sui-card-meta>
-        </sui-card-content>
-        <sui-card-content extra>
-          <sui-icon name="users" /> 2 Members
-        </sui-card-content>
-      </sui-card>
-      <sui-card>
-        <sui-dimmer-dimmable
+          <xui-image src="static/images/avatar/large/elliot.jpg" />
+          <xui-dimmer blurring :active="cardOneActive">
+            <xui-button inverted>Add Friend</xui-button>
+          </xui-dimmer>
+        </xui-dimmer-dimmable>
+        <xui-card-content>
+          <xui-card-header>Team Fu</xui-card-header>
+          <xui-card-meta>Create in Sep 2014</xui-card-meta>
+        </xui-card-content>
+        <xui-card-content extra>
+          <xui-icon name="users" /> 2 Members
+        </xui-card-content>
+      </xui-card>
+      <xui-card>
+        <xui-dimmer-dimmable
           @mouseenter.native="cardTwoActive = true"
           @mouseleave.native="cardTwoActive = false"
         >
-          <sui-image src="static/images/avatar/large/jenny.jpg" />
-          <sui-dimmer blurring inverted :active="cardTwoActive">
-            <sui-button primary>Add Friend</sui-button>
-          </sui-dimmer>
-        </sui-dimmer-dimmable>
-        <sui-card-content>
-          <sui-card-header>Team Hess</sui-card-header>
-          <sui-card-meta>Create in Aug 2014</sui-card-meta>
-        </sui-card-content>
-        <sui-card-content extra>
-          <sui-icon name="users" /> 2 Members
-        </sui-card-content>
-      </sui-card>
-    </sui-card-group>
+          <xui-image src="static/images/avatar/large/jenny.jpg" />
+          <xui-dimmer blurring inverted :active="cardTwoActive">
+            <xui-button primary>Add Friend</xui-button>
+          </xui-dimmer>
+        </xui-dimmer-dimmable>
+        <xui-card-content>
+          <xui-card-header>Team Hess</xui-card-header>
+          <xui-card-meta>Create in Aug 2014</xui-card-meta>
+        </xui-card-content>
+        <xui-card-content extra>
+          <xui-icon name="users" /> 2 Members
+        </xui-card-content>
+      </xui-card>
+    </xui-card-group>
   </div>
 </template>
 

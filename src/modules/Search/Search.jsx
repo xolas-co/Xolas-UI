@@ -5,7 +5,7 @@ import { Enum } from '../../lib/PropTypes';
 import search from './utils/search';
 
 export default {
-  name: 'SuiSearch',
+  name: 'XuiSearch',
   mixins: [VueXolasUIMixin],
   props: {
     action: {
@@ -81,11 +81,11 @@ export default {
           class: {
             type: String,
             description:
-              'CSS class to give to the input. Do not use with sui-input, use `props` instead.',
+              'CSS class to give to the input. Do not use with xui-input, use `props` instead.',
           },
           props: {
             type: Object,
-            description: 'Props to pass to sui-input.',
+            description: 'Props to pass to xui-input.',
           },
           handlers: {
             type: Object,

@@ -1,27 +1,27 @@
 <template lang="html">
-  <sui-dropdown text="File" simple>
-    <sui-dropdown-menu>
-      <sui-dropdown-item>New</sui-dropdown-item>
-      <sui-dropdown-item
-        >Open... <span class="description">ctrl + o</span></sui-dropdown-item
+  <xui-dropdown text="File" simple>
+    <xui-dropdown-menu>
+      <xui-dropdown-item>New</xui-dropdown-item>
+      <xui-dropdown-item
+        >Open... <span class="description">ctrl + o</span></xui-dropdown-item
       >
-      <sui-dropdown-item
-        >Save as... <span class="description">ctrl + s</span></sui-dropdown-item
+      <xui-dropdown-item
+        >Save as... <span class="description">ctrl + s</span></xui-dropdown-item
       >
-      <sui-dropdown-item
-        >Rename <span class="description">ctrl + r</span></sui-dropdown-item
+      <xui-dropdown-item
+        >Rename <span class="description">ctrl + r</span></xui-dropdown-item
       >
-      <sui-dropdown-item>Make a copy</sui-dropdown-item>
-      <sui-dropdown-item
-        ><sui-icon name="folder" />Move to folder</sui-dropdown-item
+      <xui-dropdown-item>Make a copy</xui-dropdown-item>
+      <xui-dropdown-item
+        ><xui-icon name="folder" />Move to folder</xui-dropdown-item
       >
-      <sui-dropdown-item
-        ><sui-icon name="trash" />Move to trash</sui-dropdown-item
+      <xui-dropdown-item
+        ><xui-icon name="trash" />Move to trash</xui-dropdown-item
       >
-      <sui-dropdown-divider />
-      <sui-dropdown-item>Download as...</sui-dropdown-item>
-    </sui-dropdown-menu>
-  </sui-dropdown>
+      <xui-dropdown-divider />
+      <xui-dropdown-item>Download as...</xui-dropdown-item>
+    </xui-dropdown-menu>
+  </xui-dropdown>
 </template>
 
 <script>

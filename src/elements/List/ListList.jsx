@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiListList',
+  name: 'XuiListList',
   mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType();
@@ -12,6 +12,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiList',
+    parent: 'XuiList',
   },
 };

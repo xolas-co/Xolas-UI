@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiCardMeta',
+  name: 'XuiCardMeta',
   mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType();
@@ -15,6 +15,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiCard',
+    parent: 'XuiCard',
   },
 };

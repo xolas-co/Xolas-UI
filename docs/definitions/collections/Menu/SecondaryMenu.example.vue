@@ -1,9 +1,9 @@
 <template lang="html">
-  <sui-menu secondary>
-    <sui-menu-item active link name="Home">Home</sui-menu-item>
-    <sui-menu-item name="Messages">Messages</sui-menu-item>
-    <sui-menu-item name="Friends">Friends</sui-menu-item>
-  </sui-menu>
+  <xui-menu secondary>
+    <xui-menu-item active link name="Home">Home</xui-menu-item>
+    <xui-menu-item name="Messages">Messages</xui-menu-item>
+    <xui-menu-item name="Friends">Friends</xui-menu-item>
+  </xui-menu>
 </template>
 
 <script>

@@ -3,7 +3,7 @@ import { Enum } from '../../lib/PropTypes';
 import Icon from '../Icon/Icon';
 
 export default {
-  name: 'SuiButton',
+  name: 'XuiButton',
   description: 'A button indicates a possible user action',
   mixins: [VueXolasUIMixin],
   props: {

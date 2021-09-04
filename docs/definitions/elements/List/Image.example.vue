@@ -1,67 +1,67 @@
 <template>
-  <sui-list>
-    <sui-list-item>
-      <sui-image avatar src="static/images/avatar/small/rachel.png" />
-      <sui-list-content>
-        <a is="sui-list-header">Rachel</a>
-        <sui-list-description>
+  <xui-list>
+    <xui-list-item>
+      <xui-image avatar src="static/images/avatar/small/rachel.png" />
+      <xui-list-content>
+        <a is="xui-list-header">Rachel</a>
+        <xui-list-description>
           Last seen watching
           <a>
             <b>Arrested Development</b>
           </a>
           just now.
-        </sui-list-description>
-      </sui-list-content>
-    </sui-list-item>
-    <sui-list-item>
-      <sui-image avatar src="static/images/avatar/small/lindsay.png" />
-      <sui-list-content>
-        <a is="sui-list-header">Lindsay</a>
-        <sui-list-description>
+        </xui-list-description>
+      </xui-list-content>
+    </xui-list-item>
+    <xui-list-item>
+      <xui-image avatar src="static/images/avatar/small/lindsay.png" />
+      <xui-list-content>
+        <a is="xui-list-header">Lindsay</a>
+        <xui-list-description>
           Last seen watching
           <a>
             <b>Bob's Burgers</b>
           </a>
           10 hours ago.
-        </sui-list-description>
-      </sui-list-content>
-    </sui-list-item>
-    <sui-list-item>
-      <sui-image avatar src="static/images/avatar/small/matthew.png" />
-      <sui-list-content>
-        <a is="sui-list-header">Matthew</a>
-        <sui-list-description>
+        </xui-list-description>
+      </xui-list-content>
+    </xui-list-item>
+    <xui-list-item>
+      <xui-image avatar src="static/images/avatar/small/matthew.png" />
+      <xui-list-content>
+        <a is="xui-list-header">Matthew</a>
+        <xui-list-description>
           Last seen watching
           <a>
             <b>The Godfather Part 2</b>
           </a>
           yesterday.
-        </sui-list-description>
-      </sui-list-content>
-    </sui-list-item>
-    <sui-list-item>
-      <sui-image avatar src="static/images/avatar/small/jenny.jpg" />
-      <sui-list-content>
-        <a is="sui-list-header">Jenny Hess</a>
-        <sui-list-description>
+        </xui-list-description>
+      </xui-list-content>
+    </xui-list-item>
+    <xui-list-item>
+      <xui-image avatar src="static/images/avatar/small/jenny.jpg" />
+      <xui-list-content>
+        <a is="xui-list-header">Jenny Hess</a>
+        <xui-list-description>
           Last seen watching
           <a>
             <b>Twin Peaks</b>
           </a>
           3 days ago.
-        </sui-list-description>
-      </sui-list-content>
-    </sui-list-item>
-    <sui-list-item>
-      <sui-image avatar src="static/images/avatar/small/veronika.jpg" />
-      <sui-list-content>
-        <a is="sui-list-header">Veronika Ossi</a>
-        <sui-list-description
-          >Has not watched anything recently</sui-list-description
+        </xui-list-description>
+      </xui-list-content>
+    </xui-list-item>
+    <xui-list-item>
+      <xui-image avatar src="static/images/avatar/small/veronika.jpg" />
+      <xui-list-content>
+        <a is="xui-list-header">Veronika Ossi</a>
+        <xui-list-description
+          >Has not watched anything recently</xui-list-description
         >
-      </sui-list-content>
-    </sui-list-item>
-  </sui-list>
+      </xui-list-content>
+    </xui-list-item>
+  </xui-list>
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiFeedDate',
+  name: 'XuiFeedDate',
   mixins: [VueXolasUIMixin],
   description: 'An event or an event summary can contain a date',
   props: {
@@ -22,6 +22,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiFeed',
+    parent: 'XuiFeed',
   },
 };

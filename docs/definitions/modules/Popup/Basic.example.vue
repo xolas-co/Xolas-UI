@@ -1,11 +1,11 @@
 <template>
   <div>
-    <sui-popup
+    <xui-popup
       basic
       content="The default theme's basic popup removes the pointing arrow."
     >
-      <sui-button icon="add" slot="trigger" />
-    </sui-popup>
+      <xui-button icon="add" slot="trigger" />
+    </xui-popup>
   </div>
 </template>
 

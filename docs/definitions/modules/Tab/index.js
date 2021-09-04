@@ -110,7 +110,7 @@ export default [
       {
         name: 'Adding Icons and Labels',
         description:
-          'You can use icon and label props on sui-tab-pane to add label and icon',
+          'You can use icon and label props on xui-tab-pane to add label and icon',
         file: 'CustomMenuItems',
       },
     ],

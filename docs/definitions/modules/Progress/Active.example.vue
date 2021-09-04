@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-progress state="active" />
+    <xui-progress state="active" />
   </div>
 </template>
 

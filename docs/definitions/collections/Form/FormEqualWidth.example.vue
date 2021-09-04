@@ -1,30 +1,30 @@
 <template lang="html">
-  <sui-form equal-width>
-    <sui-form-fields>
-      <sui-form-field>
+  <xui-form equal-width>
+    <xui-form-fields>
+      <xui-form-field>
         <label>Username</label>
         <input placeholder="Username" />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <label>Password</label>
         <input type="password" placeholder="Password" />
-      </sui-form-field>
-    </sui-form-fields>
-    <sui-form-fields>
-      <sui-form-field>
+      </xui-form-field>
+    </xui-form-fields>
+    <xui-form-fields>
+      <xui-form-field>
         <label>First name</label>
         <input type="text" placeholder="First name" />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <label>Middle name</label>
         <input type="text" placeholder="Middle name" />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <label>Last name</label>
         <input type="text" placeholder="Last name" />
-      </sui-form-field>
-    </sui-form-fields>
-  </sui-form>
+      </xui-form-field>
+    </xui-form-fields>
+  </xui-form>
 </template>
 
 <script>

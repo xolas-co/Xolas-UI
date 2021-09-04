@@ -1,38 +1,38 @@
 <template lang="html">
-  <sui-table celled>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Name</sui-table-header-cell>
-        <sui-table-header-cell>Status</sui-table-header-cell>
-        <sui-table-header-cell>Notes</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
-    <sui-table-body>
-      <sui-table-row>
-        <sui-table-cell>No Name Specified</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell>None</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row error>
-        <sui-table-cell>Jimmy</sui-table-cell>
-        <sui-table-cell>Cannot pull data</sui-table-cell>
-        <sui-table-cell>None</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jamie</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell state="error">
-          <sui-icon name="attention" />
+  <xui-table celled>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Name</xui-table-header-cell>
+        <xui-table-header-cell>Status</xui-table-header-cell>
+        <xui-table-header-cell>Notes</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
+    <xui-table-body>
+      <xui-table-row>
+        <xui-table-cell>No Name Specified</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell>None</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row error>
+        <xui-table-cell>Jimmy</xui-table-cell>
+        <xui-table-cell>Cannot pull data</xui-table-cell>
+        <xui-table-cell>None</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jamie</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell state="error">
+          <xui-icon name="attention" />
           Classified
-        </sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jill</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell>None</sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+        </xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jill</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell>None</xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

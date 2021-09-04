@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiModalContent',
+  name: 'XuiModalContent',
   mixins: [VueXolasUIMixin],
   props: {
     image: Boolean,
@@ -27,6 +27,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiModal',
+    parent: 'XuiModal',
   },
 };

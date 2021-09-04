@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import { Icon, Image } from '../../elements';
 
 export default {
-  name: 'SuiFeedLabel',
+  name: 'XuiFeedLabel',
   mixins: [VueXolasUIMixin],
   description: 'An event can contain an image or icon label',
   props: {
@@ -35,6 +35,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiFeed',
+    parent: 'XuiFeed',
   },
 };

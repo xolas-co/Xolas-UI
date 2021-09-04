@@ -1,11 +1,11 @@
 <template lang="html">
   <div>
-    <sui-card class="centered">
-      <sui-image src="static/images/avatar/large/elyse.png" />
-      <sui-card-content>
-        <sui-card-header>Elyse</sui-card-header>
-      </sui-card-content>
-    </sui-card>
+    <xui-card class="centered">
+      <xui-image src="static/images/avatar/large/elyse.png" />
+      <xui-card-content>
+        <xui-card-header>Elyse</xui-card-header>
+      </xui-card-content>
+    </xui-card>
   </div>
 </template>
 

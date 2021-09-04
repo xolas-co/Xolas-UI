@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-progress
+    <xui-progress
       state="error"
       :percent="100"
       progress

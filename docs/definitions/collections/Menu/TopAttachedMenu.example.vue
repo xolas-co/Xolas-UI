@@ -1,36 +1,36 @@
 <template lang="html">
   <div>
-    <sui-menu attached="top">
-      <sui-dropdown item icon="wrench" simple>
-        <sui-dropdown-menu>
-          <sui-dropdown-item>
-            <sui-icon name="dropdown" />
+    <xui-menu attached="top">
+      <xui-dropdown item icon="wrench" simple>
+        <xui-dropdown-menu>
+          <xui-dropdown-item>
+            <xui-icon name="dropdown" />
             <span className="text">New</span>
 
-            <sui-dropdown-menu>
-              <sui-dropdown-item>Document</sui-dropdown-item>
-              <sui-dropdown-item>Image</sui-dropdown-item>
-            </sui-dropdown-menu>
-          </sui-dropdown-item>
-          <sui-dropdown-item>Open</sui-dropdown-item>
-          <sui-dropdown-item>Save...</sui-dropdown-item>
-          <sui-dropdown-item>Edit Permissions</sui-dropdown-item>
-          <sui-dropdown-divider />
-          <sui-dropdown-header>Export</sui-dropdown-header>
-          <sui-dropdown-item>Share</sui-dropdown-item>
-        </sui-dropdown-menu>
-      </sui-dropdown>
+            <xui-dropdown-menu>
+              <xui-dropdown-item>Document</xui-dropdown-item>
+              <xui-dropdown-item>Image</xui-dropdown-item>
+            </xui-dropdown-menu>
+          </xui-dropdown-item>
+          <xui-dropdown-item>Open</xui-dropdown-item>
+          <xui-dropdown-item>Save...</xui-dropdown-item>
+          <xui-dropdown-item>Edit Permissions</xui-dropdown-item>
+          <xui-dropdown-divider />
+          <xui-dropdown-header>Export</xui-dropdown-header>
+          <xui-dropdown-item>Share</xui-dropdown-item>
+        </xui-dropdown-menu>
+      </xui-dropdown>
 
-      <sui-menu-menu position="right">
-        <sui-menu-item right>
-          <sui-input transparent icon="search" placeholder="Search..." />
-        </sui-menu-item>
-      </sui-menu-menu>
-    </sui-menu>
+      <xui-menu-menu position="right">
+        <xui-menu-item right>
+          <xui-input transparent icon="search" placeholder="Search..." />
+        </xui-menu-item>
+      </xui-menu-menu>
+    </xui-menu>
 
-    <sui-segment attached="bottom">
+    <xui-segment attached="bottom">
       <docs-wireframe name="paragraph" />
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

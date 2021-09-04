@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiSegments',
+  name: 'XuiSegments',
   mixins: [VueXolasUIMixin],
   props: {
     piled: Boolean,
@@ -11,7 +11,7 @@ export default {
     vertical: Boolean,
   },
   meta: {
-    parent: 'SuiSegment',
+    parent: 'XuiSegment',
   },
   render() {
     const ElementType = this.getElementType();

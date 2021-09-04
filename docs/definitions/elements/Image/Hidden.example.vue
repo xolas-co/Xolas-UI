@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-image src="static/images/wireframes/image.png" hidden />
+  <xui-image src="static/images/wireframes/image.png" hidden />
 </template>
 
 <script>

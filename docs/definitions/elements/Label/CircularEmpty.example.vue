@@ -1,6 +1,6 @@
 <template>
   <div>
-    <sui-label
+    <xui-label
       v-for="color in colors"
       circular
       :color="color"

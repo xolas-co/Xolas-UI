@@ -3,7 +3,7 @@ import { Enum } from '../../lib/PropTypes';
 import Icon from '../Icon/Icon';
 
 export default {
-  name: 'SuiHeader',
+  name: 'XuiHeader',
   mixins: [VueXolasUIMixin],
   props: {
     color: Enum.Color(),

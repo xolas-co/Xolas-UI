@@ -1,5 +1,5 @@
 export default {
-  name: 'SuiSearchSimpleResults',
+  name: 'XuiSearchSimpleResults',
   functional: true,
   props: {
     results: Array,

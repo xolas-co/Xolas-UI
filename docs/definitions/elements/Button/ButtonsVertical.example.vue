@@ -1,10 +1,10 @@
 <template lang="html">
-  <sui-button-group vertical>
-    <sui-button>Feed</sui-button>
-    <sui-button>Messages</sui-button>
-    <sui-button>Events</sui-button>
-    <sui-button>Photos</sui-button>
-  </sui-button-group>
+  <xui-button-group vertical>
+    <xui-button>Feed</xui-button>
+    <xui-button>Messages</xui-button>
+    <xui-button>Events</xui-button>
+    <xui-button>Photos</xui-button>
+  </xui-button-group>
 </template>
 
 <script>

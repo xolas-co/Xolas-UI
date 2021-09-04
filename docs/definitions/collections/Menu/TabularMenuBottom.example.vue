@@ -1,12 +1,12 @@
 <template lang="html">
   <div>
-    <sui-segment attached="top">
+    <xui-segment attached="top">
       <docs-wireframe name="paragraph" />
-    </sui-segment>
+    </xui-segment>
 
-    <sui-menu attached="bottom" tabular>
+    <xui-menu attached="bottom" tabular>
       <a
-        is="sui-menu-item"
+        is="xui-menu-item"
         v-for="item in items"
         :key="item"
         :active="isActive(item)"
@@ -15,13 +15,13 @@
         {{ item }}
       </a>
 
-      <sui-menu-menu position="right">
-        <a is="sui-menu-item" :active="isActive('new')" @click="select('new')">
-          <sui-icon name="add" />
+      <xui-menu-menu position="right">
+        <a is="xui-menu-item" :active="isActive('new')" @click="select('new')">
+          <xui-icon name="add" />
           New Tab
         </a>
-      </sui-menu-menu>
-    </sui-menu>
+      </xui-menu-menu>
+    </xui-menu>
   </div>
 </template>
 

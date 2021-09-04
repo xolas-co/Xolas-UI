@@ -1,17 +1,17 @@
 <template lang="html">
   <div>
-    <sui-segment>
-      <sui-progress attached top :percent="percent" :label="label" />
-      <sui-progress
+    <xui-segment>
+      <xui-progress attached top :percent="percent" :label="label" />
+      <xui-progress
         attached
         bottom
         color="green"
         :percent="percent"
         :label="label"
       />
-    </sui-segment>
-    <sui-button @click.native="decrease">-</sui-button>
-    <sui-button @click.native="increase">+</sui-button>
+    </xui-segment>
+    <xui-button @click.native="decrease">-</xui-button>
+    <xui-button @click.native="increase">+</xui-button>
   </div>
 </template>
 

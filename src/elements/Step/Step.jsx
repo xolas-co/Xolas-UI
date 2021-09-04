@@ -1,12 +1,12 @@
 import { VueXolasUIMixin } from '../../lib';
-import SuiIcon from '../Icon/Icon';
-import SuiStepContent from './StepContent';
-import SuiStepTitle from './StepTitle';
-import SuiStepDescription from './StepDescription';
+import XuiIcon from '../Icon/Icon';
+import XuiStepContent from './StepContent';
+import XuiStepTitle from './StepTitle';
+import XuiStepDescription from './StepDescription';
 
 export default {
-  name: 'SuiStep',
-  components: { SuiIcon, SuiStepContent, SuiStepTitle, SuiStepDescription },
+  name: 'XuiStep',
+  components: { XuiIcon, XuiStepContent, XuiStepTitle, XuiStepDescription },
   mixins: [VueXolasUIMixin],
   props: {
     active: Boolean,
@@ -31,14 +31,14 @@ export default {
           'step',
         )}
       >
-        {this.icon && <SuiIcon name={this.icon} />}
+        {this.icon && <XuiIcon name={this.icon} />}
         {this.title || this.description ? (
-          <SuiStepContent>
-            {this.title && <SuiStepTitle>{this.title}</SuiStepTitle>}
+          <XuiStepContent>
+            {this.title && <XuiStepTitle>{this.title}</XuiStepTitle>}
             {this.description && (
-              <SuiStepDescription>{this.description}</SuiStepDescription>
+              <XuiStepDescription>{this.description}</XuiStepDescription>
             )}
-          </SuiStepContent>
+          </XuiStepContent>
         ) : (
           this.$slots.default
         )}

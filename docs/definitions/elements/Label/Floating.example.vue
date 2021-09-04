@@ -1,18 +1,18 @@
 <template>
-  <sui-menu compact>
-    <a is="sui-menu-item">
-      <sui-icon name="mail" /> Messages
-      <sui-label color="red" floating>
+  <xui-menu compact>
+    <a is="xui-menu-item">
+      <xui-icon name="mail" /> Messages
+      <xui-label color="red" floating>
         22
-      </sui-label>
+      </xui-label>
     </a>
-    <a is="sui-menu-item">
-      <sui-icon name="users" /> Friends
-      <sui-label color="teal" floating>
+    <a is="xui-menu-item">
+      <xui-icon name="users" /> Friends
+      <xui-label color="teal" floating>
         22
-      </sui-label>
+      </xui-label>
     </a>
-  </sui-menu>
+  </xui-menu>
 </template>
 
 <script>

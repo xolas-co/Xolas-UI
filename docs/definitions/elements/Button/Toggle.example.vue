@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-button
+  <xui-button
     toggle
     content="Vote"
     :active="isActive"

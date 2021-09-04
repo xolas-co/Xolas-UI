@@ -1,26 +1,26 @@
 <template>
-  <sui-grid :columns="3">
-    <sui-grid-row>
-      <sui-grid-column>
+  <xui-grid :columns="3">
+    <xui-grid-row>
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-      <sui-grid-column>
+      </xui-grid-column>
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-    </sui-grid-row>
+      </xui-grid-column>
+    </xui-grid-row>
 
-    <sui-grid-row>
-      <sui-grid-column>
+    <xui-grid-row>
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-      <sui-grid-column>
+      </xui-grid-column>
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-      <sui-grid-column>
+      </xui-grid-column>
+      <xui-grid-column>
         <docs-wireframe name="paragraph" />
-      </sui-grid-column>
-    </sui-grid-row>
-  </sui-grid>
+      </xui-grid-column>
+    </xui-grid-row>
+  </xui-grid>
 </template>
 
 <script>

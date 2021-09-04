@@ -1,33 +1,33 @@
 <template lang="html">
-  <div is="sui-segment" inverted>
-    <sui-accordion exclusive inverted>
-      <sui-accordion-title active>
-        <sui-icon name="dropdown" />
+  <div is="xui-segment" inverted>
+    <xui-accordion exclusive inverted>
+      <xui-accordion-title active>
+        <xui-icon name="dropdown" />
         What is a dog?
-      </sui-accordion-title>
-      <sui-accordion-content active>
+      </xui-accordion-title>
+      <xui-accordion-content active>
         <p>
           A dog is a type of domesticated animal. Known for its loyalty and
           faithfulness, it can be found as a welcome guest in many households
           across the world.
         </p>
-      </sui-accordion-content>
-      <sui-accordion-title>
-        <sui-icon name="dropdown" />
+      </xui-accordion-content>
+      <xui-accordion-title>
+        <xui-icon name="dropdown" />
         What kinds of dogs are there?
-      </sui-accordion-title>
-      <sui-accordion-content>
+      </xui-accordion-title>
+      <xui-accordion-content>
         <p>
           There are many breeds of dogs. Each breed varies in size and
           temperament. Owners often select a breed of dog that they find to be
           compatible with their own lifestyle and desires from a companion.
         </p>
-      </sui-accordion-content>
-      <sui-accordion-title>
-        <sui-icon name="dropdown" />
+      </xui-accordion-content>
+      <xui-accordion-title>
+        <xui-icon name="dropdown" />
         How do you acquire a dog?
-      </sui-accordion-title>
-      <sui-accordion-content>
+      </xui-accordion-title>
+      <xui-accordion-content>
         <p>
           Three common ways for a prospective owner to acquire a dog is from pet
           shops, private owners, or shelters.
@@ -39,8 +39,8 @@
           from a shelter, helps give a good home to a dog who may not find one
           so readily.
         </p>
-      </sui-accordion-content>
-    </sui-accordion>
+      </xui-accordion-content>
+    </xui-accordion>
   </div>
 </template>
 

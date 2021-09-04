@@ -1,17 +1,17 @@
 <template lang="html">
   <div>
-    <sui-button-group :widths="5">
-      <sui-button content="Overview" />
-      <sui-button content="Specs" />
-      <sui-button content="Warranty" />
-      <sui-button content="Reviews" />
-      <sui-button content="Support" />
-    </sui-button-group>
-    <sui-button-group :widths="3">
-      <sui-button content="Overview" />
-      <sui-button content="Specs" />
-      <sui-button content="Support" />
-    </sui-button-group>
+    <xui-button-group :widths="5">
+      <xui-button content="Overview" />
+      <xui-button content="Specs" />
+      <xui-button content="Warranty" />
+      <xui-button content="Reviews" />
+      <xui-button content="Support" />
+    </xui-button-group>
+    <xui-button-group :widths="3">
+      <xui-button content="Overview" />
+      <xui-button content="Specs" />
+      <xui-button content="Support" />
+    </xui-button-group>
   </div>
 </template>
 

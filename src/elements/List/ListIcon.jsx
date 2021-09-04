@@ -1,11 +1,11 @@
 import { VueXolasUIMixin } from '../../lib';
-import SuiIcon from '../Icon/Icon';
+import XuiIcon from '../Icon/Icon';
 
 export default {
-  ...SuiIcon,
-  name: 'SuiListIcon',
+  ...XuiIcon,
+  name: 'XuiListIcon',
   mixins: [VueXolasUIMixin],
   meta: {
-    parent: 'SuiList',
+    parent: 'XuiList',
   },
 };

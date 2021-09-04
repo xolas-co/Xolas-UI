@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiTableHeader',
+  name: 'XuiTableHeader',
   mixins: [VueXolasUIMixin],
   props: {
     fullWidth: Boolean,
@@ -18,6 +18,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiTable',
+    parent: 'XuiTable',
   },
 };

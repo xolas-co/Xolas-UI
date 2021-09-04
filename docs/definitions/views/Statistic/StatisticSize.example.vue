@@ -1,108 +1,108 @@
 <template lang="html">
   <div>
-    <sui-statistic horizontal size="mini">
-      <sui-statistic-value>
+    <xui-statistic horizontal size="mini">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic horizontal size="tiny">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic horizontal size="tiny">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic horizontal size="small">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic horizontal size="small">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic horizontal>
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic horizontal>
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic horizontal size="large">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic horizontal size="large">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <sui-statistic horizontal size="huge">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <xui-statistic horizontal size="huge">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
+      </xui-statistic-label>
+    </xui-statistic>
 
-    <div is="sui-divider" />
-    <sui-statistic horizontal size="mini">
-      <sui-statistic-value>
+    <div is="xui-divider" />
+    <xui-statistic horizontal size="mini">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <div is="sui-divider" />
-    <sui-statistic horizontal size="tiny">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <div is="xui-divider" />
+    <xui-statistic horizontal size="tiny">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <div is="sui-divider" />
-    <sui-statistic horizontal size="small">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <div is="xui-divider" />
+    <xui-statistic horizontal size="small">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <div is="sui-divider" />
-    <sui-statistic horizontal>
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <div is="xui-divider" />
+    <xui-statistic horizontal>
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <div is="sui-divider" />
-    <sui-statistic horizontal size="large">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <div is="xui-divider" />
+    <xui-statistic horizontal size="large">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
-    <div is="sui-divider" />
-    <sui-statistic horizontal size="huge">
-      <sui-statistic-value>
+      </xui-statistic-label>
+    </xui-statistic>
+    <div is="xui-divider" />
+    <xui-statistic horizontal size="huge">
+      <xui-statistic-value>
         2,204
-      </sui-statistic-value>
-      <sui-statistic-label>
+      </xui-statistic-value>
+      <xui-statistic-label>
         Views
-      </sui-statistic-label>
-    </sui-statistic>
+      </xui-statistic-label>
+    </xui-statistic>
   </div>
 </template>
 

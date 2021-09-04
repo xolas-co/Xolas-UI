@@ -1,14 +1,14 @@
 <template lang="html">
-  <sui-menu tabular>
+  <xui-menu tabular>
     <a
-      is="sui-menu-item"
+      is="xui-menu-item"
       v-for="item in items"
       :key="item"
       :active="isActive(item)"
       :content="item"
       @click="select(item)"
     />
-  </sui-menu>
+  </xui-menu>
 </template>
 
 <script>

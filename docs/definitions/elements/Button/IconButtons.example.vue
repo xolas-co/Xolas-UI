@@ -1,15 +1,15 @@
 <template lang="html">
   <div>
-    <div is="sui-button-group">
-      <sui-button icon="align left" />
-      <sui-button icon="align center" />
-      <sui-button icon="align right" />
-      <sui-button icon="align justify" />
+    <div is="xui-button-group">
+      <xui-button icon="align left" />
+      <xui-button icon="align center" />
+      <xui-button icon="align right" />
+      <xui-button icon="align justify" />
     </div>
-    <div is="sui-button-group">
-      <sui-button icon="bold" />
-      <sui-button icon="underline" />
-      <sui-button icon="text width" />
+    <div is="xui-button-group">
+      <xui-button icon="bold" />
+      <xui-button icon="underline" />
+      <xui-button icon="text width" />
     </div>
   </div>
 </template>

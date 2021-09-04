@@ -1,10 +1,10 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-field>
+  <xui-form>
+    <xui-form-field>
       <label>User Input</label>
       <input />
-    </sui-form-field>
-  </sui-form>
+    </xui-form-field>
+  </xui-form>
 </template>
 
 <script>

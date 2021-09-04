@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
-    <sui-progress state="active" indicating :percent="percent" :label="label" />
-    <sui-button @click.native="decrease">-</sui-button>
-    <sui-button @click.native="increase">+</sui-button>
+    <xui-progress state="active" indicating :percent="percent" :label="label" />
+    <xui-button @click.native="decrease">-</xui-button>
+    <xui-button @click.native="increase">+</xui-button>
   </div>
 </template>
 

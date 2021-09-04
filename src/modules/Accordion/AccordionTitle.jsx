@@ -2,7 +2,7 @@ import { VueXolasUIMixin } from '../../lib';
 import mixin from './mixin';
 
 export default {
-  name: 'SuiAccordionTitle',
+  name: 'XuiAccordionTitle',
   mixins: [VueXolasUIMixin],
   ...mixin,
   render() {

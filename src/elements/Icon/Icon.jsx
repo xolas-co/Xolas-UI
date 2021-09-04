@@ -7,7 +7,7 @@ import {
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiIcon',
+  name: 'XuiIcon',
   mixins: [VueXolasUIMixin],
   props: {
     bordered: {

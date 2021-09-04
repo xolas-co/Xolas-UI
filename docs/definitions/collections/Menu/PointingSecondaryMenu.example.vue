@@ -1,27 +1,27 @@
 <template>
   <div>
-    <sui-menu pointing secondary>
+    <xui-menu pointing secondary>
       <a
-        is="sui-menu-item"
+        is="xui-menu-item"
         v-for="item in items"
         :active="isActive(item)"
         :key="item"
         :content="item"
         @click="select(item)"
       />
-      <sui-menu-menu position="right">
+      <xui-menu-menu position="right">
         <a
-          is="sui-menu-item"
+          is="xui-menu-item"
           :active="isActive('Logout')"
           content="Logout"
           @click="select('Logout')"
         />
-      </sui-menu-menu>
-    </sui-menu>
+      </xui-menu-menu>
+    </xui-menu>
 
-    <sui-segment>
+    <xui-segment>
       <docs-wireframe name="media-paragraph" />
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

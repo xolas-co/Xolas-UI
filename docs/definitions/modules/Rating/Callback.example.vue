@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-rating :rating="value" :max-rating="5" @rate="handleRate" />
+    <xui-rating :rating="value" :max-rating="5" @rate="handleRate" />
     <pre>{{ formattedPayload }}</pre>
   </div>
 </template>

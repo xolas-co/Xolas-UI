@@ -1,30 +1,30 @@
 <template lang="html">
-  <sui-table striped>
-    <sui-table-header>
-      <sui-table-row>
-        <sui-table-header-cell>Name</sui-table-header-cell>
-        <sui-table-header-cell>Status</sui-table-header-cell>
-        <sui-table-header-cell text-align="right">Notes</sui-table-header-cell>
-      </sui-table-row>
-    </sui-table-header>
-    <sui-table-body>
-      <sui-table-row text-align="center">
-        <sui-table-cell>John</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell text-align="right">None</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jamie</sui-table-cell>
-        <sui-table-cell>Approved</sui-table-cell>
-        <sui-table-cell text-align="right">Requires call</sui-table-cell>
-      </sui-table-row>
-      <sui-table-row>
-        <sui-table-cell>Jill</sui-table-cell>
-        <sui-table-cell>Denied</sui-table-cell>
-        <sui-table-cell text-align="right">None</sui-table-cell>
-      </sui-table-row>
-    </sui-table-body>
-  </sui-table>
+  <xui-table striped>
+    <xui-table-header>
+      <xui-table-row>
+        <xui-table-header-cell>Name</xui-table-header-cell>
+        <xui-table-header-cell>Status</xui-table-header-cell>
+        <xui-table-header-cell text-align="right">Notes</xui-table-header-cell>
+      </xui-table-row>
+    </xui-table-header>
+    <xui-table-body>
+      <xui-table-row text-align="center">
+        <xui-table-cell>John</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell text-align="right">None</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jamie</xui-table-cell>
+        <xui-table-cell>Approved</xui-table-cell>
+        <xui-table-cell text-align="right">Requires call</xui-table-cell>
+      </xui-table-row>
+      <xui-table-row>
+        <xui-table-cell>Jill</xui-table-cell>
+        <xui-table-cell>Denied</xui-table-cell>
+        <xui-table-cell text-align="right">None</xui-table-cell>
+      </xui-table-row>
+    </xui-table-body>
+  </xui-table>
 </template>
 
 <script>

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <sui-advertisement unit="leaderboard" test="Leaderboard" />
-    <sui-advertisement unit="large leaderboard" test="Large Leaderboard" />
-    <sui-advertisement unit="billboard" test="Billboard" />
+    <xui-advertisement unit="leaderboard" test="Leaderboard" />
+    <xui-advertisement unit="large leaderboard" test="Large Leaderboard" />
+    <xui-advertisement unit="billboard" test="Billboard" />
   </div>
 </template>
 

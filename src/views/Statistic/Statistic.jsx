@@ -2,7 +2,7 @@ import { VueXolasUIMixin, ClassMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
-  name: 'SuiStatistic',
+  name: 'XuiStatistic',
   mixins: [ClassMixin, VueXolasUIMixin],
   props: {
     horizontal: {

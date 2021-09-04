@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-segment basic>
+    <xui-segment basic>
       <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
@@ -8,7 +8,7 @@
         egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
         leo.
       </p>
-    </sui-segment>
+    </xui-segment>
   </div>
 </template>
 

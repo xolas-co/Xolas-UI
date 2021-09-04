@@ -2,10 +2,10 @@
   <div>
     <div class="ui two column relaxed grid">
       <div class="column">
-        <table is="sui-table" text-align="right">
+        <table is="xui-table" text-align="right">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -15,7 +15,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>
@@ -27,7 +27,7 @@
         <table class="ui right aligned celled table">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -37,31 +37,31 @@
           </thead>
           <tbody>
             <tr>
-              <td is="sui-table-cell" text-align="left">Drema</td>
-              <td is="sui-table-cell" positive>15</td>
-              <td is="sui-table-cell" negative>26g</td>
-              <td is="sui-table-cell" warning>8g</td>
+              <td is="xui-table-cell" text-align="left">Drema</td>
+              <td is="xui-table-cell" positive>15</td>
+              <td is="xui-table-cell" negative>26g</td>
+              <td is="xui-table-cell" warning>8g</td>
             </tr>
-            <tr is="sui-table-row" positive>
-              <td is="sui-table-cell" text-align="left">Nona</td>
+            <tr is="xui-table-row" positive>
+              <td is="xui-table-cell" text-align="left">Nona</td>
               <td>11</td>
               <td>21g</td>
               <td>16g</td>
             </tr>
-            <tr is="sui-table-row" negative>
-              <td is="sui-table-cell" text-align="left">Isidra</td>
+            <tr is="xui-table-row" negative>
+              <td is="xui-table-cell" text-align="left">Isidra</td>
               <td>34</td>
               <td>43g</td>
               <td>11g</td>
             </tr>
-            <tr is="sui-table-row" warning>
-              <td is="sui-table-cell" text-align="left">Bart</td>
+            <tr is="xui-table-row" warning>
+              <td is="xui-table-cell" text-align="left">Bart</td>
               <td>41</td>
               <td>40g</td>
               <td>30g</td>
             </tr>
-            <tr is="sui-table-row" selected>
-              <td is="sui-table-cell" text-align="left">Nguyet</td>
+            <tr is="xui-table-row" selected>
+              <td is="xui-table-cell" text-align="left">Nguyet</td>
               <td>41</td>
               <td>44g</td>
               <td>28g</td>
@@ -73,7 +73,7 @@
         <table class="ui basic right aligned table">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -83,7 +83,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>
@@ -95,7 +95,7 @@
         <table class="ui very basic right aligned table">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -105,7 +105,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>
@@ -117,7 +117,7 @@
         <table class="ui celled selectable right aligned table">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -127,7 +127,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>
@@ -139,7 +139,7 @@
         <table class="ui striped right aligned table">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -149,7 +149,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>
@@ -161,7 +161,7 @@
         <table class="ui padded celled right aligned table">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -171,7 +171,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>
@@ -191,7 +191,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>
@@ -203,7 +203,7 @@
         <table class="ui inverted right aligned table">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -213,7 +213,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>
@@ -225,7 +225,7 @@
         <table class="ui inverted blue selectable celled right aligned table">
           <thead>
             <tr>
-              <th is="sui-table-header-cell" text-align="left">
+              <th is="xui-table-header-cell" text-align="left">
                 Person
               </th>
               <th>Calories</th>
@@ -235,7 +235,7 @@
           </thead>
           <tbody>
             <tr v-for="row in data" :key="row.person">
-              <td is="sui-table-cell" text-align="left">{{ row.person }}</td>
+              <td is="xui-table-cell" text-align="left">{{ row.person }}</td>
               <td>{{ row.calories }}</td>
               <td>{{ row.fat }}</td>
               <td>{{ row.protein }}</td>

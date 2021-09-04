@@ -1,44 +1,44 @@
 <template lang="html">
-  <sui-item-group>
-    <sui-item>
-      <sui-item-image src="static/images/wireframes/image.png" />
-      <sui-item-content>
-        <sui-item-header>Header</sui-item-header>
-        <sui-item-meta>
+  <xui-item-group>
+    <xui-item>
+      <xui-item-image src="static/images/wireframes/image.png" />
+      <xui-item-content>
+        <xui-item-header>Header</xui-item-header>
+        <xui-item-meta>
           <span>Description</span>
-        </sui-item-meta>
-        <sui-item-description>
+        </xui-item-meta>
+        <xui-item-description>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
           </p>
-        </sui-item-description>
-        <sui-item-extra>
+        </xui-item-description>
+        <xui-item-extra>
           Additional Details
-        </sui-item-extra>
-      </sui-item-content>
-    </sui-item>
-    <sui-item>
-      <sui-item-image src="static/images/wireframes/image.png" />
-      <sui-item-content>
-        <sui-item-header>Header</sui-item-header>
-        <sui-item-meta>
+        </xui-item-extra>
+      </xui-item-content>
+    </xui-item>
+    <xui-item>
+      <xui-item-image src="static/images/wireframes/image.png" />
+      <xui-item-content>
+        <xui-item-header>Header</xui-item-header>
+        <xui-item-meta>
           <span>Description</span>
-        </sui-item-meta>
-        <sui-item-description>
+        </xui-item-meta>
+        <xui-item-description>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
           </p>
-        </sui-item-description>
-        <sui-item-extra>
+        </xui-item-description>
+        <xui-item-extra>
           Additional Details
-        </sui-item-extra>
-      </sui-item-content>
-    </sui-item>
-  </sui-item-group>
+        </xui-item-extra>
+      </xui-item-content>
+    </xui-item>
+  </xui-item-group>
 </template>
 
 <script>

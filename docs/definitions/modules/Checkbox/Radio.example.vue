@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <sui-checkbox label="Radio choice" radio />
+    <xui-checkbox label="Radio choice" radio />
   </div>
 </template>
 

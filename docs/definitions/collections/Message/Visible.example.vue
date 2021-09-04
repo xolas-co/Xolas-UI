@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
-    <sui-message visible>
+    <xui-message visible>
       <p>You can always see me</p>
-    </sui-message>
+    </xui-message>
   </div>
 </template>
 

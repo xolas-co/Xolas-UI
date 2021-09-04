@@ -1,13 +1,13 @@
 <template lang="html">
-  <sui-segment class="container">
-    <sui-rail internal position="left">
-      <sui-segment>Left Rail Content</sui-segment>
-    </sui-rail>
+  <xui-segment class="container">
+    <xui-rail internal position="left">
+      <xui-segment>Left Rail Content</xui-segment>
+    </xui-rail>
 
-    <sui-rail internal position="right">
-      <sui-segment>Right Rail Content</sui-segment>
-    </sui-rail>
-  </sui-segment>
+    <xui-rail internal position="right">
+      <xui-segment>Right Rail Content</xui-segment>
+    </xui-rail>
+  </xui-segment>
 </template>
 
 <script>

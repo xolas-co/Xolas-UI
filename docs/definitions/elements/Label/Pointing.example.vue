@@ -1,30 +1,30 @@
 <template>
-  <sui-form>
-    <sui-form-field>
+  <xui-form>
+    <xui-form-field>
       <input type="text" placeholder="First name" />
-      <sui-label pointing>Please enter a value</sui-label>
-    </sui-form-field>
-    <sui-divider />
+      <xui-label pointing>Please enter a value</xui-label>
+    </xui-form-field>
+    <xui-divider />
 
-    <sui-form-field>
-      <sui-label pointing="below">Please enter a value</sui-label>
+    <xui-form-field>
+      <xui-label pointing="below">Please enter a value</xui-label>
       <input type="text" placeholder="Last Name" />
-    </sui-form-field>
-    <sui-divider />
+    </xui-form-field>
+    <xui-divider />
 
-    <sui-form-field inline>
+    <xui-form-field inline>
       <input type="text" placeholder="Username" />
-      <sui-label pointing="left">That name is taken!</sui-label>
-    </sui-form-field>
-    <sui-divider />
+      <xui-label pointing="left">That name is taken!</xui-label>
+    </xui-form-field>
+    <xui-divider />
 
-    <sui-form-field inline>
-      <sui-label pointing="right"
-        >Your password must be 6 characters or more</sui-label
+    <xui-form-field inline>
+      <xui-label pointing="right"
+        >Your password must be 6 characters or more</xui-label
       >
       <input type="password" placeholder="Password" />
-    </sui-form-field>
-  </sui-form>
+    </xui-form-field>
+  </xui-form>
 </template>
 
 <script>

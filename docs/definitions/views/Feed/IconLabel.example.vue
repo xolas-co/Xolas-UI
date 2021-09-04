@@ -1,17 +1,17 @@
 <template lang="html">
-  <sui-feed>
-    <sui-feed-event>
-      <sui-feed-label>
-        <sui-icon name="pencil" />
-      </sui-feed-label>
-      <sui-feed-content>
-        <sui-feed-date>Today</sui-feed-date>
-        <sui-feed-summary>
+  <xui-feed>
+    <xui-feed-event>
+      <xui-feed-label>
+        <xui-icon name="pencil" />
+      </xui-feed-label>
+      <xui-feed-content>
+        <xui-feed-date>Today</xui-feed-date>
+        <xui-feed-summary>
           You posted on your friend <a>Stevie Feliciano's</a> wall.
-        </sui-feed-summary>
-      </sui-feed-content>
-    </sui-feed-event>
-  </sui-feed>
+        </xui-feed-summary>
+      </xui-feed-content>
+    </xui-feed-event>
+  </xui-feed>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template lang="html">
-  <sui-embed
+  <xui-embed
     id="125292332"
     placeholder="static/images/extras/vimeo-example.jpg"
     source="vimeo"

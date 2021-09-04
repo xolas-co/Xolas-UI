@@ -1,18 +1,18 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-field>
+  <xui-form>
+    <xui-form-field>
       <label>First Name</label>
       <input placeholder="First Name" />
-    </sui-form-field>
-    <sui-form-field>
+    </xui-form-field>
+    <xui-form-field>
       <label>Last Name</label>
       <input placeholder="Last Name" />
-    </sui-form-field>
-    <sui-form-field>
-      <sui-checkbox label="I agree to the Terms and Conditions" />
-    </sui-form-field>
-    <sui-button type="submit">Submit</sui-button>
-  </sui-form>
+    </xui-form-field>
+    <xui-form-field>
+      <xui-checkbox label="I agree to the Terms and Conditions" />
+    </xui-form-field>
+    <xui-button type="submit">Submit</xui-button>
+  </xui-form>
 </template>
 
 <script>

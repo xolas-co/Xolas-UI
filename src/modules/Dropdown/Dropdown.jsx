@@ -31,7 +31,7 @@ function getOffset(el) {
 }
 
 export default {
-  name: 'SuiDropdown',
+  name: 'XuiDropdown',
   mixins: [VueXolasUIMixin],
   props: {
     allowAdditions: {
@@ -80,7 +80,7 @@ export default {
       type: Array,
       default: () => [],
       description:
-        "Array of SuiDropdownItem props e.g. `{ text: '', value: '' }`",
+        "Array of XuiDropdownItem props e.g. `{ text: '', value: '' }`",
     },
     placeholder: {
       type: String,
@@ -97,7 +97,7 @@ export default {
     searchInMenu: {
       type: Object,
       description:
-        'A dropdown can have a search input in dropdown menu. Should be passed an Object with SuiInput props.',
+        'A dropdown can have a search input in dropdown menu. Should be passed an Object with XuiInput props.',
     },
     selection: {
       type: Boolean,

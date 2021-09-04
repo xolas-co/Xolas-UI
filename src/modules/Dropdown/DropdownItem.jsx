@@ -5,24 +5,24 @@ import Icon from '../../elements/Icon/Icon';
 import Label from '../../elements/Label/Label';
 
 export default {
-  name: 'SuiDropdownItem',
+  name: 'XuiDropdownItem',
   mixins: [VueXolasUIMixin],
   props: {
     flag: {
       type: String,
-      description: 'Shorthand for sui-flag.',
+      description: 'Shorthand for xui-flag.',
     },
     image: {
       type: Object,
-      description: 'Shorthand for sui-image.',
+      description: 'Shorthand for xui-image.',
     },
     icon: {
       type: String,
-      description: 'Shorthand for sui-icon.',
+      description: 'Shorthand for xui-icon.',
     },
     label: {
       type: Object,
-      description: 'Shorthand for sui-label',
+      description: 'Shorthand for xui-label',
     },
     text: {
       type: String,
@@ -81,6 +81,6 @@ export default {
     );
   },
   meta: {
-    parent: 'SuiDropdown',
+    parent: 'XuiDropdown',
   },
 };

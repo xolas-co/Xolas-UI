@@ -1,6 +1,6 @@
 <template lang="html">
   <a
-    is="sui-image"
+    is="xui-image"
     href="https://procatinator.com/"
     target="_blank"
     src="static/images/wireframes/image-text.png"

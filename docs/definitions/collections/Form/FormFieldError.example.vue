@@ -1,28 +1,28 @@
 <template lang="html">
-  <sui-form>
-    <sui-form-fields fields="two">
-      <sui-form-field error>
+  <xui-form>
+    <xui-form-fields fields="two">
+      <xui-form-field error>
         <label>First Name</label>
         <input placeholder="First Name" type="text" />
-      </sui-form-field>
-      <sui-form-field>
+      </xui-form-field>
+      <xui-form-field>
         <label>Last Name</label>
         <input placeholder="Last Name" type="text" />
-      </sui-form-field>
-    </sui-form-fields>
-    <sui-form-field error>
+      </xui-form-field>
+    </xui-form-fields>
+    <xui-form-field error>
       <label>Gender</label>
-      <sui-dropdown
+      <xui-dropdown
         placeholder="Gender"
         selection
         :options="options"
         v-model="current"
       />
-    </sui-form-field>
-    <sui-form-field inline error>
-      <sui-checkbox label="I agree to the Terms and Conditions" />
-    </sui-form-field>
-  </sui-form>
+    </xui-form-field>
+    <xui-form-field inline error>
+      <xui-checkbox label="I agree to the Terms and Conditions" />
+    </xui-form-field>
+  </xui-form>
 </template>
 
 <script>

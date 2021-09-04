@@ -1,6 +1,6 @@
 <template lang="html">
-  <sui-container text>
-    <h2 is="sui-header">Header</h2>
+  <xui-container text>
+    <h2 is="xui-header">Header</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
       ligula eget dolor. Aenean massa <b>strong</b>. Cum sociis natoque
@@ -33,7 +33,7 @@
       imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
       nisi.
     </p>
-  </sui-container>
+  </xui-container>
 </template>
 
 <script>

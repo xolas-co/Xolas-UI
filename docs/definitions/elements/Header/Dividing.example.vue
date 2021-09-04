@@ -1,5 +1,5 @@
 <template>
-  <h3 is="sui-header" dividing>
+  <h3 is="xui-header" dividing>
     Dividing Header
   </h3>
 </template>

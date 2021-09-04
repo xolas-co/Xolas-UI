@@ -1,7 +1,7 @@
 import { VueXolasUIMixin } from '../../lib';
 
 export default {
-  name: 'SuiCard',
+  name: 'XuiCard',
   mixins: [VueXolasUIMixin],
   props: {},
   render() {
