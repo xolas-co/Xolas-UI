@@ -182,6 +182,6 @@ To do so, do not hesitate to [join our chat on Gitter](https://gitter.im/Semanti
 
 ## 📝 License
 
-Vue Xolas UI: Copyright © 2021-present, [Anthony Davie](https://github.com/adavie1).<br>
-Semantic UI Vue: Copyright © 2019-present, [Mario Lamacchia](https://github.com/mariolamacchia).<br>
+Vue Xolas UI: Copyright © 2021-present, [xolas.co](https://github.com/xolas-co).<br>
+Based on Semantic UI Vue: Copyright © 2019-present, [Mario Lamacchia](https://github.com/mariolamacchia).<br>
 This project is [MIT](https://github.com/vue-xolas-ui/vue-xolas-ui/blob/master/LICENSE.md) licensed.
