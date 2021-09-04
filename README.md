@@ -1,9 +1,9 @@
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/Semantic-UI-Vue/Semantic-UI-Vue/master/docs/public/static/images/logo.png"
-    alt="Semantic UI Vue"
+    alt="Xolas UI Vue"
   />
-  <h1 align=center>Semantic UI Vue</h1>
+  <h1 align=center>Xolas UI Vue</h1>
 </p>
 
 <p align="center">
