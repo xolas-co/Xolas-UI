@@ -37,7 +37,7 @@
           <sui-icon name="github" />
         </a>
         <a is="sui-menu-item" href="https://semantic-ui.com/">
-          Xolas UI
+          Semantic UI
           <i class="icon semantic-ui">
             <img src="https://semantic-ui.com/favicon.ico" />
           </i>
