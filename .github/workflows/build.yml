@@ -98,7 +98,7 @@ jobs:
       - name: Setup git
         run: |
           git config --global user.email "mariolamacchia@gmail.com"
-          git config --global user.name "Semantic UI Vue CI"
+          git config --global user.name "Vue Xolas UI CI"
       - name: Deploy docs
         run: |
           cd dist/docs
@@ -108,7 +108,7 @@ jobs:
           git commit -m "Generate docs"
           git push -f origin master
         env:
-          REPOSITORY: Semantic-UI-Vue/semantic-ui-vue.github.io
+          REPOSITORY: Semantic-UI-Vue/vue-xolas-ui.github.io
 
   build-lib:
     runs-on: ubuntu-latest

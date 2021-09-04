@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import StatisticGroup from 'semantic-ui-vue/views/Statistic/StatisticGroup';
+import StatisticGroup from 'vue-xolas-ui/views/Statistic/StatisticGroup';
 
 describe('StatisticGroup', () => {
   it('should create a standalone SUI StatisticGroup', () => {

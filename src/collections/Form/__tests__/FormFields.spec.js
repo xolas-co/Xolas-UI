@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import { shallowMount } from '@vue/test-utils';
 import * as common from 'test/utils';
-import FormFields from 'semantic-ui-vue/collections/Form/FormFields';
+import FormFields from 'vue-xolas-ui/collections/Form/FormFields';
 
 describe('Form', () => {
   describe('FormFields', () => {

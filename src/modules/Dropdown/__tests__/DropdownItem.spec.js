@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils';
 import * as common from 'test/utils';
-import DropdownItem from 'semantic-ui-vue/modules/Dropdown/DropdownItem';
-import Image from 'semantic-ui-vue/elements/Image/Image';
+import DropdownItem from 'vue-xolas-ui/modules/Dropdown/DropdownItem';
+import Image from 'vue-xolas-ui/elements/Image/Image';
 
 describe('Dropdown', () => {
   describe('DropdownItem', () => {

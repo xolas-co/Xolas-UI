@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
-import { Statistic, StatisticGroup } from 'semantic-ui-vue/views/Statistic';
-import Container from 'semantic-ui-vue/elements/Container/Container';
+import { Statistic, StatisticGroup } from 'vue-xolas-ui/views/Statistic';
+import Container from 'vue-xolas-ui/elements/Container/Container';
 
 describe('Statistic', () => {
   it('should create a standalone SUI Statistic', () => {

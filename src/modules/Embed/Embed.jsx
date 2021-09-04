@@ -1,10 +1,10 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import { Icon } from '../../elements';
 
 export default {
   name: 'SuiEmbed',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     active: {
       type: Boolean,

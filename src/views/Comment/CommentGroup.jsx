@@ -1,9 +1,9 @@
-import { classMixin, SemanticUIVueMixin } from '../../lib';
+import { ClassMixin, VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
   name: 'SuiCommentGroup',
-  mixins: [SemanticUIVueMixin, classMixin],
+  mixins: [VueXolasUIMixin, ClassMixin],
   props: {
     threaded: {
       type: Boolean,

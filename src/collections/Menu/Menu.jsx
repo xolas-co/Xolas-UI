@@ -1,11 +1,11 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import SuiMenuItem from './MenuItem';
 
 export default {
   name: 'SuiMenu',
   components: { SuiMenuItem },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     activeIndex: {
       type: Number,

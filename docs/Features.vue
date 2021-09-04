@@ -1,6 +1,6 @@
 <template>
   <div is="sui-container">
-    <h1>Semantic UI Vue feature status</h1>
+    <h1>Vue Xolas UI feature status</h1>
     <sui-table v-for="feature in features" :key="feature.name">
       <thead>
         <tr>

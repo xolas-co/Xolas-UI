@@ -1,4 +1,4 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import SuiIcon from '../../elements/Icon/Icon';
 import SuiMessageContent from './MessageContent';
@@ -15,7 +15,7 @@ export default {
     SuiMessageItem,
     SuiMessageList,
   },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     content: {
       type: String,

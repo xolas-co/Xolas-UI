@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Input from 'semantic-ui-vue/elements/Input/Input';
-import Icon from 'semantic-ui-vue/elements/Icon/Icon';
+import Input from 'vue-xolas-ui/elements/Input/Input';
+import Icon from 'vue-xolas-ui/elements/Icon/Icon';
 
 describe('Input', () => {
   testClassFromProps(Input, ['ui', 'input']);

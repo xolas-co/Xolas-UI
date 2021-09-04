@@ -1,4 +1,4 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiCheckbox',
@@ -6,7 +6,7 @@ export default {
     prop: 'inputValue',
     event: 'change',
   },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     disabled: {
       type: Boolean,

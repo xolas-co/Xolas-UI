@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Button from 'semantic-ui-vue/elements/Button/Button';
-import Icon from 'semantic-ui-vue/elements/Icon/Icon';
+import Button from 'vue-xolas-ui/elements/Button/Button';
+import Icon from 'vue-xolas-ui/elements/Icon/Icon';
 
 describe('Button', () => {
   testClassFromProps(Button, [

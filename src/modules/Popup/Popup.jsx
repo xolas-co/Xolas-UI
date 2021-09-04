@@ -1,5 +1,5 @@
 import VFragment from '../../lib/VFragment';
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import PopupContainer from './private/PopupContainer';
 import { POSITIONS } from './private/popupConstants';
@@ -11,7 +11,7 @@ const HOVERABLE_BLUR_DELAY = 300;
 export default {
   name: 'SuiPopup',
   description: 'A popup displays additional information on top of a page.',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     basic: {
       type: Boolean,

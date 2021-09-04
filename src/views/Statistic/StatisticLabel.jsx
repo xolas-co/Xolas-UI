@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiStatisticLabel',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType();
     return (

@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin, textAlign } from '../../lib';
+import { VueXolasUIMixin, textAlign } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
   name: 'SuiContainer',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     fluid: {
       type: Boolean,

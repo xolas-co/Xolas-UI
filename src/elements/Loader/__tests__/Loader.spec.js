@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Loader from 'semantic-ui-vue/elements/Loader/Loader';
+import Loader from 'vue-xolas-ui/elements/Loader/Loader';
 
 describe('Loader', () => {
   testClassFromProps(Loader, ['ui', 'loader']);

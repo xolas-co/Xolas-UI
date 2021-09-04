@@ -1,4 +1,4 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import Flag from '../../elements/Flag/Flag';
 import Image from '../../elements/Image/Image';
 import Icon from '../../elements/Icon/Icon';
@@ -6,7 +6,7 @@ import Label from '../../elements/Label/Label';
 
 export default {
   name: 'SuiDropdownItem',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     flag: {
       type: String,

@@ -1,4 +1,4 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import SuiBreadcrumbSection from './BreadcrumbSection';
 import SuiBreadcrumbDivider from './BreadcrumbDivider';
 import { Enum } from '../../lib/PropTypes';
@@ -6,7 +6,7 @@ import { Enum } from '../../lib/PropTypes';
 export default {
   name: 'SuiBreadcrumb',
   components: { SuiBreadcrumbDivider, SuiBreadcrumbSection },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     icon: String,
     sections: Array,

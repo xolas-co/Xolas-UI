@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Form from 'semantic-ui-vue/collections/Form/Form';
+import Form from 'vue-xolas-ui/collections/Form/Form';
 
 describe('Form', () => {
   testClassFromProps(Form, [

@@ -1,11 +1,11 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import CategoryResults from './CategoryResults';
 import SimpleResults from './SimpleResults';
 import Result from './Result';
 
 export default {
   name: 'SuiSearchResults',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     category: Boolean,
     duration: Number,

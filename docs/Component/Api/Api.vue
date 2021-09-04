@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import * as SemanticUIVue from 'semantic-ui-vue';
+import * as VueXolasUI from 'vue-xolas-ui';
 import upperFirst from 'lodash/upperFirst';
 import ApiTable from './ApiTable.vue';
 
@@ -95,8 +95,8 @@ export default {
       return `Sui${this.title}`;
     },
     subComponents() {
-      return Object.keys(SemanticUIVue)
-        .map(componentName => SemanticUIVue[componentName])
+      return Object.keys(VueXolasUI)
+        .map(componentName => VueXolasUI[componentName])
         .filter(
           Component =>
             Component.name === this.suiName ||

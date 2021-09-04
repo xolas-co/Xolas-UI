@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import StatisticLabel from 'semantic-ui-vue/views/Statistic/StatisticLabel';
+import StatisticLabel from 'vue-xolas-ui/views/Statistic/StatisticLabel';
 
 describe('StatisticLabel', () => {
   it('should create a SUI StatisticLabel', () => {

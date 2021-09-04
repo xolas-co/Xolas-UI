@@ -1,10 +1,10 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import SuiItemContent from './ListItem';
 
 export default {
   name: 'SuiList',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     bulleted: {
       type: Boolean,

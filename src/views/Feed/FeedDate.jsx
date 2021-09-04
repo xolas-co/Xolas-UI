@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiFeedDate',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'An event or an event summary can contain a date',
   props: {
     content: {

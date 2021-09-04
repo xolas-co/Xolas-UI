@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view />
-    <portal-target name="semantic-ui-vue" />
+    <portal-target name="vue-xolas-ui" />
   </div>
 </template>
 

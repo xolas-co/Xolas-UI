@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import { shallowMount } from '@vue/test-utils';
 import * as common from 'test/utils';
-import Label from 'semantic-ui-vue/elements/Label/Label';
-import Icon from 'semantic-ui-vue/elements/Icon/Icon';
-import Flag from 'semantic-ui-vue/elements/Flag/Flag';
-import Image from 'semantic-ui-vue/elements/Image/Image';
-import Dropdown from 'semantic-ui-vue/modules/Dropdown/Dropdown';
-import DropdownItem from 'semantic-ui-vue/modules/Dropdown/DropdownItem';
+import Label from 'vue-xolas-ui/elements/Label/Label';
+import Icon from 'vue-xolas-ui/elements/Icon/Icon';
+import Flag from 'vue-xolas-ui/elements/Flag/Flag';
+import Image from 'vue-xolas-ui/elements/Image/Image';
+import Dropdown from 'vue-xolas-ui/modules/Dropdown/Dropdown';
+import DropdownItem from 'vue-xolas-ui/modules/Dropdown/DropdownItem';
 
 const DropdownWithRequired = common.withRequired(Dropdown, { options: [] });
 

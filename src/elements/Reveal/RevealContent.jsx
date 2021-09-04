@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiRevealContent',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     visible: Boolean,
     hidden: Boolean,

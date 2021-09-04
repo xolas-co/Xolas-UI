@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import CardMeta from 'semantic-ui-vue/views/Card/CardMeta';
+import CardMeta from 'vue-xolas-ui/views/Card/CardMeta';
 
 describe('CardMeta', () => {
   it('should create a standalone SUI CardMeta', () => {

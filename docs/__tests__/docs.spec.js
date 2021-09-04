@@ -1,5 +1,5 @@
 import { mount, createLocalVue } from '@vue/test-utils';
-import SuiVue from 'semantic-ui-vue';
+import SuiVue from 'vue-xolas-ui';
 import DocsWireframe from '../components/DocsWireframe.vue';
 const exampleContext = require.context(
   '../definitions',

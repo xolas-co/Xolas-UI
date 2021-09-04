@@ -4,8 +4,8 @@ const config = require('./webpack.base.config');
 config.output = {
   path: path.resolve(__dirname, '../dist/umd'),
   publicPath: '/',
-  filename: 'semantic-ui-vue.min.js',
-  library: 'SemanticUIVue',
+  filename: 'vue-xolas-ui.min.js',
+  library: 'VueXolasUI',
   libraryTarget: 'umd',
   libraryExport: 'default',
 };

@@ -1,4 +1,4 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { debounce } from '../../lib/underscore';
 import Results from './Results';
 import { Enum } from '../../lib/PropTypes';
@@ -6,7 +6,7 @@ import search from './utils/search';
 
 export default {
   name: 'SuiSearch',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     action: {
       type: String,

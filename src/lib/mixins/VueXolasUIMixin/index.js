@@ -6,7 +6,7 @@ import ajax from '../../ajax';
 import { defaultsDeep, get } from '../../underscore';
 import api from './api';
 
-export const SemanticUIVueMixin = {
+export const VueXolasUIMixin = {
   inject: {
     _sui: {
       from: 'sui',

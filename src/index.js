@@ -11,14 +11,14 @@ const allComponents = {
   ...views,
 };
 
-const SemanticUIVue = Vue => {
+const VueXolasUI = Vue => {
   Object.values(allComponents).forEach(Comp => Vue.component(Comp.name, Comp));
   Object.values(directives).forEach(directive =>
     Vue.directive(directive.name, directive),
   );
 };
 
-export default SemanticUIVue;
+export default VueXolasUI;
 export * from './collections';
 export * from './directives';
 export * from './elements';

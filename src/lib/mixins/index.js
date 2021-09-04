@@ -1,2 +1,2 @@
-export * from './SemanticUIVueMixin';
-export * from './classMixin';
+export * from './VueXolasUIMixin';
+export * from './ClassMixin';

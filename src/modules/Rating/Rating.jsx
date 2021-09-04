@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiRating',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   binding: {
     prop: 'rating',
     event: 'changed',

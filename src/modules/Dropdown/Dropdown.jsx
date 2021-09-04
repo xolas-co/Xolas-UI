@@ -1,4 +1,4 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { escapeRegExp } from '../../lib/underscore';
 import { Enum } from '../../lib/PropTypes';
 import Icon from '../../elements/Icon/Icon';
@@ -32,7 +32,7 @@ function getOffset(el) {
 
 export default {
   name: 'SuiDropdown',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     allowAdditions: {
       type: Boolean,

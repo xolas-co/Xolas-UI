@@ -1,4 +1,4 @@
-import { getEventAnimationEnd, SemanticUIVueMixin } from '../../lib';
+import { getEventAnimationEnd, VueXolasUIMixin } from '../../lib';
 
 const visualStates = {
   closed: 'closed',
@@ -9,7 +9,7 @@ const visualStates = {
 
 export default {
   name: 'SuiDropdownMenu',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   data() {
     return {
       open: false,

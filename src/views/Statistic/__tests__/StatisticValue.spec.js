@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import StatisticValue from 'semantic-ui-vue/views/Statistic/StatisticValue';
+import StatisticValue from 'vue-xolas-ui/views/Statistic/StatisticValue';
 
 describe('StatisticValue', () => {
   it('should create a SUI StatisticValue', () => {

@@ -1,4 +1,4 @@
-export const classMixin = {
+export const ClassMixin = {
   methods: {
     getUIClass() {
       const ownName = this.constructor.options && this.constructor.options.name;

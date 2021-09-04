@@ -4,7 +4,7 @@ const config = require('./webpack.base.config');
 config.output = {
   path: path.resolve(__dirname, '../dist/commonjs'),
   publicPath: '/',
-  filename: 'semantic-ui-vue.js',
+  filename: 'vue-xolas-ui.js',
   libraryTarget: 'commonjs2',
 };
 

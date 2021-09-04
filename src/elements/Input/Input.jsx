@@ -1,4 +1,4 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import SuiButton from '../../elements/Button/Button';
 import SuiIcon from '../../elements/Icon/Icon';
@@ -6,7 +6,7 @@ import SuiIcon from '../../elements/Icon/Icon';
 export default {
   name: 'SuiInput',
   components: { SuiButton, SuiIcon },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     action: String,
     disabled: Boolean,

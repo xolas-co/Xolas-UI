@@ -1,6 +1,6 @@
 <template lang="html">
   <sui-segment compact>
-    <p>Semantic UI Vue</p>
+    <p>Vue Xolas UI</p>
   </sui-segment>
 </template>
 

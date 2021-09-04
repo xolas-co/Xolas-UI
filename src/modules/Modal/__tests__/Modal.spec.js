@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClass } from 'test/utils';
-import Modal from 'semantic-ui-vue/modules/Modal/Modal';
-import Icon from 'semantic-ui-vue/elements/Icon/Icon';
+import Modal from 'vue-xolas-ui/modules/Modal/Modal';
+import Icon from 'vue-xolas-ui/elements/Icon/Icon';
 
 describe('Modal', () => {
   testClass(Modal, ['ui', 'dimmer', 'page', 'modals', 'transition']);

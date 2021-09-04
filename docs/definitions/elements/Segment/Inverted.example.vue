@@ -1,6 +1,6 @@
 <template lang="html">
   <sui-segment inverted>
-    <p>Vue + SemanticUI = :)</p>
+    <p>Vue + VueXolasUI = :)</p>
   </sui-segment>
 </template>
 

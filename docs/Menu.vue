@@ -10,7 +10,7 @@
     <sui-menu-item>
       <sui-image :src="`/static/images/logo.png`" spaced="right" size="mini" />
       <strong>
-        Semantic UI Vue
+        Vue Xolas UI
         <small>
           <em>{{ version }}</em>
         </small>
@@ -37,7 +37,7 @@
           <sui-icon name="github" />
         </a>
         <a is="sui-menu-item" href="https://semantic-ui.com/">
-          Semantic UI
+          Xolas UI
           <i class="icon semantic-ui">
             <img src="https://semantic-ui.com/favicon.ico" />
           </i>
@@ -87,10 +87,10 @@
 
 <script>
 import 'semantic-ui-css/semantic.css';
-import * as collections from 'semantic-ui-vue/collections';
-import * as elements from 'semantic-ui-vue/elements';
-import * as modules from 'semantic-ui-vue/modules';
-import * as views from 'semantic-ui-vue/views';
+import * as collections from 'vue-xolas-ui/collections';
+import * as elements from 'vue-xolas-ui/elements';
+import * as modules from 'vue-xolas-ui/modules';
+import * as views from 'vue-xolas-ui/views';
 
 export default {
   props: {

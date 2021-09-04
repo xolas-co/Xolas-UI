@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Divider from 'semantic-ui-vue/elements/Divider/Divider';
+import Divider from 'vue-xolas-ui/elements/Divider/Divider';
 
 describe('Divider', () => {
   testClassFromProps(Divider, [

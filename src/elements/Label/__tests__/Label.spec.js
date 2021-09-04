@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Label from 'semantic-ui-vue/elements/Label/Label';
+import Label from 'vue-xolas-ui/elements/Label/Label';
 
 describe('Label', () => {
   testClassFromProps(Label, ['ui', 'label']);

@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import ButtonOr from 'semantic-ui-vue/elements/Button/ButtonOr';
+import ButtonOr from 'vue-xolas-ui/elements/Button/ButtonOr';
 
 describe('Button', () => {
   describe('ButtonOr', () => {

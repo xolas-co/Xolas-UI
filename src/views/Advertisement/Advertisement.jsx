@@ -1,10 +1,10 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
   name: 'SuiAdvertisement',
   description: 'An advertisement view presents thrif-party promotional content',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     centered: {
       type: Boolean,

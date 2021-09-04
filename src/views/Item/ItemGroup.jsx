@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
   name: 'SuiItemGroup',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'A group of items',
   props: {
     unstackable: {

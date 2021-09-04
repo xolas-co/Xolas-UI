@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps, withRequired } from 'test/utils';
-import Image from 'semantic-ui-vue/elements/Image/Image';
+import Image from 'vue-xolas-ui/elements/Image/Image';
 
 const ImageWithRequired = withRequired(Image, { src: 'test.jpg' });
 

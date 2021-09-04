@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Image } from '../../elements';
 
 export default {
   name: 'SuiFeedExtra',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'A feed can contain an extra content',
   props: {
     content: {

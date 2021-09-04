@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import Card from 'semantic-ui-vue/views/Card/Card';
+import Card from 'vue-xolas-ui/views/Card/Card';
 
 describe.only('Card', () => {
   it('should create a SUI Card', () => {

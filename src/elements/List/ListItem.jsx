@@ -1,11 +1,11 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import SuiListIcon from './ListIcon';
 import SuiListContent from './ListContent';
 
 export default {
   name: 'SuiListItem',
   components: { SuiListContent, SuiListIcon },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     active: {
       type: Boolean,

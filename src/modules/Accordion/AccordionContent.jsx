@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import mixin from './mixin';
 
 export default {
   name: 'SuiAccordionContent',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   ...mixin,
   render() {
     const ElementType = this.getElementType();

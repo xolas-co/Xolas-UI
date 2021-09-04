@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Container from 'semantic-ui-vue/elements/Container/Container';
+import Container from 'vue-xolas-ui/elements/Container/Container';
 
 describe('Container', () => {
   testClassFromProps(Container, ['ui', 'container']);

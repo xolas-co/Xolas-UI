@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import { shallowMount } from '@vue/test-utils';
-import Embed from 'semantic-ui-vue/modules/Embed/Embed';
-import { Icon } from 'semantic-ui-vue/elements';
+import Embed from 'vue-xolas-ui/modules/Embed/Embed';
+import { Icon } from 'vue-xolas-ui/elements';
 
 describe('Embed', () => {
   it('should create a SUI Embed default without active, placeholder and iframe', () => {

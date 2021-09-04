@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiItemExtra',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description:
     'An item can contain extra content meant to be formatted separately from the main content',
   props: {},

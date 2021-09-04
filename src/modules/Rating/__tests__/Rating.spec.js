@@ -1,5 +1,5 @@
 import { mount, shallowMount } from '@vue/test-utils';
-import Rating from 'semantic-ui-vue/modules/Rating/Rating';
+import Rating from 'vue-xolas-ui/modules/Rating/Rating';
 
 describe('Rating', () => {
   it('should create rating stars', () => {

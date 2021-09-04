@@ -1,10 +1,10 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import Icon from '../Icon/Icon';
 
 export default {
   name: 'SuiLabel',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'A label displays content classification.',
   props: {
     attached: Enum(

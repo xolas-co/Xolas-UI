@@ -43,7 +43,7 @@
 
 <script>
 import capitalize from 'lodash/capitalize';
-import * as components from 'semantic-ui-vue';
+import * as components from 'vue-xolas-ui';
 
 const getComponentFromName = name => components[capitalize(name)];
 

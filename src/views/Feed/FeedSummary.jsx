@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { FeedDate, FeedUser } from './';
 
 export default {
   name: 'SuiFeedSummary',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'A feed can contain a summary',
   props: {
     content: {

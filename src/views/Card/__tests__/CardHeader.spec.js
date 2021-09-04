@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import CardHeader from 'semantic-ui-vue/views/Card/CardHeader';
+import CardHeader from 'vue-xolas-ui/views/Card/CardHeader';
 
 describe('CardHeader', () => {
   it('should create a standalone SUI CardHeader', () => {

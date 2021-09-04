@@ -1,10 +1,10 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import SuiIcon from '../../elements/Icon/Icon';
 
 export default {
   name: 'SuiMenuItem',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     active: {
       type: Boolean,

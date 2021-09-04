@@ -1,10 +1,10 @@
-import { isBrowser, SemanticUIVueMixin } from '../../../lib';
+import { isBrowser, VueXolasUIMixin } from '../../../lib';
 import { mapValues, without } from '../../../lib/underscore';
 import { POSITIONS } from './popupConstants';
 
 export default {
   name: 'SuiPrivatePopupContainer',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     popupClass: String,
     triggerCoords: isBrowser ? [window.DOMRect, Object] : Object,
@@ -151,7 +151,7 @@ export default {
     );
 
     return (
-      <portal to="semantic-ui-vue">
+      <portal to="vue-xolas-ui">
         <div
           ref="container"
           class={className}

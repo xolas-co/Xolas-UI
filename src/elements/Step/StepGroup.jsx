@@ -1,11 +1,11 @@
 import SuiStep from './Step';
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
   name: 'SuiStepGroup',
   components: { SuiStep },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     ordered: Boolean,
     steps: Array,

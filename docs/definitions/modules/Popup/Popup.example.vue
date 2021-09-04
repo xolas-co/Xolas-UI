@@ -18,8 +18,8 @@ Vue.use(PortalVue);
       </pre>
 
       Also, make sure to add
-      <code>&lt;portal-target name="semantic-ui-vue"></code> at the root level
-      of your app.
+      <code>&lt;portal-target name="vue-xolas-ui"></code> at the root level of
+      your app.
     </sui-message>
     <sui-popup content="Add users to your feed">
       <sui-button icon="add" slot="trigger" />

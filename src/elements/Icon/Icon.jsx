@@ -1,5 +1,5 @@
 import {
-  SemanticUIVueMixin,
+  VueXolasUIMixin,
   iconFlipped,
   iconRotation,
   iconCorner,
@@ -8,7 +8,7 @@ import { Enum } from '../../lib/PropTypes';
 
 export default {
   name: 'SuiIcon',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     bordered: {
       type: Boolean,

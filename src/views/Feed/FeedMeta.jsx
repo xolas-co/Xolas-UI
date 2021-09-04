@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { FeedLike } from './';
 
 export default {
   name: 'SuiFeedMeta',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'A feed can contain a meta',
   props: {
     content: {

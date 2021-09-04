@@ -11,7 +11,7 @@ config.output = {
     transformFileName(options)
       .replace(/\/([^/]+)\./, name => `/sui-${kebabCase(name)}.min.`)
       .toLowerCase(),
-  library: ['SemanticUIVue', '[name]'],
+  library: ['VueXolasUI', '[name]'],
   libraryExport: 'default',
   libraryTarget: 'umd',
 };

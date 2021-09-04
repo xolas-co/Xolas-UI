@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Segment from 'semantic-ui-vue/elements/Segment/Segment';
+import Segment from 'vue-xolas-ui/elements/Segment/Segment';
 
 describe('Segment', () => {
   testClassFromProps(Segment, [

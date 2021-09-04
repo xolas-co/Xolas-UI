@@ -1,10 +1,10 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import SuiIcon from '../Icon/Icon';
 
 export default {
   ...SuiIcon,
   name: 'SuiListIcon',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   meta: {
     parent: 'SuiList',
   },

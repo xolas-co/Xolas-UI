@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { FeedLabel, FeedContent } from './';
 
 export default {
   name: 'SuiFeedEvent',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'A feed contains an event',
   props: {
     content: {

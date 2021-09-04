@@ -1,11 +1,11 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import Icon from '../Icon/Icon';
 
 export default {
   name: 'SuiButton',
   description: 'A button indicates a possible user action',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     active: {
       type: Boolean,

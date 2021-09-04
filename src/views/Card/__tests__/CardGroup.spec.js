@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import CardGroup from 'semantic-ui-vue/views/Card/CardGroup';
+import CardGroup from 'vue-xolas-ui/views/Card/CardGroup';
 
 describe('CardGroup', () => {
   it('should create a standalone SUI CardGroup', () => {

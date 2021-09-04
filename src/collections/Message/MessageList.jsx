@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiMessageList',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType('ul');
     return (

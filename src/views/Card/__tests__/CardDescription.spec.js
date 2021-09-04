@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import CardDescription from 'semantic-ui-vue/views/Card/CardDescription';
+import CardDescription from 'vue-xolas-ui/views/Card/CardDescription';
 
 describe('CardDescription', () => {
   it('should create a standalone SUI CardDescription', () => {

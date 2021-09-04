@@ -1,9 +1,9 @@
 import { Enum } from '../../lib/PropTypes';
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiProgress',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     label: String,
     content: String,

@@ -1,10 +1,10 @@
-import { SemanticUIVueMixin, textAlign } from '../../lib';
+import { VueXolasUIMixin, textAlign } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import Icon from '../Icon/Icon';
 
 export default {
   name: 'SuiHeader',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     color: Enum.Color(),
     content: String,

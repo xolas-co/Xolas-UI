@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps, withRequired } from 'test/utils';
-import Icon from 'semantic-ui-vue/elements/Icon/Icon';
+import Icon from 'vue-xolas-ui/elements/Icon/Icon';
 
 const IconWithRequired = withRequired(Icon, { name: 'test' });
 

@@ -1,5 +1,5 @@
 import * as common from 'test/utils';
-import FormField from 'semantic-ui-vue/collections/Form/FormField';
+import FormField from 'vue-xolas-ui/collections/Form/FormField';
 
 describe('Form', () => {
   describe('FormField', () => {

@@ -1,4 +1,4 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import SuiIcon from '../Icon/Icon';
 import SuiStepContent from './StepContent';
 import SuiStepTitle from './StepTitle';
@@ -7,7 +7,7 @@ import SuiStepDescription from './StepDescription';
 export default {
   name: 'SuiStep',
   components: { SuiIcon, SuiStepContent, SuiStepTitle, SuiStepDescription },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     active: Boolean,
     completed: Boolean,

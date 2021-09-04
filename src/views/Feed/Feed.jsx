@@ -1,10 +1,10 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import FeedEvent from './FeedEvent';
 
 export default {
   name: 'SuiFeed',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'A feed presents user activity chronologically',
   props: {
     size: Enum(['small', 'large'], {

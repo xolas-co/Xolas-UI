@@ -15,7 +15,7 @@
           icon="content"
           @click.native="open = !open"
         />
-        <sui-menu-item>Semantic UI Vue</sui-menu-item>
+        <sui-menu-item>Vue Xolas UI</sui-menu-item>
       </sui-container>
     </div>
     <docs-menu class="docs-mobile" :visible="open" />

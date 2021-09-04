@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import ButtonGroup from 'semantic-ui-vue/elements/Button/ButtonGroup';
+import ButtonGroup from 'vue-xolas-ui/elements/Button/ButtonGroup';
 
 describe('Button', () => {
   describe('ButtonGroup', () => {

@@ -21,7 +21,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.json', '.jsx', '.vue'],
     alias: {
-      'semantic-ui-vue': path.resolve(__dirname, '../src'),
+      'vue-xolas-ui': path.resolve(__dirname, '../src'),
       vue: 'vue/dist/vue.js',
     },
   },

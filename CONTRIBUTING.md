@@ -1,6 +1,6 @@
 # Contributing
 
-Semantic UI Vue is a very young project. Every kind of contribution is very welcome.
+Vue Xolas UI is a very young project. Every kind of contribution is very welcome.
 
 ## How to start
 
@@ -28,7 +28,7 @@ As soon as you get started, submit a pull request. Don't worry if it's still WIP
 
 ### Missing components
 
-There are still a lot of components or components' functionalities missing. You can see Semantic UI Vue's feature status [here](https://semantic-ui-vue.github.io/#/features).
+There are still a lot of components or components' functionalities missing. You can see Vue Xolas UI's feature status [here](https://vue-xolas-ui.github.io/#/features).
 
 ### Documentation
 

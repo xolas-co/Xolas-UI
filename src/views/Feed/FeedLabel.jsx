@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { Icon, Image } from '../../elements';
 
 export default {
   name: 'SuiFeedLabel',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'An event can contain an image or icon label',
   props: {
     content: {

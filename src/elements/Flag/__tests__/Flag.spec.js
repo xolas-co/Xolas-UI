@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import Flag from 'semantic-ui-vue/elements/Flag/Flag';
+import Flag from 'vue-xolas-ui/elements/Flag/Flag';
 
 describe('Flag', () => {
   testClassFromProps(Flag, ['flag']);

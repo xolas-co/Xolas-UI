@@ -5404,7 +5404,7 @@ exports[`Examples ./elements/Segment/Color2.example.vue should match snapshot 1`
 
 exports[`Examples ./elements/Segment/Compact.example.vue should match snapshot 1`] = `
 "<div class=\\"ui compact segment\\">
-  <p>Semantic UI Vue</p>
+  <p>Vue Xolas UI</p>
 </div>"
 `;
 
@@ -5488,7 +5488,7 @@ exports[`Examples ./elements/Segment/HorizontalSegments.example.vue should match
 
 exports[`Examples ./elements/Segment/Inverted.example.vue should match snapshot 1`] = `
 "<div class=\\"ui inverted segment\\">
-  <p>Vue + SemanticUI = :)</p>
+  <p>Vue + VueXolasUI = :)</p>
 </div>"
 `;
 
@@ -7277,7 +7277,7 @@ Vue.use(PortalVue);
       </pre>
 
     Also, make sure to add
-    <code>&lt;portal-target name=\\"semantic-ui-vue\\"&gt;</code> at the root level
+    <code>&lt;portal-target name=\\"vue-xolas-ui\\"&gt;</code> at the root level
     of your app.
   </div>
   <!--fragment tail--><button role=\\"button\\" class=\\"ui icon button\\"><i class=\\"add icon\\"></i></button>

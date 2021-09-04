@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import { testClassFromProps } from 'test/utils';
-import List from 'semantic-ui-vue/elements/List/List';
+import List from 'vue-xolas-ui/elements/List/List';
 
 describe('List', () => {
   testClassFromProps(List, ['ui', 'list']);

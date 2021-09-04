@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import StepGroup from 'semantic-ui-vue/elements/Step/StepGroup';
+import StepGroup from 'vue-xolas-ui/elements/Step/StepGroup';
 
 describe('StepGroup', () => {
   it('should have class "three" when pass number/string', () => {

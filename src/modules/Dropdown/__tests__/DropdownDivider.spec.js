@@ -1,6 +1,6 @@
 // import { shallowMount } from '@vue/test-utils';
 import * as common from 'test/utils';
-import DropdownDivider from 'semantic-ui-vue/modules/Dropdown/DropdownDivider';
+import DropdownDivider from 'vue-xolas-ui/modules/Dropdown/DropdownDivider';
 
 describe('Dropdown', () => {
   describe('DropdownDivider', () => {

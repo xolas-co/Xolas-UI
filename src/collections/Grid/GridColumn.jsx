@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin, textAlign } from '../../lib';
+import { VueXolasUIMixin, textAlign } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
   name: 'SuiGridColumn',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description: 'A column sub-component for Grid.',
   props: {
     color: Enum.Color({

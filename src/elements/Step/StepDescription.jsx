@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiStepDescription',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   render() {
     const ElementType = this.getElementType();
     return (

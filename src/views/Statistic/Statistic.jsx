@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin, classMixin } from '../../lib';
+import { VueXolasUIMixin, ClassMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 
 export default {
   name: 'SuiStatistic',
-  mixins: [classMixin, SemanticUIVueMixin],
+  mixins: [ClassMixin, VueXolasUIMixin],
   props: {
     horizontal: {
       type: Boolean,

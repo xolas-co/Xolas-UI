@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiItem',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description:
     'An item view presents large collections of site content for display',
   props: {

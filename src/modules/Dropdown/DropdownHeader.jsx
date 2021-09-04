@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import Icon from '../../elements/Icon/Icon';
 
 export default {
   name: 'SuiDropdownHeader',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     content: {
       type: String,

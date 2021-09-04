@@ -1,8 +1,8 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 
 export default {
   name: 'SuiItemDescription',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   description:
     'An item can contain a description with a single or multiple paragraphs',
   render() {

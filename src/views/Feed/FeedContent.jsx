@@ -1,9 +1,9 @@
-import { SemanticUIVueMixin } from '../../lib';
+import { VueXolasUIMixin } from '../../lib';
 import { FeedDate, FeedSummary, FeedExtra, FeedMeta } from './';
 
 export default {
   name: 'SuiFeedContent',
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     content: {
       type: String,

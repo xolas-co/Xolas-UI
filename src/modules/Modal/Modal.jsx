@@ -2,7 +2,7 @@
  * Code taken form https://github.com/David-Desmaisons/Vue-Semantic-Modal
  * Thanks to [David Desmaisons](https://github.com/David-Desmaisons)
  */
-import { getEventAnimationEnd, SemanticUIVueMixin } from '../../lib';
+import { getEventAnimationEnd, VueXolasUIMixin } from '../../lib';
 import { Enum } from '../../lib/PropTypes';
 import Icon from '../../elements/Icon/Icon';
 
@@ -60,7 +60,7 @@ export default {
     prop: 'open',
     event: changedEvent,
   },
-  mixins: [SemanticUIVueMixin],
+  mixins: [VueXolasUIMixin],
   props: {
     animation: Enum(animations, {
       default: animations[0],
