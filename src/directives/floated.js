@@ -2,7 +2,7 @@ const floated = 'floated';
 const left = 'left';
 const right = 'right';
 
-export default function suiFloated(el, { arg }) {
+export default function xuiFloated(el, { arg }) {
   el.classList.remove(left);
   el.classList.remove(right);
   el.classList.remove(floated);

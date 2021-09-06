@@ -91,7 +91,7 @@ export default {
     title() {
       return upperFirst(this.componentName);
     },
-    suiName() {
+    xuiName() {
       return `Xui${this.title}`;
     },
     subComponents() {
@@ -99,8 +99,8 @@ export default {
         .map(componentName => VueXolasUI[componentName])
         .filter(
           Component =>
-            Component.name === this.suiName ||
-            (Component.meta && Component.meta.parent === this.suiName),
+            Component.name === this.xuiName ||
+            (Component.meta && Component.meta.parent === this.xuiName),
         )
         .map(Component => {
           const sections = [];

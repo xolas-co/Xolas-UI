@@ -19,7 +19,7 @@ const root = new Vue({
   router,
   template: '<App/>',
   provide: {
-    sui: {
+    xui: {
       api: {
         base: 'https://api.semantic-ui.com',
         api: {

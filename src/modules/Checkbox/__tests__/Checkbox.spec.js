@@ -15,10 +15,10 @@ describe('Checkbox', () => {
 
   it('should create a SUI Checkbox with label with attrs name and for', () => {
     const checkbox = shallowMount(Checkbox, {
-      propsData: { label: 'check', name: 'sui' },
+      propsData: { label: 'check', name: 'xui' },
     });
-    expect(checkbox.find('input').element.getAttribute('name')).toEqual('sui');
-    expect(checkbox.find('label').element.getAttribute('for')).toEqual('sui');
+    expect(checkbox.find('input').element.getAttribute('name')).toEqual('xui');
+    expect(checkbox.find('label').element.getAttribute('for')).toEqual('xui');
   });
 
   it('should create a SUI Radio button with label', () => {

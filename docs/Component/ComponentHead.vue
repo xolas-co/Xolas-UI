@@ -11,7 +11,7 @@
           />
         </xui-popup>
         <xui-popup position="bottom center" content="View on Semantic UI">
-          <a slot="trigger" is="xui-menu-item" icon="book" :href="suiLink" />
+          <a slot="trigger" is="xui-menu-item" icon="book" :href="xuiLink" />
         </xui-popup>
       </xui-menu>
       <h1 is="xui-header">
@@ -63,7 +63,7 @@ export default {
     title() {
       return capitalize(this.componentName);
     },
-    suiLink() {
+    xuiLink() {
       return `https://semantic-ui.com/${this.type}/${this.componentName}.html`;
     },
     githubLink() {

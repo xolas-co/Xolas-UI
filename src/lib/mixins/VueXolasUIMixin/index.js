@@ -8,8 +8,8 @@ import api from './api';
 
 export const VueXolasUIMixin = {
   inject: {
-    _sui: {
-      from: 'sui',
+    _xui: {
+      from: 'xui',
       default() {
         return {
           api: {},
@@ -18,11 +18,11 @@ export const VueXolasUIMixin = {
     },
   },
   props: {
-    sui: {
+    xui: {
       type: Object,
       default() {
         return {
-          api: defaultsDeep(this._sui ? this._sui.api : {}, api),
+          api: defaultsDeep(this._xui ? this._xui.api : {}, api),
         };
       },
     },
@@ -31,13 +31,13 @@ export const VueXolasUIMixin = {
     num,
     classes,
     getEndpoint(action, params) {
-      const path = get(this.sui, `api.api.${action}`);
+      const path = get(this.xui, `api.api.${action}`);
 
       if (!path) {
         throw new Error(`Action '${action}' not provided`);
       }
 
-      const baseUrl = get(this.sui, 'api.base', '');
+      const baseUrl = get(this.xui, 'api.base', '');
       const endpoint = `${baseUrl}${path}`;
       return Object.keys(params).reduce(
         (url, key) => url.replace(`{${key}}`, params[key]),
@@ -45,9 +45,9 @@ export const VueXolasUIMixin = {
       );
     },
     executeAction(action, params) {
-      let promise = ajax(this.sui.api.method, action, params);
-      if (this.sui.api.onResponse) {
-        promise = promise.then(this.sui.api.onResponse);
+      let promise = ajax(this.xui.api.method, action, params);
+      if (this.xui.api.onResponse) {
+        promise = promise.then(this.xui.api.onResponse);
       }
       return promise;
     },
